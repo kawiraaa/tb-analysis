@@ -399,6 +399,7 @@ GROUP BY Final_Treatment_Outcome;
 ---
 
 ## 6. Sputum Smear Results vs Outcome
+insights: Patients who test highly positive at the very beginning are still highly curable! Over 3 times as many positive-testing patients succeed compared to those who fail.
 
 ```sql
 SELECT Initial_Smear_Result, Final_Treatment_Outcome,
@@ -409,8 +410,8 @@ WHERE Initial_Smear_Result = 'positive'
 GROUP BY Initial_Smear_Result, Final_Treatment_Outcome;
 ```
 
-### Insight Goal:
-Assess whether initial infection severity affects treatment outcomes.
+### results
+![](spurtumvssucess.png)
 
 ---
 
