@@ -308,4 +308,139 @@ After cleaning and transformation:
 - All datasets were joined into one final analytical table  
 - New grouped variables were created to support deeper analysis  
 
-This produced a clean and integrated dataset ready for analysis of factors affecting TB treatment outcomes.
+This produced a clean and integrated dataset ready for analysis of factors affecting TB treatment outcomes.                 
+
+# 📊 Exploratory Data Analysis (EDA)
+
+After cleaning and integrating all datasets into the `joined` table, several analytical questions were explored to understand how socio-economic, clinical, and behavioral factors influence TB treatment outcomes.
+
+The main objective of this analysis is to identify patterns associated with:
+- Treatment success  
+- Treatment failure  
+- Loss to follow-up (LTFU)  
+
+---
+
+## 1. Employment Status vs Treatment Outcome
+insight:Patients with stable jobs and steady income have much better treatment outcomes, whereas people with unpredictable income (informal work) or no income (students) struggle to cross the finish line.
+
+```sql
+SELECT EmploymentStatus, Final_Treatment_Outcome,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM joined), 2) AS percentage
+FROM joined
+GROUP BY EmploymentStatus, Final_Treatment_Outcome;
+```
+
+### results
+![](employmentstatus.png)
+
+---
+
+## 2. Location Type (Urban vs Rural)
+Insight: Patients living in the city are significantly more likely to beat Tuberculosis than patients living in rural areas.
+
+```sql
+SELECT LocationType, Final_Treatment_Outcome,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM joined), 2) AS percentage
+FROM joined
+GROUP BY LocationType, Final_Treatment_Outcome;
+```
+
+### results
+![](locationvssucess.png)
+
+---
+
+## 3. Distance to Clinic vs Treatment Outcome
+insight : Living close (0–5 km) yields the absolute highest volume of cured patients (47.80%). Once a patient lives further than 10 km away, their chances of completing treatment crash down to just 7.34%.
+```sql
+SELECT Distance_Group, Final_Treatment_Outcome,
+COUNT(*) AS count,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM joined), 2) AS percentage
+FROM joined
+GROUP BY Distance_Group, Final_Treatment_Outcome;
+```
+
+### results
+![](distancevssucess.png)
+
+---
+
+## 4. Age Distribution Analysis
+insight: The prime working-age group (31–45) represents the bulk of your clinic's caseload and requires heavy monitoring. Crucially, young adults (18–30) face acute challenges, making up a significant, standalone failure block.
+
+```sql
+SELECT Age_Group, Final_Treatment_Outcome,
+COUNT(*) AS count,
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM joined), 2) AS percentage
+FROM joined
+GROUP BY Age_Group, Final_Treatment_Outcome;
+```
+
+### results
+![](agevssucess.png)
+
+---
+
+## 5. BMI vs Treatment Outcome
+insight: The difference between success and failure is a tiny fraction of a BMI point (0.11). This proves that patients are starting treatment at roughly the same average, healthy weight. Baseline body weight does not determine whether a patient beats TB.
+
+
+```sql
+SELECT ROUND(AVG(Baseline_BMI), 2) AS avg_bmi,
+Final_Treatment_Outcome
+FROM joined
+GROUP BY Final_Treatment_Outcome;
+```
+
+### results
+![](bmivssucess.png)
+
+---
+
+## 6. Sputum Smear Results vs Outcome
+
+```sql
+SELECT Initial_Smear_Result, Final_Treatment_Outcome,
+COUNT(*),
+ROUND(COUNT(*) * 100.0 / (SELECT COUNT(*) FROM joined), 2) AS percentage
+FROM joined
+WHERE Initial_Smear_Result = 'positive'
+GROUP BY Initial_Smear_Result, Final_Treatment_Outcome;
+```
+
+### Insight Goal:
+Assess whether initial infection severity affects treatment outcomes.
+
+---
+
+## 7. Comorbidities vs Treatment Failure
+insight: Managing TB alongside another heavy chronic disease significantly complicates recovery. Nearly 1,100 of your total failures happen to patients who are simultaneously fighting Diabetes, HIV, or both.
+
+```sql
+SELECT Comorbidities, Final_Treatment_Outcome,
+COUNT(*) AS count
+FROM joined
+WHERE Final_Treatment_Outcome = 'Failure'
+GROUP BY Comorbidities, Final_Treatment_Outcome;
+```
+
+### results
+![](/cormoditiesvssucess.png)
+
+---
+
+## 8. High-Risk Socioeconomic Combination (Failure Cases)
+insight: the most typical patient walking through your clinic doors: a working-age city dweller who lives close by and starts treatment with a healthy body weight but a positive lab test.
+
+```sql
+SELECT LocationType, EmploymentStatus, Distance_Group,
+Final_Treatment_Outcome, COUNT(*) AS count
+FROM joined
+WHERE Final_Treatment_Outcome = 'Failure'
+GROUP BY LocationType, EmploymentStatus, Distance_Group, Final_Treatment_Outcome
+ORDER BY count DESC;
+```
+
+### results
+![](patient.png)
