@@ -1,7 +1,6 @@
 # tuberculosis treatment outcome analysis
 
 ## executive summary
-# 📌 Executive Summary
 
 Tuberculosis (TB) treatment success depends not only on medical factors but also on socio-economic conditions, patient behavior, and access to healthcare services.
 
