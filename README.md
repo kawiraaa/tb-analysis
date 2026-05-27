@@ -15,6 +15,9 @@ Key findings show that:
 
 The insights generated from this analysis can help healthcare providers identify high-risk patients early and design targeted intervention strategies to improve TB treatment outcomes and reduce dropout rates.
 
+![](tb_1.png)
+![](tb_2.png)
+
 
 
 ## **Problem Statement**
