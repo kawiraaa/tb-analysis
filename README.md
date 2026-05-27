@@ -1,6 +1,23 @@
-# project_3
+# tuberculosis treatment outcome analysis
 
-## problem statement
+## executive summary
+# 📌 Executive Summary
+
+Tuberculosis (TB) treatment success depends not only on medical factors but also on socio-economic conditions, patient behavior, and access to healthcare services.
+
+This project analyzes integrated TB patient data to identify the key drivers of treatment success, failure, and loss to follow-up (LTFU). By combining demographic, clinical, and medication adherence data, the analysis reveals how multiple factors interact to influence patient outcomes.
+
+Key findings show that:
+- Distance to healthcare facilities significantly affects treatment success
+- Employment status is strongly linked to adherence and recovery
+- Rural patients and younger adults (18–30 years) are at higher risk of treatment failure
+- Patients with comorbidities such as HIV and diabetes experience poorer outcomes
+- Medication adherence is a critical driver of treatment success
+
+The insights generated from this analysis can help healthcare providers identify high-risk patients early and design targeted intervention strategies to improve TB treatment outcomes and reduce dropout rates.
+
+
+
 ## **Problem Statement**
 
 Tuberculosis (TB) treatment is a long process that requires patients to take daily medication for 6 to 9 months. Successful treatment depends on patients consistently following their medication plan until completion. However, many patients discontinue treatment early or become lost to follow-up, which leads to poor health outcomes and increases the risk of disease transmission.
@@ -12,28 +29,32 @@ As a result, it becomes difficult for healthcare providers to understand the com
 This project addresses this gap by combining and analyzing patient, clinical, and treatment datasets to uncover the key factors associated with treatment success and failure. The goal is to identify patterns of patient vulnerability and support better decision-making in healthcare interventions. These insights can help improve patient follow-up strategies, target support services more effectively, and ultimately reduce treatment dropouts in TB programs.
 
 
-
-
-# Data Cleaning and Transformation
-
-## Overview
-A consistent data cleaning and transformation process was applied across all TB-related datasets to improve data quality, standardize formats, and prepare the data for analysis. Since the data came from different sources (patients, biomarkers, medication logs, and treatment outcomes), cleaning was necessary before combining the tables using `PatientID`.
-
-The cleaning process focused on:
-
-- Handling inconsistent date formats  
-- Standardizing text values  
-- Handling missing or invalid values  
-- Removing duplicate records  
-- Converting columns to proper data types  
-- Creating new grouped variables for analysis  
-- Aggregating and joining datasets into one analytical table  
-
 ---
+## tech stack
+**MySQL** – Data cleaning, transformation, joins, aggregation, and feature engineering  
+- **Looker Studio** – Interactive dashboard creation and visualization
 
-## 1. Database and Table Creation
+  ---
+  ## dataset description
 
-A database named `tb` was created to store all project tables.
+This project combines multiple healthcare datasets related to tuberculosis (TB) treatment:
+
+- **Patients dataset** → demographic and socio-economic information (age, gender, employment, location)
+- **Biomarkers dataset** → clinical indicators such as BMI, sputum smear results, and comorbidities
+- **Medication logs** → daily treatment adherence records (dose tracking and missed doses)
+- **Treatment outcomes dataset** → final patient status (success, failure, loss to follow-up)
+
+All datasets were linked using a common key: `PatientID`, enabling a unified patient-level analytical view.
+  
+
+
+## Data Cleaning and Transformation
+
+A consistent data cleaning and transformation process was applied across all TB-related datasets to improve data quality, standardize formats, and prepare the data for analysis.
+
+### 1. Database and Table Creation
+
+A database named `tb` was created to store all project tables.Columns were initially stored as flexible text types to preserve raw data before cleaning.
 
 ```sql
 CREATE DATABASE tb;
@@ -53,19 +74,12 @@ CREATE TABLE biomarkers (
 );
 ```
 
-### Why?
-Columns were initially stored as flexible text types to preserve raw data before cleaning.
-
 ---
 
-## 2. Date Standardization
+### 2. Date Standardization
 
-Some date columns contained multiple formats such as:
-
-- DD/MM/YYYY  
-- MM/DD/YYYY  
-- YYYY-MM-DD  
-- Month text formats  
+Some date columns contained multiple formats, such as:
+ DD/MM/YYYY , MM/DD/YYYY, YYYY-MM-DD, month text formats  
 
 These were converted into a standard SQL `DATE` format.
 
@@ -82,17 +96,12 @@ CASE
     ELSE NULL
 END;
 ```
-
-### Why?
-This ensures date consistency and enables time-based analysis.
-
-> The same date cleaning process was applied to other date columns where needed.
-
 ---
 
-## 3. Standardizing Text Values
+### 3. Standardizing Text Values
 
-Categorical variables had inconsistent spelling, abbreviations, and capitalization.
+Categorical variables had inconsistent spelling, abbreviations, and capitalization.### Why?
+This ensured values like ' COMPLETE`, `Complete`,` completed.`are treated as one category.
 
 Example:
 
@@ -116,25 +125,12 @@ UPDATE treatment_outcome
 SET FinalStatus = LOWER(FinalStatus);
 ```
 
-### Why?
-This ensures values like:
-
-- `COMPLETE`
-- `Complete`
-- `completed`
-
-are treated as one category.
-
 ---
 
-## 4. Handling Missing Values
+### 4. Handling Missing Values
 
-Some categorical columns contained invalid entries such as:
-
-- `'nan'`
-- blank values (`''`)
-
-These were replaced with valid categories.
+Some categorical columns contained invalid entries, such as:
+`'nan'`,blank values (`''`).These were replaced with valid categories.This improved data completeness and prevents missing-value issues during analysis.
 
 Checking missing values:
 
@@ -155,15 +151,11 @@ CASE
     ELSE EmploymentStatus
 END;
 ```
-
-### Why?
-This improves data completeness and prevents missing-value issues during analysis.
-
 ---
 
-## 5. Removing Duplicate Records
+### 5. Removing Duplicate Records
 
-Duplicate records were checked and removed.
+Duplicate records were checked and removed. This ensured that repeated records do not bias results.
 
 Checking duplicates:
 
@@ -180,13 +172,9 @@ CREATE TABLE treatment_outcome_clean AS
 SELECT DISTINCT *
 FROM treatment_outcome;
 ```
-
-### Why?
-This ensures that repeated records do not bias results.
-
 ---
 
-## 6. Converting Data Types
+### 6. Converting Data Types
 
 Some columns were stored as text but needed to be numeric for analysis.
 
@@ -197,14 +185,9 @@ ALTER TABLE patients
 MODIFY Age INT;
 ```
 
-### Why?
-Numeric columns are required for calculations such as averages, grouping, and filtering.
-
-> Similar datatype conversions were applied to other columns where necessary.
-
 ---
 
-## 7. Medication Log Aggregation
+### 7. Medication Log Aggregation
 
 The medication log contained daily records, so it was compressed into patient-level summary statistics.
 
@@ -215,26 +198,19 @@ SELECT
     COUNT(LogID) AS Total_Scheduled_Doses,
     SUM(CASE WHEN DoseMissed = 1 THEN 1 ELSE 0 END) AS Total_Missed_Doses,
 
-    ROUND(
-        (COUNT(LogID) - SUM(CASE WHEN DoseMissed = 1 THEN 1 ELSE 0 END)) 
-        * 100.0 / COUNT(LogID), 1
-    ) AS Adherence_Rate,
-
     MIN(DateScheduled2) AS Treatment_Start_Date,
     MAX(DateScheduled2) AS Last_Tracked_Date
 
 FROM medication_log_clean
 GROUP BY PatientID;
 ```
-
-### Why?
-This transformed daily medication records into patient-level adherence indicators.
-
 ---
 
-## 8. Joining All Tables
+### 8. Joining All Tables
 
 All cleaned datasets were combined into one analytical table using `PatientID`.
+This created one unified dataset for complete patient analysis.
+
 
 ```sql
 CREATE TABLE joined AS
@@ -267,13 +243,9 @@ LEFT JOIN combined_medication m
 LEFT JOIN treatment_outcome_clean o 
     ON p.PatientID = o.PatientID;
 ```
-
-### Why?
-This created one unified dataset for complete patient analysis.
-
 ---
 
-## 9. Feature Engineering (Creating New Groups)
+### 9. Feature Engineering
 
 Continuous variables were grouped into categories for easier analysis.
 
@@ -289,40 +261,21 @@ CASE
     ELSE '16+ km'
 END;
 ```
-
-### Why?
-This makes it easier to compare treatment outcomes across distance ranges.
-
-> Similar grouping was applied for variables such as age and treatment outcomes.
-
 ---
+            
 
-## Final Outcome
-
-After cleaning and transformation:
-
-- All tables were standardized  
-- Missing and duplicate records were handled  
-- Dates and text values were cleaned  
-- Patient-level medication summaries were created  
-- All datasets were joined into one final analytical table  
-- New grouped variables were created to support deeper analysis  
-
-This produced a clean and integrated dataset ready for analysis of factors affecting TB treatment outcomes.                 
-
-# 📊 Exploratory Data Analysis (EDA)
+## Exploratory Data Analysis (EDA)
 
 After cleaning and integrating all datasets into the `joined` table, several analytical questions were explored to understand how socio-economic, clinical, and behavioral factors influence TB treatment outcomes.
 
 The main objective of this analysis is to identify patterns associated with:
 - Treatment success  
-- Treatment failure  
-- Loss to follow-up (LTFU)  
+- Treatment failure 
 
 ---
 
-## 1. Employment Status vs Treatment Outcome
-insight:Patients with stable jobs and steady income have much better treatment outcomes, whereas people with unpredictable income (informal work) or no income (students) struggle to cross the finish line.
+### 1. Employment Status vs Treatment Outcome
+Insight: Employment status is strongly associated with treatment outcomes. Patients with stable employment have higher treatment completion rates, while informal or unemployed groups show higher failure rates.
 
 ```sql
 SELECT EmploymentStatus, Final_Treatment_Outcome,
@@ -336,8 +289,8 @@ GROUP BY EmploymentStatus, Final_Treatment_Outcome;
 
 ---
 
-## 2. Location Type (Urban vs Rural)
-Insight: Patients living in the city are significantly more likely to beat Tuberculosis than patients living in rural areas.
+### 2. Location Type (Urban vs Rural)
+Insight: Urban patients achieve better treatment outcomes than rural patients, suggesting that access to healthcare services and infrastructure plays a key role in treatment success.
 
 ```sql
 SELECT LocationType, Final_Treatment_Outcome,
@@ -351,8 +304,8 @@ GROUP BY LocationType, Final_Treatment_Outcome;
 
 ---
 
-## 3. Distance to Clinic vs Treatment Outcome
-insight : Living close (0–5 km) yields the absolute highest volume of cured patients (47.80%). Once a patient lives further than 10 km away, their chances of completing treatment crash down to just 7.34%.
+### 3. Distance to Clinic vs Treatment Outcome
+Insight: Distance to healthcare facilities is a major factor influencing treatment success. Patients living within 0–5 km show significantly higher success rates, while those beyond 10 km experience increased failure risk.
 ```sql
 SELECT Distance_Group, Final_Treatment_Outcome,
 COUNT(*) AS count,
@@ -366,8 +319,8 @@ GROUP BY Distance_Group, Final_Treatment_Outcome;
 
 ---
 
-## 4. Age Distribution Analysis
-insight: The prime working-age group (31–45) represents the bulk of your clinic's caseload and requires heavy monitoring. Crucially, young adults (18–30) face acute challenges, making up a significant, standalone failure block.
+### 4. Age Distribution Analysis
+Insight: Young adults (18–30 years) show a higher proportion of treatment failure compared to other age groups, indicating this group may require additional adherence support.
 
 ```sql
 SELECT Age_Group, Final_Treatment_Outcome,
@@ -382,8 +335,8 @@ GROUP BY Age_Group, Final_Treatment_Outcome;
 
 ---
 
-## 5. BMI vs Treatment Outcome
-insight: The difference between success and failure is a tiny fraction of a BMI point (0.11). This proves that patients are starting treatment at roughly the same average, healthy weight. Baseline body weight does not determine whether a patient beats TB.
+### 5. BMI vs Treatment Outcome
+Insight: Baseline BMI does not show a strong variation across treatment outcomes, suggesting it is not a major predictor of TB treatment success in this dataset.
 
 
 ```sql
@@ -398,8 +351,8 @@ GROUP BY Final_Treatment_Outcome;
 
 ---
 
-## 6. Sputum Smear Results vs Outcome
-insights: Patients who test highly positive at the very beginning are still highly curable! Over 3 times as many positive-testing patients succeed compared to those who fail.
+### 6. Sputum Smear Results vs Outcome
+insights: Even patients with positive initial smear results show high recovery rates, indicating that treatment adherence plays a critical role in overcoming initial disease severity.
 
 ```sql
 SELECT Initial_Smear_Result, Final_Treatment_Outcome,
@@ -415,8 +368,8 @@ GROUP BY Initial_Smear_Result, Final_Treatment_Outcome;
 
 ---
 
-## 7. Comorbidities vs Treatment Failure
-insight: Managing TB alongside another heavy chronic disease significantly complicates recovery. Nearly 1,100 of your total failures happen to patients who are simultaneously fighting Diabetes, HIV, or both.
+### 7. Comorbidities vs Treatment Failure
+Insight: Patients with comorbidities such as HIV and diabetes show higher failure rates, indicating increased clinical complexity and risk
 
 ```sql
 SELECT Comorbidities, Final_Treatment_Outcome,
@@ -431,8 +384,8 @@ GROUP BY Comorbidities, Final_Treatment_Outcome;
 
 ---
 
-## 8. High-Risk Socioeconomic Combination (Failure Cases)
-insight: the most typical patient walking through your clinic doors: a working-age city dweller who lives close by and starts treatment with a healthy body weight but a positive lab test.
+### 8. High-Risk Socioeconomic Combination (Failure Cases)
+Insight: Failure cases are often associated with a combination of socio-economic and accessibility challenges, highlighting the importance of multi-factor risk assessment.
 
 ```sql
 SELECT LocationType, EmploymentStatus, Distance_Group,
@@ -445,3 +398,16 @@ ORDER BY count DESC;
 
 ### results
 ![](patient.png)
+
+## dashboard 
+An interactive dashboard was developed using Looker Studio to visualize key patterns in tuberculosis treatment outcomes. It allows healthcare stakeholders to explore relationships between variables and identify high-risk patient groups more efficiently than static analysis alone.
+[view dashboard](https://datastudio.google.com/reporting/1ca5e04d-71f4-41c9-9784-5a918050825d)
+
+## recommendations
+- introduce mobile health clinics to deliver medicine directly to patients who live more than 6 km away from the nearest clinic.
+- Implement home-based medication delivery programs for accessible medicine
+- increase follow-up frequency in the high-risk group
+- Combine TB, HIV, and diabetes care into a single appointment so patients do not have to make multiple clinic trips.
+
+
+
