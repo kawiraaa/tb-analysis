@@ -2,18 +2,14 @@
 
 ## executive summary
 
-Tuberculosis (TB) treatment success depends not only on medical factors but also on socio-economic conditions, patient behavior, and access to healthcare services.
+Tuberculosis (TB) treatment outcomes are influenced by more than clinical care alone. Factors such as access to healthcare facilities, employment status, patient demographics, comorbidities, and medication adherence can significantly affect whether patients successfully complete treatment.
 
-This project analyzes integrated TB patient data to identify the key drivers of treatment success, failure, and loss to follow-up (LTFU). By combining demographic, clinical, and medication adherence data, the analysis reveals how multiple factors interact to influence patient outcomes.
+This project analyzes integrated TB patient data to identify the key factors associated with treatment success and failure. By examining demographic, clinical, and adherence-related information, the analysis uncovers patterns that can help healthcare providers better understand the challenges faced by different patient groups.
 
-Key findings show that:
-- Distance to healthcare facilities significantly affects treatment success
-- Employment status is strongly linked to adherence and recovery
-- Rural patients and younger adults (18–30 years) are at higher risk of treatment failure
-- Patients with comorbidities such as HIV and diabetes experience poorer outcomes
-- Medication adherence is a critical driver of treatment success
+The findings indicate that distance to healthcare facilities, employment status, age group, rural residence, comorbidities such as HIV and diabetes, and medication adherence all play an important role in TB treatment success. Patients who live farther from clinics, those in high-risk groups, and those with other health conditions are more likely to experience poor outcomes.
 
-The insights generated from this analysis can help healthcare providers identify high-risk patients early and design targeted intervention strategies to improve TB treatment outcomes and reduce dropout rates.
+Based on these insights, healthcare providers can improve outcomes by introducing mobile health clinics and home-based medication delivery programs for patients living far from treatment centers, increasing follow-up support for high-risk groups, and integrating TB, HIV, and diabetes services into a single appointment. These targeted interventions can  reduce failure rates and increase overall treatment success.
+
 
 ![](tb_1.png)
 ![](tb_2.png)
@@ -22,31 +18,104 @@ The insights generated from this analysis can help healthcare providers identify
 
 ## **Problem Statement**
 
-Tuberculosis (TB) treatment is a long process that requires patients to take daily medication for 6 to 9 months. Successful treatment depends on patients consistently following their medication plan until completion. However, many patients discontinue treatment early or become lost to follow-up, which leads to poor health outcomes and increases the risk of disease transmission.
+Tuberculosis (TB) treatment requires patients to follow a strict medication plan for several months. When patients miss doses, discontinue treatment, or become lost to follow-up, treatment outcomes worsen and the risk of disease transmission increases.
 
-Healthcare systems collect valuable patient data, including demographics (age, gender, employment status), socio-economic factors (location, distance to clinic), clinical information (BMI, comorbidities, sputum test results), and treatment records. However, this data is often stored in separate tables and not analyzed together in a unified way.
+Healthcare providers collect large amounts of patient information, including demographic, socio-economic, clinical, and treatment data. However, these data sources are often analyzed separately, making it difficult to understand how different factors work together to influence treatment outcomes.
 
-As a result, it becomes difficult for healthcare providers to understand the combined influence of clinical conditions and socio-economic challenges on treatment outcomes. Without this integrated view, it is hard to identify which patients are most at risk of dropping out of treatment and why this happens.
+This project addresses that challenge by integrating and analyzing patient, clinical, and treatment data to identify the key drivers of treatment success and failure. The analysis focuses on factors such as access to healthcare, patient demographics, and comorbidities.
 
-This project addresses this gap by combining and analyzing patient, clinical, and treatment datasets to uncover the key factors associated with treatment success and failure. The goal is to identify patterns of patient vulnerability and support better decision-making in healthcare interventions. These insights can help improve patient follow-up strategies, target support services more effectively, and ultimately reduce treatment dropouts in TB programs.
+The goal is to help healthcare providers identify high-risk patients earlier, understand the barriers to successful treatment, and implement targeted interventions that  reduce treatment dropouts and enhance overall TB treatment outcomes.
 
+
+---
+## Data Description
+
+This project uses four related datasets that capture patient, treatment, medication adherence, and clinical information for tuberculosis (TB) patients.
+
+### 1. Patients Table
+Contains demographic and socio-economic information about each patient.
+
+| Column Name | Description |
+|---|---|
+| `patientid` | Unique identifier for each patient |
+| `age` | Patient’s age |
+| `gender` | Patient’s gender |
+| `locationtype` | Type of location where the patient lives, such as rural or urban |
+| `employmentstatus` | Employment status of the patient |
+| `distance_km` | Distance from the patient’s home to the nearest healthcare facility, measured in kilometers |
+
+----
+
+### 2. Treatment Outcomes Table
+Contains treatment start and end dates, as well as the final treatment status.
+
+| Column Name | Description |
+|---|---|
+| `outcomeid` | Unique identifier for each treatment outcome record |
+| `patientid` | Unique identifier linking the record to a patient |
+| `treattmntstartdate` | Date treatment began |
+| `treatmentenddate` | Date treatment ended |
+| `finalstatus` | Final treatment outcome, such as recovered, failed, or lost to follow-up |
+
+----
+
+### 3. Medication Log Table
+Tracks medication adherence and side effects during treatment.
+
+| Column Name | Description |
+|---|---|
+| `logid` | Unique identifier for each medication log record |
+| `patientid` | Unique identifier linking the record to a patient |
+| `datescheduled` | Date the medication was scheduled to be taken |
+| `datetaken` | Date the medication was actually taken |
+| `dosemissed` | Indicates whether a scheduled dose was missed |
+| `sideeffectsreported` | Indicates whether the patient reported side effects |
+
+----
+
+### 4. Clinical Biomarkers Table
+Contains clinical test results and health indicators collected during treatment.
+
+| Column Name | Description |
+|---|---|
+| `biomarkerid` | Unique identifier for each clinical biomarker record |
+| `patientid` | Unique identifier linking the record to a patient |
+| `testdate` | Date the clinical test was performed |
+| `sputumsmearresults` | Sputum smear test result |
+| `bmi` | Body Mass Index of the patient |
+| `comorbidities` | Other health conditions such as HIV or diabetes |
+
+### Data Relationships
+
+The `patientid` column is the key field that links all four tables together. This makes it possible to analyze how demographic, clinical, and treatment-related factors influence TB treatment outcomes.
+
+All datasets were linked using a common key: `PatientID`, enabling a unified patient-level analytical view.
 
 ---
 ## tech stack
 **MySQL** – Data cleaning, transformation, joins, aggregation, and feature engineering  
-- **Looker Studio** – Interactive dashboard creation and visualization
+**Looker Studio** – Interactive dashboard creation and visualization
 
   ---
-  ## dataset description
 
-This project combines multiple healthcare datasets related to tuberculosis (TB) treatment:
+  ## Skills Demonstrated
 
-- **Patients dataset** → demographic and socio-economic information (age, gender, employment, location)
-- **Biomarkers dataset** → clinical indicators such as BMI, sputum smear results, and comorbidities
-- **Medication logs** → daily treatment adherence records (dose tracking and missed doses)
-- **Treatment outcomes dataset** → final patient status (success, failure, loss to follow-up)
+- Data Cleaning and Preprocessing
+- SQL Querying
+- Business Intelligence Reporting
+- Data Visualization
+- Dashboard Development
+- Business Insight Generation
+- Data Storytelling
 
-All datasets were linked using a common key: `PatientID`, enabling a unified patient-level analytical view.
+---
+
+## Project Workflow
+-  Data Cleaning and Preprocessing
+-  SQL-Based Business Analysis
+-  Dashboard Development in Looker Studio
+-  Insight Generation
+-  Business Recommendations
   
 
 
@@ -56,7 +125,7 @@ A consistent data cleaning and transformation process was applied across all TB-
 
 ### 1. Database and Table Creation
 
-A database named `tb` was created to store all project tables.Columns were initially stored as flexible text types to preserve raw data before cleaning.
+A database named `tb` was created to store all project tables. Columns were initially stored as flexible text types to preserve raw data before cleaning.
 
 ```sql
 CREATE DATABASE tb;
@@ -266,7 +335,7 @@ END;
 ---
             
 
-## Exploratory Data Analysis (EDA)
+## sql querrying
 
 After cleaning and integrating all datasets into the `joined` table, several analytical questions were explored to understand how socio-economic, clinical, and behavioral factors influence TB treatment outcomes.
 
@@ -400,6 +469,8 @@ ORDER BY count DESC;
 
 ### results
 ![](patient.png)
+
+---
 
 ## dashboard 
 An interactive dashboard was developed using Looker Studio to visualize key patterns in tuberculosis treatment outcomes. It allows healthcare stakeholders to explore relationships between variables and identify high-risk patient groups more efficiently than static analysis alone.
