@@ -14,7 +14,7 @@ Based on these insights, healthcare providers can improve outcomes by introducin
 ![](tb_1.png)
 ![](tb_2.png)
 
---
+---
 
 ## **Problem Statement**
 
@@ -155,24 +155,32 @@ Some date columns contained multiple formats, such as:
 These were converted into a standard SQL `DATE` format.
 
 ```sql
-UPDATE treatment_outcome
-SET TreatmentStartDate =
+update treatment_outcome
+SEt TreatmentStartDate=
 CASE
+
+    -- DD/MM/YYYY when first part > 12
     WHEN TreatmentStartDate REGEXP '^(1[3-9]|2[0-9]|3[0-1])/[0-9]{2}/[0-9]{4}$'
     THEN STR_TO_DATE(TreatmentStartDate, '%d/%m/%Y')
-
-    WHEN TreatmentStartDate REGEXP '^[0-9]{4}-[0-9]{2}-[0-9]{2}$'
+    
+    WHEN TreatmentStartDate REGEXP '^[0-9]{4}/[0-9]{2}/(1[3-9]|2[0-9]|3[0-1])$'
+    THEN STR_TO_DATE(TreatmentStartDate, '%Y/%m/%d')
+    
+     WHEN TreatmentStartDate REGEXP '^[0-9]{4}-[0-9]{2}-(1[3-9]|2[0-9]|3[0-1])$'
     THEN STR_TO_DATE(TreatmentStartDate, '%Y-%m-%d')
-
-    ELSE NULL
-END;
+    
+     WHEN TreatmentStartDate REGEXP '^[0-9]{2}/[0-9]{2}/[0-9]{4}$'
+    THEN STR_TO_DATE(TreatmentStartDate, '%d/%m/%Y')
+    
+    else null
+    end ;
 ```
 ---
 
 ### 3. Standardizing Text Values
 
 Categorical variables had inconsistent spelling, abbreviations, and capitalization.### Why?
-This ensured values like ' COMPLETE`, `Complete`,` completed.`are treated as one category.
+This ensured values like ' COMPLETE`, `Complete`,` completed`are treated as one category.
 
 Example:
 
@@ -180,11 +188,11 @@ Example:
 UPDATE treatment_outcome
 SET FinalStatus =
 CASE 
-    WHEN FinalStatus = 'Lost' THEN 'LTFU'
-    WHEN FinalStatus = 'TreatmentFailed' THEN 'failed'
-    WHEN FinalStatus = 'FAIL' THEN 'failed'
-    WHEN FinalStatus = 'COMPLETE' THEN 'completed'
-    WHEN FinalStatus = 'lost to follow-up' THEN 'LTFU'
+    WHEN FinalStatus = 'Lost' THEN 'failed.'
+    WHEN FinalStatus = 'TreatmentFailed' THEN 'failed.'
+    WHEN FinalStatus = 'FAIL' THEN 'failed.'
+    WHEN FinalStatus = 'COMPLETE' THEN 'completed.'
+    WHEN FinalStatus = 'lost to follow-up' THEN 'failed'
     ELSE FinalStatus
 END;
 ```
@@ -201,7 +209,7 @@ SET FinalStatus = LOWER(FinalStatus);
 ### 4. Handling Missing Values
 
 Some categorical columns contained invalid entries, such as:
-`'nan'`,blank values (`''`).These were replaced with valid categories.This improved data completeness and prevents missing-value issues during analysis.
+`'nan'`,blank values (`''`).These were replaced with valid categories. This improved data completeness and prevents missing-value issues during analysis.
 
 Checking missing values:
 
@@ -217,8 +225,8 @@ Replacing invalid values:
 UPDATE patients
 SET EmploymentStatus =
 CASE 
-    WHEN EmploymentStatus = 'nan' THEN 'employed'
-    WHEN EmploymentStatus = '' THEN 'employed'
+    WHEN EmploymentStatus = 'nan' THEN 'employed.'
+    WHEN EmploymentStatus = '' THEN 'employed.'
     ELSE EmploymentStatus
 END;
 ```
@@ -326,16 +334,16 @@ Example: Distance grouping
 UPDATE joined
 SET Distance_Group =
 CASE
-    WHEN Distance_km BETWEEN 0 AND 5 THEN '0–5 km'
-    WHEN Distance_km BETWEEN 6 AND 10 THEN '6–10 km'
-    WHEN Distance_km BETWEEN 11 AND 15 THEN '11–15 km'
+    WHEN Distance_km BETWEEN 0 AND 5 THEN '0–5 km.'
+    WHEN Distance_km BETWEEN 6 AND 10 THEN '6–10 km.'
+    WHEN Distance_km BETWEEN 11 AND 15 THEN '11–15 km.'
     ELSE '16+ km'
 END;
 ```
 ---
             
 
-## sql querrying
+## sql querying
 
 After cleaning and integrating all datasets into the `joined` table, several analytical questions were explored to understand how socio-economic, clinical, and behavioral factors influence TB treatment outcomes.
 
@@ -346,7 +354,8 @@ The main objective of this analysis is to identify patterns associated with:
 ---
 
 ### 1. Employment Status vs Treatment Outcome
-Insight: Employment status is strongly associated with treatment outcomes. Patients with stable employment have higher treatment completion rates, while informal or unemployed groups show higher failure rates.
+Insight: Patients with stable jobs are more likely to complete treatment, while unemployed or informal workers are more likely to have poor outcomes.
+
 
 ```sql
 SELECT EmploymentStatus, Final_Treatment_Outcome,
@@ -361,7 +370,7 @@ GROUP BY EmploymentStatus, Final_Treatment_Outcome;
 ---
 
 ### 2. Location Type (Urban vs Rural)
-Insight: Urban patients achieve better treatment outcomes than rural patients, suggesting that access to healthcare services and infrastructure plays a key role in treatment success.
+Insight: Patients in urban areas tend to have better treatment outcomes than those in rural areas, likely due to better access to healthcare.
 
 ```sql
 SELECT LocationType, Final_Treatment_Outcome,
@@ -376,7 +385,7 @@ GROUP BY LocationType, Final_Treatment_Outcome;
 ---
 
 ### 3. Distance to Clinic vs Treatment Outcome
-Insight: Distance to healthcare facilities is a major factor influencing treatment success. Patients living within 0–5 km show significantly higher success rates, while those beyond 10 km experience increased failure risk.
+Insight: Patients who live closer to healthcare facilities are more likely to complete treatment, while those far away have a higher chance of failing.
 ```sql
 SELECT Distance_Group, Final_Treatment_Outcome,
 COUNT(*) AS count,
@@ -391,7 +400,7 @@ GROUP BY Distance_Group, Final_Treatment_Outcome;
 ---
 
 ### 4. Age Distribution Analysis
-Insight: Young adults (18–30 years) show a higher proportion of treatment failure compared to other age groups, indicating this group may require additional adherence support.
+Insight: Young adults (18–30 years) have higher treatment failure rates and may need more support to stay on treatment.
 
 ```sql
 SELECT Age_Group, Final_Treatment_Outcome,
@@ -407,7 +416,7 @@ GROUP BY Age_Group, Final_Treatment_Outcome;
 ---
 
 ### 5. BMI vs Treatment Outcome
-Insight: Baseline BMI does not show a strong variation across treatment outcomes, suggesting it is not a major predictor of TB treatment success in this dataset.
+Insight: BMI at the start of treatment does not vary much between outcomes, so it is not a strong factor in predicting recovery.
 
 
 ```sql
@@ -423,8 +432,7 @@ GROUP BY Final_Treatment_Outcome;
 ---
 
 ### 6. Sputum Smear Results vs Outcome
-insights: Even patients with positive initial smear results show high recovery rates, indicating that treatment adherence plays a critical role in overcoming initial disease severity.
-
+Insight: Patients who test positive at the start can still recover well, showing that taking medication consistently is very important for successful treatment.
 ```sql
 SELECT Initial_Smear_Result, Final_Treatment_Outcome,
 COUNT(*),
@@ -440,7 +448,7 @@ GROUP BY Initial_Smear_Result, Final_Treatment_Outcome;
 ---
 
 ### 7. Comorbidities vs Treatment Failure
-Insight: Patients with comorbidities such as HIV and diabetes show higher failure rates, indicating increased clinical complexity and risk
+Insight: Patients with diseases like HIV or diabetes are more likely to have treatment failure because their conditions make recovery harder.
 
 ```sql
 SELECT Comorbidities, Final_Treatment_Outcome,
@@ -456,7 +464,7 @@ GROUP BY Comorbidities, Final_Treatment_Outcome;
 ---
 
 ### 8. High-Risk Socioeconomic Combination (Failure Cases)
-Insight: Failure cases are often associated with a combination of socio-economic and accessibility challenges, highlighting the importance of multi-factor risk assessment.
+Insight: Treatment failure is often linked to a mix of social and access problems, showing that multiple factors together affect patient outcomes.
 
 ```sql
 SELECT LocationType, EmploymentStatus, Distance_Group,
@@ -474,13 +482,17 @@ ORDER BY count DESC;
 
 ## dashboard 
 An interactive dashboard was developed using Looker Studio to visualize key patterns in tuberculosis treatment outcomes. It allows healthcare stakeholders to explore relationships between variables and identify high-risk patient groups more efficiently than static analysis alone.
+
 [view dashboard](https://datastudio.google.com/reporting/1ca5e04d-71f4-41c9-9784-5a918050825d)
+
+--- 
 
 ## recommendations
 - introduce mobile health clinics to deliver medicine directly to patients who live more than 6 km away from the nearest clinic.
 - Implement home-based medication delivery programs for accessible medicine
 - increase follow-up frequency in the high-risk group
 - Combine TB, HIV, and diabetes care into a single appointment so patients do not have to make multiple clinic trips.
+- Partner with local employers and use mobile check-ins so working patients do not have to miss work to get their medicine.
 
 
 
