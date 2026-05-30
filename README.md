@@ -14,7 +14,7 @@ Based on these insights, healthcare providers can improve outcomes by introducin
 ![](tb_1.png)
 ![](tb_2.png)
 
-
+---
 
 ## **Problem Statement**
 
@@ -44,7 +44,7 @@ Contains demographic and socio-economic information about each patient.
 | `employmentstatus` | Employment status of the patient |
 | `distance_km` | Distance from the patient’s home to the nearest healthcare facility, measured in kilometers |
 
-----
+-----
 
 ### 2. Treatment Outcomes Table
 Contains treatment start and end dates, as well as the final treatment status.
@@ -57,7 +57,7 @@ Contains treatment start and end dates, as well as the final treatment status.
 | `treatmentenddate` | Date treatment ended |
 | `finalstatus` | Final treatment outcome, such as recovered, failed, or lost to follow-up |
 
-----
+-----
 
 ### 3. Medication Log Table
 Tracks medication adherence and side effects during treatment.
