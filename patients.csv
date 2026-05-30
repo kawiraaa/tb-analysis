@@ -1,0 +1,3091 @@
+PatientID,age,Gender,LocationType,EmploymentStatus,Distance_km
+P002742,43,Male,URBAN,Employed,1
+P001308,37,female,rural,Self employed,11.8
+P001602,56,Male,urban,Unemployed,3.8
+P002622,48,Male,urban,unemployed,1.9
+P002030,30,male,Urban,Informal Work,2.2
+P001951,37,male,Urban,Studnt,6.5
+P002719,29,MALE,URBAN,employed,6.1
+P000185,34,MALE,URBAN,EMPLOYED,1.5
+P002401,27,female,Rural,employed,3.7
+P000195,39,M,rural,Informal Work,7.1
+P002799,32,female,urban,Employed,2.9
+P001196,43,M,urban,Self employed,3.4
+P001407,37,FEMALE,URBAN,employed,1.6
+P000315,55,,rural,EMPLOYED,5.4
+P000103,32,F,URBAN,Daily Wage,1
+P001438,60,male,Urban,EMPLOYED,2.1
+P002960,22,male,Urban,Self employed,6.3
+P001222,41,F,Urban,Unemployed,3.5
+P002936,58,,URBAN,SelfEmployed,5.8
+P000706,45,Male,URBAN,Jobless,2
+P002235,20,FEMALE,urban,employed,2
+P001974,37,,Urban,employed,2.9
+P001518,46,F,URBAN,,1.9
+P002977,55,FEMALE,URBAN,student,2.4
+P002233,37,Female,urban,Daily Wage,1.4
+P000179,33,FEMALE,Urban,Jobless,3.1
+P002031,48,F,rural,Student,9
+P002927,35,F,urban,Unemployed,4.6
+P000612,36,F,RURAL,employed,6.6
+P000680,55,male,URBAN,Self-employed,1.5
+P000153,27,M,RURAL,EMPLOYED,7.8
+P002485,29,FEMALE,rural,student,9.7
+P001026,43,male,urban,Informal Work,2.6
+P000908,47,Female,rural,Employed,9.9
+P000255,37,Female,RURAL,Jobless,4.5
+P002417,45,MALE,Rural,Employed,12
+P002281,37,MALE,URBAN,EMPLOYED,1.1
+P000347,37,F,Urban,informal work,3.7
+P000300,46,Male,Urban,Self employed,3.7
+P002046,53,F,rural,informal work,9.4
+P001296,36,M,urban,informal work,1.8
+P001358,42,Male,RURAL,SelfEmployed,15.4
+P001423,32,Male,Urban,Unemployed,0.1
+P002483,65,male,rural,EMPLOYED,5.1
+P000140,20,F,Rural,Employed,5.8
+P002604,75,FEMALE,URBAN,employed,4.3
+P000247,30,F,urban,Studnt,5.1
+P000901,37,F,RURAL,Employed,8.3
+P002131,43,MALE,urban,EMPLOYED,3
+P001682,37,F,Rural,unemployed,11.5
+P002335,49,M,RURAL,Student,9
+P000890,53,M,RURAL,employed,9
+P001269,27,FEMALE,urban,employed,2
+P001927,37,,Urban,employed,3.4
+P001621,39,FEMALE,URBAN,Retired,4.7
+P000701,30,male,URBAN,Student,2.2
+P001062,37,M,Rural,Unemployed,9
+P000486,37,Female,urban,Employed,2.8
+P001357,29,MALE,Urban,Self-employed,2.7
+P002311,33,Female,URBAN,employed,2.8
+P002182,32,MALE,Urban,Employed,1.8
+P000762,39,M,RURAL,EMPLOYED,7.2
+P000747,75,F,RURAL,Employed,9.1
+P000322,45,FEMALE,Rural,SelfEmployed,13.5
+P002708,37,Female,Urban,informal work,1.6
+P000189,25,male,rural,Unemployed,8.3
+P000773,46,Female,URBAN,Daily Wage,3.8
+P002497,37,FEMALE,Rural,Employed,3.7
+P001452,61,Male,RURAL,informal work,19.4
+P002355,54,female,RURAL,employed,5.4
+P000411,47,Female,urban,employed,2.2
+P001728,48,MALE,rural,SelfEmployed,9.4
+P002853,22,Male,urban,employed,1.4
+P002217,31,FEMALE,Urban,Employed,1.5
+P001399,54,MALE,Urban,EMPLOYED,4.8
+P001362,45,Male,URBAN,Studnt,2.1
+P001658,55,FEMALE,urban,informal work,2
+P000052,32,F,Rural,unemployed,6.1
+P001625,63,F,URBAN,Employed,1
+P000064,20,MALE,urban,employed,4.7
+P002790,40,MALE,URBAN,Self-employed,4.9
+P002554,42,F,rural,Employed,16.6
+P002531,44,F,urban,informal work,5
+P001091,36,,Rural,Daily Wage,14
+P001466,45,male,Urban,Employed,5.1
+P001897,33,female,Urban,informal work,1.1
+P000053,37,FEMALE,Urban,informal work,3.5
+P002808,25,,RURAL,Daily Wage,8.1
+P002764,28,male,urban,Student,0.7
+P002552,37,Female,urban,employed,1.5
+P002865,43,male,urban,informal work,3.7
+P000545,37,female,urban,unemployed,1
+P002949,34,Male,URBAN,Employed,0.9
+P000451,36,male,urban,EMPLOYED,2.7
+P002516,42,Female,URBAN,EMPLOYED,5.4
+P000045,37,Female,urban,Informal Work,2.7
+P001726,52,MALE,Rural,informal work,12.4
+P001832,40,M,urban,Informal Work,3.7
+P000830,33,MALE,RURAL,Student,9
+P000599,31,MALE,Urban,Employed,3.1
+P000409,75,male,urban,retired,4.3
+P002918,46,male,RURAL,Employed,4.1
+P000257,37,FEMALE,RURAL,Unemployed,7.1
+P002029,40,FEMALE,urban,Unemployed,3.7
+P002304,41,male,Urban,informal work,3.8
+P001838,39,,RURAL,Jobless,5.4
+P001703,46,,urban,Jobless,1.4
+P002491,37,Female,Urban,retired,3.9
+P001663,37,Male,Rural,Self-employed,10
+P000145,41,FEMALE,URBAN,employed,2
+P002091,42,female,rural,Employed,6.6
+P001293,37,Male,Urban,unemployed,2.2
+P002156,28,MALE,rural,retired,6.6
+P000417,59,female,RURAL,Jobless,14.9
+P000930,36,male,Urban,Informal Work,0.8
+P002023,56,M,Rural,informal work,16.7
+P000171,25,male,urban,retired,1.6
+P001126,21,,rural,unemployed,15
+P000568,23,MALE,RURAL,Self-employed,3.8
+P001591,22,F,Rural,SelfEmployed,5.1
+P002674,29,Female,rural,Jobless,5.3
+P000135,24,Male,Urban,unemployed,2.4
+P001718,40,Female,RURAL,Informal Work,1.8
+P000643,33,Male,urban,EMPLOYED,7.9
+P001690,33,FEMALE,URBAN,employed,1
+P002746,33,FEMALE,Urban,SelfEmployed,3.4
+P000555,42,Male,RURAL,student,10.2
+P001463,34,FEMALE,RURAL,Studnt,10.4
+P002175,25,Male,URBAN,unemployed,1.4
+P001539,21,FEMALE,RURAL,Unemployed,13.4
+P001000,45,MALE,URBAN,Informal Work,2.7
+P000292,75,Female,URBAN,informal work,1.2
+P001339,32,F,urban,Studnt,1.8
+P002248,18,female,urban,EMPLOYED,4.7
+P000913,75,,urban,Retired,2.1
+P000444,36,F,urban,Retired,0.7
+P002602,46,Female,urban,Employed,3.2
+P002150,37,Male,RURAL,EMPLOYED,13.4
+P000450,22,M,Rural,employed,9
+P001030,23,F,URBAN,Employed,3.5
+P001993,54,F,Urban,Unemployed,2.1
+P002404,37,female,URBAN,,3.5
+P002751,62,Female,Rural,,4.3
+P000001,44,Female,urban,EMPLOYED,1.8
+P001002,50,male,Urban,retired,3.7
+P001049,37,FEMALE,URBAN,,3.8
+P000271,37,Female,rural,Self employed,11.1
+P000737,41,MALE,URBAN,Unemployed,1.1
+P000299,75,,Urban,Retired,5.6
+P000033,37,M,rural,employed,8.7
+P002499,48,Female,URBAN,retired,1.3
+P000015,37,Male,Urban,SelfEmployed,3.7
+P000094,32,Female,RURAL,employed,9.9
+P000412,21,male,urban,Jobless,1.7
+P001160,32,,URBAN,unemployed,2.5
+P002363,37,MALE,RURAL,Unemployed,7.4
+P002820,37,male,URBAN,informal work,2.7
+P000150,41,female,Urban,SelfEmployed,6.7
+P001601,34,Female,Rural,Informal Work,9
+P001045,35,Female,rural,SelfEmployed,9.6
+P002154,40,female,Urban,Informal Work,1.7
+P000496,45,Male,Urban,Jobless,2
+P000333,38,FEMALE,Urban,Employed,3.7
+P002789,31,M,URBAN,Informal Work,6.3
+P002067,37,female,Rural,SelfEmployed,3.7
+P001875,55,Female,Urban,EMPLOYED,6.6
+P000757,44,Female,Urban,Employed,3.7
+P000799,37,,rural,Employed,8.4
+P002275,22,Male,Rural,employed,10.7
+P000204,52,male,URBAN,informal work,4.2
+P000464,40,MALE,urban,Employed,2
+P002852,75,male,URBAN,Jobless,0.9
+P002750,34,Female,Rural,employed,7.2
+P001088,40,FEMALE,Urban,Employed,2.1
+P000556,31,FEMALE,RURAL,unemployed,18.1
+P000175,41,Male,RURAL,Unemployed,9
+P000290,75,M,RURAL,employed,18.2
+P000121,48,female,Urban,Self-employed,2.1
+P002840,35,FEMALE,urban,SelfEmployed,4
+P000848,71,Male,Rural,SelfEmployed,13.5
+P002700,56,M,Rural,Employed,2.6
+P000433,33,male,Urban,Student,1
+P002970,41,female,urban,Self employed,1.5
+P001318,33,MALE,urban,Unemployed,2.2
+P001201,39,FEMALE,Urban,SelfEmployed,1.7
+P000394,63,M,URBAN,informal work,1.9
+P002032,23,M,Urban,Daily Wage,4.2
+P001801,64,Male,RURAL,retired,12.4
+P001722,33,MALE,urban,Employed,2.4
+P000193,40,FEMALE,Rural,Employed,13.5
+P000267,60,F,URBAN,Jobless,3.2
+P002693,36,F,RURAL,employed,15.3
+P000806,33,male,Rural,informal work,9.1
+P000332,24,Female,URBAN,Jobless,2.3
+P000529,41,Male,Urban,SelfEmployed,0.9
+P001226,35,Male,urban,Unemployed,3.7
+P000802,30,Male,rural,,7.5
+P001090,34,M,URBAN,EMPLOYED,3.2
+P000765,53,Male,Rural,informal work,12.7
+P000219,30,MALE,Urban,employed,2.5
+P000480,53,female,Urban,Jobless,4.2
+P000791,43,female,Rural,unemployed,18.9
+P000479,80,MALE,URBAN,unemployed,3.2
+P002646,26,Female,RURAL,Retired,15.4
+P000728,42,Male,urban,EMPLOYED,0.5
+P000582,31,female,Urban,informal work,2.7
+P001158,69,FEMALE,urban,Informal Work,2.1
+P002548,29,Female,Rural,Employed,5.4
+P001689,41,Male,Rural,Retired,5.8
+P002634,41,F,Urban,retired,3.9
+P000046,27,female,Urban,Jobless,4.4
+P002850,29,F,Urban,EMPLOYED,3.7
+P000241,26,Male,Rural,employed,11.7
+P000252,37,F,urban,unemployed,3
+P000991,40,M,Urban,Daily Wage,3.3
+P000458,23,male,Urban,employed,1.7
+P001273,37,F,rural,Employed,6.5
+P000677,21,female,RURAL,Unemployed,11.4
+P000699,50,FEMALE,URBAN,employed,2.7
+P001815,33,FEMALE,RURAL,Employed,9.1
+P001534,35,Female,Urban,unemployed,1.7
+P002357,32,male,Rural,unemployed,2.5
+P001085,42,Male,URBAN,Employed,6.3
+P001512,34,F,rural,Retired,15.1
+P002405,60,MALE,urban,Daily Wage,3.8
+P000258,27,Female,Rural,employed,1.5
+P002273,28,MALE,urban,Unemployed,1.8
+P000369,38,male,URBAN,unemployed,3.8
+P002051,49,FEMALE,URBAN,Informal Work,3.7
+P002974,65,Male,urban,unemployed,7.2
+P002845,40,female,rural,employed,13.5
+P000355,37,F,URBAN,employed,2
+P001300,42,F,RURAL,Informal Work,12
+P001865,55,F,rural,unemployed,8.9
+P002220,34,FEMALE,RURAL,Unemployed,18.1
+P001197,37,female,Rural,employed,7.9
+P001221,20,female,rural,informal work,13.4
+P002203,47,M,RURAL,unemployed,1.9
+P001303,35,M,RURAL,Student,9
+P000683,30,Male,urban,Employed,1.8
+P001382,30,FEMALE,RURAL,Self employed,13.8
+P000508,25,F,urban,EMPLOYED,1.1
+P000212,53,male,urban,EMPLOYED,2.5
+P001455,45,M,Urban,Employed,1.2
+P000820,52,F,Urban,employed,9
+P001651,45,MALE,Rural,employed,13.2
+P002910,55,Male,RURAL,Employed,8
+P000583,46,FEMALE,rural,informal work,17
+P000176,49,Female,RURAL,informal work,6.3
+P001713,37,,urban,Student,5.1
+P000431,20,Male,Urban,Informal Work,0.6
+P001508,50,Female,urban,Employed,0.5
+P000745,44,MALE,rural,retired,10.6
+P001363,39,MALE,URBAN,Employed,6.1
+P001098,37,Female,RURAL,Employed,18.6
+P000507,29,F,Rural,informal work,17.5
+P000946,22,MALE,RURAL,Informal Work,10.5
+P001136,50,F,Rural,EMPLOYED,5.3
+P001024,67,Male,Rural,Unemployed,5
+P000197,25,female,urban,unemployed,1
+P002513,37,male,Urban,Self-employed,4
+P000089,30,F,URBAN,Self employed,2.5
+P001048,37,MALE,URBAN,,1.4
+P002879,41,female,URBAN,student,1.4
+P002026,40,Male,urban,Informal Work,3.7
+P002944,34,FEMALE,RURAL,EMPLOYED,8.3
+P000679,50,Male,URBAN,EMPLOYED,2.1
+P001035,30,Male,RURAL,Jobless,9
+P000565,54,M,urban,Daily Wage,5.6
+P000344,30,F,RURAL,Student,3.7
+P002347,30,Female,Urban,employed,5.6
+P000026,39,female,URBAN,Jobless,2.7
+P000941,19,male,rural,EMPLOYED,12.8
+P001860,41,MALE,URBAN,Retired,2.4
+P002893,48,FEMALE,urban,student,0.9
+P002796,25,Male,URBAN,Jobless,2.1
+P001489,37,,rural,Self-employed,8.1
+P001526,52,Male,Rural,EMPLOYED,16
+P002423,34,MALE,rural,Studnt,8.5
+P002575,74,FEMALE,RURAL,EMPLOYED,3.2
+P000651,37,Female,urban,Daily Wage,0.4
+P000868,42,female,urban,Employed,1.5
+P001351,37,F,URBAN,Jobless,1.9
+P000068,51,M,Rural,employed,13.5
+P002250,50,Female,URBAN,employed,3.6
+P000622,44,female,Urban,employed,2.1
+P000652,53,,rural,Daily Wage,4
+P002196,28,F,Rural,EMPLOYED,3.7
+P000603,49,,Urban,retired,3.2
+P002912,42,female,urban,unemployed,5.4
+P000424,51,Female,Rural,Jobless,11.5
+P002172,36,F,Urban,Self employed,1.9
+P002806,37,F,URBAN,informal work,2.2
+P001911,61,MALE,rural,Self-employed,11
+P002862,44,FEMALE,Urban,SelfEmployed,1.2
+P001114,44,Female,urban,Employed,2.9
+P001478,43,Male,Urban,Studnt,6.3
+P001554,25,MALE,URBAN,EMPLOYED,3.7
+P000125,45,Female,Urban,Unemployed,0.3
+P002542,19,FEMALE,Rural,Self employed,6.1
+P002904,42,,URBAN,Daily Wage,2.1
+P001867,51,male,urban,Self employed,1.6
+P001873,33,FEMALE,URBAN,EMPLOYED,1.7
+P000533,36,M,URBAN,,9
+P002010,50,FEMALE,URBAN,Retired,0.4
+P001058,53,female,Urban,Self-employed,3
+P002908,21,Female,Urban,Employed,1.2
+P001691,45,F,urban,Jobless,0.6
+P001488,37,FEMALE,Urban,SelfEmployed,5.5
+P000558,31,Male,Rural,SelfEmployed,6.1
+P002562,38,Male,Urban,Employed,2.6
+P001174,36,MALE,URBAN,Unemployed,1.3
+P000177,37,MALE,rural,Retired,9.3
+P000323,37,,URBAN,EMPLOYED,0.3
+P001189,45,FEMALE,RURAL,Self employed,8.9
+P001462,20,MALE,URBAN,Jobless,1.4
+P002479,18,female,URBAN,Jobless,1.4
+P001546,37,male,URBAN,,1.1
+P000696,33,male,RURAL,Self-employed,3.7
+P001629,38,female,URBAN,Employed,3
+P000081,34,FEMALE,urban,unemployed,1.6
+P000848,71,Male,Rural,SelfEmployed,13.5
+P001150,25,MALE,Urban,Student,3.7
+P001152,37,female,URBAN,,3.3
+P000863,59,F,URBAN,Self-employed,2.4
+P001261,45,FEMALE,rural,informal work,10.5
+P000440,36,MALE,RURAL,EMPLOYED,13.7
+P000472,37,Male,URBAN,employed,3.7
+P002231,27,FEMALE,urban,student,1.5
+P002012,26,MALE,URBAN,Employed,2.4
+P001707,46,M,RURAL,employed,16.7
+P000813,57,M,Urban,Unemployed,0.5
+P001235,26,Female,URBAN,Self employed,1.4
+P002247,24,Female,RURAL,Daily Wage,14.1
+P000569,37,M,Rural,unemployed,16.8
+P001028,39,Female,Urban,Jobless,0.7
+P001654,32,M,urban,EMPLOYED,4.4
+P000142,55,male,urban,Self employed,2.5
+P000512,36,F,Urban,employed,3.7
+P001613,49,M,Urban,Jobless,3
+P002606,34,Male,URBAN,,2.4
+P001810,50,Female,rural,EMPLOYED,5.8
+P002867,25,Male,Rural,employed,15.6
+P001685,20,MALE,urban,unemployed,9.1
+P000611,46,F,URBAN,employed,2.8
+P002811,35,male,RURAL,Employed,3.7
+P001967,34,MALE,urban,Employed,1.1
+P000832,24,FEMALE,rural,Jobless,6.4
+P000178,57,M,Urban,SelfEmployed,1.4
+P000858,44,F,RURAL,Jobless,10
+P000694,46,FEMALE,URBAN,Employed,2.4
+P001737,22,FEMALE,URBAN,Self employed,1.6
+P001073,38,MALE,Urban,Daily Wage,3.7
+P001279,40,Male,Urban,Retired,1.9
+P001504,37,female,URBAN,employed,1.1
+P000184,44,Female,URBAN,Unemployed,3.7
+P001469,20,M,urban,Employed,3.7
+P002228,29,M,urban,Employed,0.5
+P002728,56,FEMALE,RURAL,employed,19.4
+P000566,31,MALE,URBAN,unemployed,4.8
+P002902,31,male,Rural,student,3.6
+P002341,47,Male,RURAL,Self-employed,9
+P001986,44,F,rural,Jobless,12.4
+P001830,37,female,urban,Daily Wage,2.3
+P002851,29,MALE,urban,Employed,5.6
+P000487,28,MALE,rural,Self-employed,19.3
+P002941,51,F,rural,Unemployed,10
+P001205,38,FEMALE,RURAL,Self employed,9
+P000371,37,MALE,Urban,unemployed,2.1
+P000163,53,M,Urban,,5
+P002647,32,male,URBAN,SelfEmployed,2
+P002651,24,MALE,URBAN,employed,1.5
+P002932,31,M,RURAL,EMPLOYED,8.9
+P001912,68,F,Urban,Jobless,3.7
+P000730,26,MALE,Urban,Student,2.9
+P000970,37,MALE,Rural,Self-employed,7.9
+P000671,54,M,RURAL,informal work,10.7
+P000888,32,FEMALE,Rural,EMPLOYED,17
+P000031,29,FEMALE,URBAN,employed,3.7
+P001056,28,female,urban,employed,0.9
+P002080,31,female,urban,employed,1.2
+P001584,38,F,Urban,,5.1
+P001592,37,female,RURAL,Self-employed,5.6
+P000174,42,female,urban,Employed,2.5
+P001963,44,female,urban,Jobless,4.1
+P000297,75,MALE,Urban,EMPLOYED,2.6
+P000326,20,FEMALE,URBAN,Daily Wage,2.3
+P001237,60,FEMALE,Urban,informal work,3.2
+P001989,28,male,Rural,informal work,17.8
+P001739,50,MALE,rural,informal work,7.6
+P002760,46,Male,Urban,Employed,3.7
+P001473,35,Male,Urban,EMPLOYED,3.7
+P001926,24,Male,urban,Student,2.8
+P002715,42,F,Urban,Jobless,3.8
+P000606,63,M,rural,SelfEmployed,7.7
+P001284,50,F,rural,Unemployed,5.4
+P002672,45,Female,Urban,employed,4.9
+P002627,57,MALE,Urban,EMPLOYED,1.7
+P001505,35,M,urban,retired,0.8
+P002670,46,FEMALE,RURAL,Self employed,3.7
+P000074,59,M,urban,employed,1.2
+P000049,42,male,URBAN,Self employed,2.2
+P002259,37,M,RURAL,Retired,8.7
+P001917,26,male,RURAL,Employed,14.9
+P001816,25,male,urban,EMPLOYED,4.3
+P000536,38,female,URBAN,Unemployed,1.6
+P001271,52,F,rural,unemployed,16.4
+P002133,46,MALE,RURAL,Jobless,8.5
+P001666,37,FEMALE,Urban,SelfEmployed,1.4
+P001072,44,M,rural,Employed,9
+P001567,38,Female,RURAL,Unemployed,9
+P002749,42,M,Urban,Unemployed,2.7
+P002207,58,female,Urban,Unemployed,1.1
+P002781,49,FEMALE,Urban,student,3.7
+P000839,51,F,Urban,Jobless,5.7
+P001095,47,MALE,RURAL,employed,15
+P001346,37,Female,rural,Jobless,7.4
+P002305,65,Female,Urban,,2
+P001234,37,MALE,urban,Retired,3.3
+P002598,40,female,URBAN,employed,1.9
+P001847,55,F,RURAL,,17.6
+P002830,32,MALE,Rural,EMPLOYED,10.1
+P000325,23,F,urban,unemployed,5
+P000760,47,Male,rural,Retired,3.7
+P001510,58,FEMALE,URBAN,Unemployed,1.2
+P001732,32,Female,rural,employed,10.1
+P002350,32,female,Urban,Unemployed,0.7
+P001884,29,F,rural,unemployed,3.7
+P000600,42,Female,Rural,employed,6.6
+P002164,53,female,RURAL,Jobless,17.1
+P000434,47,MALE,urban,Self-employed,1.5
+P002380,41,M,URBAN,Informal Work,2.5
+P000916,41,female,RURAL,Employed,4.3
+P001745,24,male,Rural,unemployed,13.9
+P000240,49,male,Urban,Employed,0.6
+P000818,49,FEMALE,Urban,EMPLOYED,2.4
+P002662,24,M,urban,student,0.8
+P001178,36,MALE,Rural,Unemployed,16.3
+P002964,22,Female,URBAN,Jobless,3.6
+P001731,34,Female,Urban,informal work,1.9
+P002534,24,F,URBAN,employed,3.6
+P002226,55,male,URBAN,Unemployed,0.7
+P002524,37,MALE,rural,Student,12.4
+P001484,31,FEMALE,rural,EMPLOYED,5
+P000913,75,,urban,Retired,2.1
+P002097,46,F,urban,SelfEmployed,1.6
+P001966,38,Male,Urban,EMPLOYED,1.3
+P000927,29,FEMALE,Rural,EMPLOYED,3.4
+P002213,49,Male,URBAN,employed,8.9
+P001422,52,M,Rural,informal work,9
+P002540,38,F,Urban,employed,1.2
+P000595,52,MALE,URBAN,Jobless,-1
+P000602,24,M,Urban,employed,2.1
+P000638,38,Male,Urban,unemployed,3.8
+P002900,41,Female,urban,EMPLOYED,1
+P001796,26,FEMALE,urban,EMPLOYED,3.3
+P001011,55,male,Urban,employed,0.8
+P000681,47,female,Urban,Studnt,1.5
+P002432,23,Male,Urban,Employed,1.1
+P001779,31,M,urban,EMPLOYED,3.7
+P000415,42,MALE,Urban,,1.3
+P000875,37,male,RURAL,Daily Wage,14.3
+P000528,38,FEMALE,URBAN,informal work,3
+P001513,27,FEMALE,Urban,Retired,2.6
+P002549,51,male,Urban,Self-employed,4.9
+P000109,41,M,urban,EMPLOYED,3.8
+P001207,27,MALE,Rural,Self employed,14.8
+P002415,51,M,Urban,Jobless,5.2
+P002440,37,Male,rural,employed,4.3
+P001117,71,female,Urban,SelfEmployed,0.8
+P000319,42,male,rural,Employed,9.3
+P001952,55,female,Urban,employed,5.9
+P001162,69,FEMALE,urban,unemployed,3.1
+P002701,42,male,urban,EMPLOYED,1.1
+P001559,58,female,RURAL,Studnt,4.9
+P002921,27,F,Rural,Daily Wage,9
+P000403,37,M,Rural,Employed,8.2
+P001503,26,Male,URBAN,Employed,3.7
+P000938,47,Female,Urban,EMPLOYED,3.9
+P002005,37,M,URBAN,student,7
+P001262,38,Male,urban,informal work,1.1
+P002723,22,M,URBAN,Employed,2.1
+P002807,36,female,urban,informal work,2.3
+P000388,63,FEMALE,rural,EMPLOYED,12.4
+P001961,36,Female,Urban,unemployed,3.6
+P001851,28,male,Urban,Employed,1.4
+P000811,34,FEMALE,RURAL,EMPLOYED,5
+P000756,74,FEMALE,URBAN,informal work,3.7
+P001175,26,MALE,RURAL,informal work,13
+P001588,32,Female,URBAN,Unemployed,2.3
+P002714,37,MALE,Urban,Unemployed,3.5
+P001236,60,FEMALE,Rural,employed,10.8
+P001892,37,Female,urban,Daily Wage,2.3
+P000071,42,Male,rural,EMPLOYED,15.8
+P002761,46,Male,Rural,Self-employed,7.5
+P002343,44,Female,rural,unemployed,10.5
+P002264,22,female,URBAN,Jobless,0.4
+P000840,34,M,URBAN,informal work,4.7
+P000057,25,M,RURAL,Employed,8.7
+P002469,47,M,Urban,Daily Wage,3.4
+P001818,37,MALE,URBAN,employed,1.1
+P001396,40,Male,URBAN,EMPLOYED,1.7
+P001557,50,F,URBAN,student,5
+P002087,30,Female,Urban,Jobless,0.6
+P001905,35,Female,rural,retired,6.5
+P002502,51,F,URBAN,Self employed,3.4
+P002162,40,F,URBAN,Employed,1.1
+P000310,34,F,rural,EMPLOYED,18.5
+P001962,41,male,Rural,EMPLOYED,9
+P001254,42,Female,Urban,unemployed,5.2
+P001229,50,MALE,Urban,EMPLOYED,2.6
+P002770,34,M,URBAN,Daily Wage,3.3
+P001538,30,male,RURAL,Unemployed,9
+P001742,35,FEMALE,Rural,Unemployed,12.6
+P001352,37,Female,rural,Unemployed,7.5
+P001377,28,female,Urban,nan,2.6
+P002163,44,FEMALE,Urban,Jobless,2.1
+P002814,33,Female,RURAL,Self-employed,17.5
+P001862,48,F,URBAN,Studnt,3.7
+P002717,46,F,URBAN,Unemployed,1.5
+P002710,59,,Urban,retired,6
+P001660,53,male,RURAL,employed,14.2
+P000437,60,FEMALE,rural,Informal Work,6.8
+P002079,35,M,RURAL,Jobless,9.6
+P001223,46,female,Urban,Jobless,1.8
+P001492,73,M,Urban,student,0.9
+P001913,46,Female,rural,EMPLOYED,9
+P000314,48,male,rural,Employed,2.9
+P000234,28,female,rural,unemployed,11.1
+P001437,34,male,rural,unemployed,16.4
+P000686,47,MALE,rural,Informal Work,13.7
+P002919,38,F,Rural,Jobless,6.3
+P000112,37,FEMALE,URBAN,Self employed,2.7
+P001214,50,Male,rural,Informal Work,8.4
+P001414,67,F,URBAN,Employed,2.5
+P001128,26,Female,urban,Informal Work,3.6
+P002917,35,male,urban,Self employed,3.3
+P001972,37,FEMALE,URBAN,Employed,1.2
+P000473,37,,urban,Daily Wage,1
+P002836,33,FEMALE,Urban,informal work,3.6
+P002252,58,M,Urban,Student,3.7
+P000904,55,Male,URBAN,Self-employed,2.4
+P000898,39,Female,Urban,unemployed,2.8
+P002449,26,M,URBAN,SelfEmployed,0.8
+P001940,38,Female,urban,unemployed,1.5
+P002294,26,FEMALE,RURAL,EMPLOYED,7.8
+P002897,37,female,Urban,informal work,3.5
+P002685,42,Female,urban,Jobless,4.2
+P000362,58,Male,rural,Unemployed,16.5
+P000136,59,male,RURAL,Self-employed,11.5
+P001310,44,female,URBAN,EMPLOYED,3.6
+P002996,38,M,Rural,Jobless,11.7
+P001548,41,F,rural,Informal Work,6.9
+P002329,47,M,Urban,Self employed,1.2
+P000367,40,MALE,Urban,Jobless,2.4
+P001018,30,male,URBAN,unemployed,0.8
+P000030,33,Female,urban,Daily Wage,6.6
+P002579,37,FEMALE,Urban,EMPLOYED,4.6
+P000023,38,MALE,Urban,unemployed,4.5
+P000817,41,male,Rural,EMPLOYED,4.4
+P001925,66,MALE,URBAN,employed,5.5
+P001101,51,M,Urban,Student,2.4
+P000421,66,female,urban,retired,0.7
+P002391,37,F,rural,retired,5.4
+P000461,65,male,rural,Self-employed,6.1
+P000044,33,Female,Urban,Jobless,3.3
+P000088,42,MALE,URBAN,Employed,3.3
+P000860,46,Female,RURAL,Employed,4.4
+P000573,42,F,URBAN,Retired,2
+P000945,63,Male,URBAN,Daily Wage,6.9
+P000283,59,male,RURAL,employed,6
+P002659,39,male,rural,employed,8.1
+P002467,26,M,URBAN,Self employed,5.6
+P002177,37,FEMALE,Rural,Jobless,12.2
+P002933,25,M,rural,EMPLOYED,3
+P002477,34,F,URBAN,Self employed,2.2
+P000534,20,male,URBAN,student,5.9
+P000777,27,Female,rural,EMPLOYED,12.1
+P002528,45,male,rural,employed,4
+P002431,45,F,RURAL,Employed,7.1
+P002465,49,Female,Urban,employed,2.5
+P002180,37,M,rural,employed,3.8
+P000810,24,M,URBAN,student,1.8
+P000965,37,Female,URBAN,SelfEmployed,1.7
+P000979,37,male,URBAN,Retired,0.4
+P000692,53,F,Urban,EMPLOYED,1.4
+P000933,37,male,urban,Jobless,4
+P001242,75,Female,RURAL,Self employed,14.7
+P002260,40,,rural,Studnt,13.8
+P001673,32,M,rural,Self employed,3.7
+P001427,66,male,RURAL,employed,6.2
+P000222,37,female,rural,employed,9
+P000544,57,Male,Urban,unemployed,2.9
+P001287,37,Female,Urban,Jobless,2.1
+P002210,37,FEMALE,URBAN,EMPLOYED,3.7
+P000790,37,MALE,rural,Self employed,19.3
+P000795,22,female,Urban,Jobless,0.9
+P001721,44,Female,urban,Employed,1.5
+P002006,40,female,Rural,Employed,12.2
+P001564,49,FEMALE,rural,Student,17.8
+P000613,41,MALE,Urban,informal work,2.1
+P001457,48,M,rural,Daily Wage,9
+P001719,47,FEMALE,URBAN,SelfEmployed,9.9
+P000273,53,Female,URBAN,Retired,1.3
+P000522,45,female,RURAL,employed,15.9
+P001004,28,Female,URBAN,employed,4.3
+P001374,37,Female,urban,Unemployed,4
+P002523,42,MALE,URBAN,EMPLOYED,2.9
+P001939,52,F,RURAL,employed,9
+P000351,41,Female,RURAL,Employed,8.9
+P000950,40,MALE,RURAL,Self employed,3.7
+P002127,20,,Urban,,1
+P002388,24,M,rural,Jobless,10.1
+P002863,37,female,urban,unemployed,0.3
+P002673,41,F,RURAL,Self-employed,9
+P000856,29,FEMALE,RURAL,Unemployed,3.7
+P001180,22,M,URBAN,Self employed,4.8
+P001037,20,MALE,urban,SelfEmployed,0.6
+P002581,42,male,URBAN,unemployed,3.2
+P000169,34,female,urban,Employed,2.2
+P002583,36,Male,urban,Unemployed,2.7
+P002267,37,M,Urban,Informal Work,2.8
+P001955,29,female,URBAN,Daily Wage,1.9
+P002074,40,M,URBAN,Informal Work,4.2
+P002378,18,M,URBAN,employed,1.1
+P000766,27,male,URBAN,unemployed,6.9
+P002191,37,male,URBAN,Retired,3.7
+P002167,26,Female,Urban,EMPLOYED,1.1
+P002303,32,M,Urban,Employed,1.4
+P000220,38,MALE,rural,Employed,17.3
+P000368,37,Male,URBAN,Unemployed,1.2
+P002546,43,female,RURAL,Student,5.6
+P000880,54,M,URBAN,retired,1.1
+P002348,25,,Urban,Employed,0.9
+P001324,44,Female,URBAN,Studnt,9
+P001393,65,male,Urban,employed,2.3
+P000352,58,Male,rural,EMPLOYED,1.4
+P001054,41,Male,Urban,unemployed,3.7
+P001212,27,female,Urban,employed,3.7
+P002158,33,F,rural,Daily Wage,5.8
+P001968,35,Female,URBAN,employed,2.8
+P002772,27,F,URBAN,EMPLOYED,3.6
+P002443,19,Female,Urban,Employed,3
+P000499,25,MALE,urban,informal work,0.5
+P001736,37,F,Rural,unemployed,8.4
+P000211,45,Female,urban,Daily Wage,5
+P002488,36,MALE,urban,EMPLOYED,1
+P002839,68,FEMALE,urban,Jobless,1.2
+P000228,22,Male,URBAN,SelfEmployed,1.5
+P000366,31,Male,URBAN,Unemployed,2.9
+P000966,57,male,Urban,Unemployed,0.6
+P000277,37,Female,urban,employed,1.8
+P002300,37,Female,Rural,employed,4.2
+P001878,34,male,urban,employed,4.9
+P002671,27,F,rural,,11.5
+P001104,35,male,RURAL,,13.4
+P000408,35,male,rural,SelfEmployed,5.8
+P002045,25,MALE,Rural,Informal Work,16.7
+P001125,60,MALE,rural,Informal Work,3.7
+P002407,19,male,rural,Unemployed,13.7
+P000786,52,M,RURAL,informal work,11.1
+P002565,24,M,urban,informal work,0.3
+P002628,47,,rural,SelfEmployed,2.1
+P002381,24,MALE,urban,unemployed,1.3
+P000008,48,Male,URBAN,Jobless,2.8
+P001245,28,FEMALE,RURAL,Employed,5.5
+P001290,37,M,Urban,Student,4
+P000865,28,M,Rural,Employed,0.7
+P000416,27,FEMALE,RURAL,employed,14.1
+P001880,26,female,Rural,employed,15.6
+P001743,38,Female,URBAN,Unemployed,3.3
+P001714,49,FEMALE,Urban,Self-employed,4
+P001692,30,M,rural,student,15.7
+P000200,21,Female,urban,employed,1.9
+P000284,20,M,Urban,Self employed,4.9
+P000232,37,Female,RURAL,Informal Work,4.2
+P000719,32,Female,Urban,unemployed,2.3
+P002948,37,male,rural,Unemployed,10.6
+P000097,41,female,Urban,Daily Wage,1.1
+P002827,54,Female,URBAN,Jobless,3
+P002649,37,,Urban,informal work,1.2
+P001475,37,male,urban,EMPLOYED,3.7
+P000882,30,M,URBAN,Studnt,1.7
+P001420,44,MALE,URBAN,Unemployed,2.5
+P002543,34,Male,urban,Jobless,3
+P002950,37,FEMALE,URBAN,EMPLOYED,2.7
+P002667,49,Female,URBAN,unemployed,4.4
+P002255,37,MALE,Rural,informal work,13.8
+P001463,34,FEMALE,RURAL,Studnt,10.4
+P000105,35,Female,urban,Daily Wage,2.9
+P002299,46,M,Urban,unemployed,0.6
+P002873,37,M,urban,EMPLOYED,3.6
+P001726,52,MALE,Rural,informal work,12.4
+P002610,55,,rural,Informal Work,9
+P001103,66,female,URBAN,SelfEmployed,1.6
+P002821,37,female,Urban,retired,3.7
+P000808,30,MALE,Urban,Informal Work,3.3
+P000227,38,F,Urban,Self employed,5.8
+P000841,36,FEMALE,URBAN,Jobless,2.1
+P002370,54,Female,RURAL,informal work,11.5
+P001622,37,male,URBAN,Jobless,2.4
+P002640,43,M,urban,SelfEmployed,-12.5
+P002529,66,M,RURAL,Self-employed,5.5
+P001094,38,Male,Rural,EMPLOYED,11.4
+P002898,61,M,rural,EMPLOYED,10
+P002784,22,MALE,rural,Employed,14.9
+P001764,37,MALE,Urban,EMPLOYED,3
+P002511,44,F,Rural,unemployed,3.1
+P000980,48,MALE,URBAN,Jobless,4.4
+P001954,28,M,Rural,Jobless,10.3
+P000465,35,F,urban,Jobless,2.9
+P001941,41,female,urban,EMPLOYED,3.7
+P002596,37,Male,Urban,EMPLOYED,2.2
+P000928,42,,Urban,Self-employed,2.6
+P001360,40,MALE,Urban,Employed,0.8
+P001217,28,F,Urban,unemployed,0.8
+P001033,43,FEMALE,Urban,Unemployed,4
+P002568,46,female,rural,Daily Wage,6.3
+P001937,41,Male,urban,Self-employed,3.7
+P000213,50,FEMALE,urban,Unemployed,3.8
+P000013,40,male,urban,Retired,0.4
+P002991,58,Male,urban,Student,0.4
+P000423,34,Female,RURAL,Employed,7.1
+P002437,35,FEMALE,Urban,Employed,1.7
+P002367,29,male,URBAN,Unemployed,0.5
+P001750,51,male,URBAN,Student,3.9
+P001392,28,F,urban,Self employed,2.1
+P002722,30,male,Rural,Unemployed,8.5
+P001746,40,M,URBAN,retired,4.5
+P000742,19,Male,rural,Student,6.7
+P001627,31,F,Urban,Employed,3.6
+P002359,37,MALE,RURAL,Jobless,17.3
+P000510,25,F,urban,employed,2.5
+P000645,37,M,Urban,Unemployed,1.3
+P000598,23,MALE,Urban,Unemployed,2.2
+P001006,75,female,Rural,Jobless,15.7
+P002016,34,F,URBAN,Employed,1.5
+P001238,29,F,rural,student,7.1
+P002726,37,FEMALE,urban,Employed,1.4
+P000519,38,Female,Urban,unemployed,3.7
+P002241,38,M,Rural,informal work,7.3
+P000574,34,FEMALE,URBAN,Jobless,3.7
+P002398,23,male,Urban,Self employed,5.8
+P002809,50,FEMALE,rural,EMPLOYED,16.3
+P002049,32,M,Rural,EMPLOYED,10.8
+P002064,36,MALE,rural,employed,11.1
+P001317,22,female,Urban,student,1
+P001221,20,female,rural,informal work,13.4
+P001614,36,MALE,urban,employed,2.7
+P000124,37,MALE,Urban,employed,1.6
+P001252,49,MALE,rural,informal work,3.4
+P000221,69,female,Rural,Daily Wage,3
+P002995,24,F,RURAL,Informal Work,10.4
+P000359,42,F,RURAL,Unemployed,17
+P002219,66,M,URBAN,Unemployed,3.7
+P002124,33,female,RURAL,Daily Wage,9.4
+P002296,44,FEMALE,Urban,informal work,2.5
+P000260,48,male,urban,Employed,2.8
+P002856,30,MALE,URBAN,Employed,2.2
+P002831,37,female,URBAN,Employed,3
+P002466,49,M,URBAN,,0.9
+P002907,31,FEMALE,Urban,Unemployed,3.7
+P001676,32,F,Rural,student,6.6
+P002481,29,female,RURAL,EMPLOYED,6.9
+P000093,27,Female,urban,Studnt,3.7
+P001846,23,FEMALE,Urban,unemployed,0.5
+P001537,44,FEMALE,Urban,Informal Work,3.8
+P002858,34,MALE,Rural,Studnt,13
+P002398,23,male,Urban,Self employed,5.8
+P000457,36,male,rural,informal work,14.8
+P000463,27,FEMALE,rural,Daily Wage,6.2
+P002293,38,Male,URBAN,Self-employed,1.8
+P001789,41,male,RURAL,,8.5
+P001768,35,F,urban,Studnt,5
+P000382,37,male,RURAL,Jobless,6
+P002526,44,MALE,Urban,EMPLOYED,2.3
+P001445,43,female,URBAN,Jobless,1.8
+P001188,34,F,RURAL,Self employed,3.7
+P002608,37,FEMALE,URBAN,Retired,4.3
+P002358,39,female,URBAN,Employed,4.7
+P001827,22,F,urban,unemployed,4.8
+P001555,34,Male,urban,employed,3.7
+P000060,51,Female,rural,Jobless,6.9
+P001609,42,F,urban,employed,5.2
+P002639,23,male,Urban,Daily Wage,7.2
+P001365,54,MALE,URBAN,Employed,2.7
+P001506,31,M,URBAN,EMPLOYED,8
+P002877,24,Female,URBAN,Studnt,0.5
+P002360,37,MALE,Rural,Self-employed,3.8
+P002929,59,M,urban,employed,1.9
+P001481,47,M,RURAL,Retired,6.4
+P000543,44,,URBAN,Informal Work,2.6
+P001134,43,M,urban,employed,1.5
+P001765,34,F,Rural,EMPLOYED,13.3
+P002611,46,F,RURAL,Employed,9
+P001881,51,FEMALE,urban,unemployed,3
+P000846,44,MALE,urban,Informal Work,0.3
+P002495,19,M,Rural,unemployed,13.3
+P002656,49,Male,Rural,unemployed,12
+P001476,46,,urban,Self employed,1
+P001840,34,Female,URBAN,informal work,1.7
+P002981,41,FEMALE,RURAL,Employed,2.4
+P001802,75,female,URBAN,informal work,2.5
+P001767,67,F,URBAN,Employed,4.3
+P002494,57,F,RURAL,Informal Work,3.7
+P001787,33,female,Urban,student,1.7
+P001019,33,M,urban,Unemployed,3.7
+P000436,38,FEMALE,RURAL,Employed,2.6
+P001115,39,M,Rural,Employed,9.6
+P000238,40,FEMALE,Rural,employed,3.7
+P001076,30,Female,URBAN,Unemployed,2.5
+P000110,36,MALE,Rural,Daily Wage,19.7
+P000782,75,FEMALE,URBAN,Unemployed,5.9
+P002120,34,Female,urban,employed,1.7
+P000164,26,Female,Urban,Jobless,2.6
+P000289,37,FEMALE,urban,Employed,2.2
+P000253,67,FEMALE,URBAN,Unemployed,1.9
+P001074,37,FEMALE,URBAN,employed,0.7
+P002589,26,M,rural,Self-employed,9
+P002351,52,male,URBAN,employed,1.3
+P000768,62,female,URBAN,Self-employed,4.8
+P000788,43,FEMALE,urban,employed,5.6
+P001379,29,M,urban,Studnt,2.4
+P001028,39,Female,Urban,Jobless,0.7
+P001038,37,M,Rural,unemployed,7.5
+P000870,65,female,urban,Employed,3
+P002958,34,M,urban,employed,1.8
+P002406,56,male,rural,SelfEmployed,15.1
+P001981,23,female,urban,Self employed,4.9
+P002160,45,female,Urban,Informal Work,2.2
+P002802,75,F,urban,Unemployed,4
+P002909,31,Male,Urban,EMPLOYED,4.9
+P002054,33,F,urban,Employed,1.9
+P002473,26,Female,rural,employed,18.9
+P000462,37,Male,URBAN,retired,4.4
+P000912,40,F,URBAN,Student,0.6
+P002773,35,male,URBAN,Self-employed,0.3
+P000158,44,Male,Rural,EMPLOYED,7.4
+P000931,29,F,urban,,1.8
+P002139,20,MALE,Urban,EMPLOYED,0.8
+P002165,59,Female,RURAL,Daily Wage,9
+P000678,62,F,Urban,Jobless,1.2
+P002828,36,Female,urban,Studnt,5.5
+P001256,20,male,Urban,Daily Wage,6.6
+P000239,28,Female,Rural,Informal Work,3.8
+P001053,37,Female,Urban,Employed,2.6
+P001533,42,,Rural,employed,7.4
+P000244,49,M,Urban,SelfEmployed,3.7
+P000101,37,FEMALE,URBAN,EMPLOYED,1
+P000316,37,M,URBAN,Self-employed,4.9
+P002410,21,male,Rural,Jobless,6.6
+P002514,33,FEMALE,urban,employed,2.2
+P001042,31,Male,URBAN,Employed,2.1
+P001065,32,Male,urban,EMPLOYED,3.8
+P000262,36,male,RURAL,EMPLOYED,7.7
+P001656,33,Male,urban,employed,2.2
+P002967,42,Female,Rural,EMPLOYED,7.6
+P000196,42,MALE,rural,Retired,5
+P001942,32,FEMALE,urban,retired,3.4
+P001079,58,M,urban,unemployed,3.2
+P001848,25,Female,urban,Daily Wage,1.7
+P000180,75,FEMALE,urban,Self-employed,2.6
+P001413,43,Male,urban,Informal Work,2.1
+P000843,21,F,URBAN,EMPLOYED,4.3
+P002390,51,female,urban,employed,1.7
+P001511,21,F,URBAN,Jobless,1.6
+P001996,52,FEMALE,urban,unemployed,1.4
+P000341,25,Male,rural,informal work,4.4
+P001135,34,female,URBAN,Daily Wage,0.3
+P002365,28,MALE,RURAL,informal work,7.4
+P000749,28,Female,Rural,Unemployed,9
+P002937,29,MALE,URBAN,informal work,1.4
+P000663,37,Female,URBAN,EMPLOYED,2
+P000481,35,MALE,URBAN,informal work,2.6
+P000804,31,F,Rural,EMPLOYED,6.9
+P002205,24,female,urban,Unemployed,0.9
+P000999,29,Male,urban,Unemployed,1.7
+P001432,48,M,Rural,SelfEmployed,13.4
+P002510,18,F,Urban,SelfEmployed,2.9
+P000550,29,F,urban,Self employed,2.3
+P001211,20,F,RURAL,Retired,7.6
+P000784,46,female,RURAL,EMPLOYED,6.4
+P002792,29,,Urban,unemployed,3.5
+P002008,26,Male,URBAN,employed,1.9
+P000743,28,male,Urban,Informal Work,0.6
+P002489,37,MALE,URBAN,Jobless,3.4
+P002734,25,Male,Urban,Self-employed,4.1
+P002911,30,female,Urban,Self employed,1.7
+P001643,36,MALE,Urban,Jobless,0.6
+P002034,44,female,URBAN,EMPLOYED,1.8
+P001240,60,Female,urban,SelfEmployed,0.5
+P002209,33,FEMALE,urban,,3.7
+P002968,29,M,Urban,Jobless,4.6
+P000248,28,male,URBAN,retired,3.5
+P000872,26,male,Urban,Employed,0.5
+P000953,19,FEMALE,Urban,Employed,4.9
+P002263,54,M,URBAN,informal work,2.3
+P002804,23,Male,Rural,unemployed,4.3
+P000627,23,M,RURAL,EMPLOYED,8.1
+P000348,37,F,RURAL,unemployed,9
+P000279,38,F,Urban,Self-employed,3.1
+P000502,64,F,RURAL,Retired,10.7
+P002690,46,male,urban,EMPLOYED,3.2
+P000656,38,MALE,urban,Unemployed,2.3
+P001299,37,MALE,Rural,Employed,15.5
+P000963,40,F,RURAL,student,9
+P002707,39,Female,Urban,EMPLOYED,1.9
+P002668,20,Female,urban,SelfEmployed,5.3
+P001092,36,Male,URBAN,Unemployed,0.7
+P001821,35,F,urban,EMPLOYED,1.8
+P000633,35,male,Urban,informal work,2.7
+P001179,23,female,URBAN,SelfEmployed,3.9
+P000446,46,male,Rural,student,8.3
+P000618,47,Male,rural,unemployed,11.4
+P001916,29,Male,rural,SelfEmployed,9
+P002923,34,Female,Urban,SelfEmployed,3
+P002793,31,Female,Urban,EMPLOYED,3.1
+P001208,28,M,Urban,Jobless,4.4
+P002015,49,,RURAL,Unemployed,3.7
+P000845,39,F,URBAN,,6.3
+P002632,43,Female,URBAN,Jobless,1
+P000548,34,Female,Rural,,8.7
+P001890,37,MALE,rural,unemployed,2.4
+P000943,46,MALE,Urban,Jobless,2.2
+P001012,40,female,Urban,Informal Work,1.6
+P000264,23,Male,Rural,Self-employed,16.1
+P001394,39,F,Urban,employed,5.4
+P002426,44,FEMALE,rural,EMPLOYED,3.9
+P001934,36,FEMALE,RURAL,SelfEmployed,9.7
+P000354,35,male,rural,unemployed,9
+P002924,36,male,RURAL,,8.1
+P000209,44,male,urban,Informal Work,1.3
+P000614,21,F,urban,Informal Work,2.6
+P001711,52,F,rural,Informal Work,2.8
+P001781,37,F,Rural,Daily Wage,3.1
+P001845,39,MALE,urban,unemployed,3.1
+P001573,41,F,RURAL,informal work,3.7
+P002703,65,M,URBAN,Unemployed,2.2
+P002114,37,male,Urban,retired,3.7
+P002308,34,FEMALE,rural,Employed,9
+P000058,33,female,rural,EMPLOYED,9
+P002313,40,,URBAN,Retired,1
+P000812,31,MALE,urban,Unemployed,5.1
+P002261,43,female,rural,unemployed,15.2
+P000562,66,female,Rural,Daily Wage,5
+P002113,38,female,Urban,Informal Work,3
+P000230,47,,Urban,retired,0.8
+P002587,19,M,Urban,Retired,2.6
+P001834,41,Male,rural,unemployed,16
+P001081,32,F,urban,Unemployed,2.8
+P000539,51,Male,Rural,EMPLOYED,9
+P001321,38,male,Urban,Unemployed,3.3
+P001675,60,MALE,urban,Self employed,1.2
+P002882,37,,RURAL,EMPLOYED,5.1
+P001111,34,F,Urban,employed,4.8
+P001843,29,,Urban,employed,5.2
+P001129,37,Male,RURAL,Daily Wage,9
+P000708,62,F,Rural,employed,8.2
+P000425,46,MALE,RURAL,Self employed,5.5
+P000070,28,male,URBAN,Unemployed,1.5
+P002818,42,Female,URBAN,Self-employed,3.7
+P002060,40,female,RURAL,employed,10.6
+P000648,36,FEMALE,Urban,Retired,7.2
+P002976,38,Male,RURAL,Daily Wage,12.3
+P002052,25,Female,rural,student,9
+P002383,42,Male,Rural,Employed,12.9
+P001744,53,male,urban,unemployed,3.7
+P002684,37,Female,rural,employed,16
+P001454,73,F,rural,retired,9
+P002520,25,,rural,retired,13.6
+P000621,26,Female,Urban,SelfEmployed,2.6
+P002683,32,M,Rural,Student,9
+P001408,58,Male,Urban,,2.2
+P001978,50,male,Urban,SelfEmployed,1.4
+P001106,22,male,RURAL,Jobless,13.2
+P001619,31,MALE,urban,SelfEmployed,3
+P001581,40,M,RURAL,Self-employed,2.1
+P002322,48,FEMALE,Rural,retired,6.1
+P002747,40,Male,Urban,Self-employed,3.4
+P002321,43,Male,Rural,SelfEmployed,18.1
+P000280,32,M,RURAL,Jobless,19.5
+P002251,35,FEMALE,URBAN,Self-employed,1.7
+P002243,65,female,Urban,Studnt,2.6
+P001607,39,MALE,urban,Unemployed,4
+P000167,49,,rural,Student,5
+P001243,29,F,URBAN,,2.8
+P001757,35,male,Rural,Employed,9
+P000554,41,F,Rural,employed,12.7
+P000835,37,MALE,URBAN,Unemployed,4.3
+P000658,37,Female,URBAN,Unemployed,1.5
+P000597,33,MALE,rural,Unemployed,9
+P002829,50,male,URBAN,Unemployed,1.9
+P000803,38,F,URBAN,Unemployed,2.3
+P002204,19,Female,URBAN,Informal Work,5.3
+P000373,57,F,URBAN,EMPLOYED,1.5
+P001812,39,male,Urban,retired,3.7
+P002803,42,FEMALE,rural,Informal Work,6.3
+P000441,42,FEMALE,Urban,unemployed,2.2
+P000509,38,MALE,rural,Retired,4.9
+P000077,38,F,rural,,7.4
+P002987,35,FEMALE,Urban,Unemployed,0.1
+P001949,53,MALE,Rural,Jobless,13.1
+P000650,47,female,urban,retired,6.8
+P000523,28,female,URBAN,Employed,0.4
+P001587,39,F,rural,Retired,6.9
+P001118,75,M,Urban,employed,0.9
+P002384,36,F,RURAL,Self employed,6.4
+P001594,50,Male,rural,Employed,18.3
+P000655,73,Female,RURAL,EMPLOYED,11.3
+P001376,34,male,RURAL,retired,11.9
+P001645,22,male,Urban,Informal Work,3.9
+P002132,37,FEMALE,Rural,employed,7.6
+P000977,31,M,RURAL,Studnt,7.6
+P001761,60,M,rural,informal work,13.9
+P000631,37,male,Urban,SelfEmployed,2.2
+P001341,39,FEMALE,Rural,EMPLOYED,5.8
+P001610,33,MALE,Rural,Unemployed,9
+P002729,27,female,URBAN,Employed,2.6
+P000483,37,F,Urban,EMPLOYED,3.8
+P000561,41,FEMALE,URBAN,Retired,-12.5
+P001193,29,Male,URBAN,,7.6
+P002643,25,F,Urban,EMPLOYED,2.4
+P002033,44,Female,Rural,Jobless,11.8
+P000439,37,female,rural,unemployed,3.3
+P002152,37,F,URBAN,Self-employed,1.1
+P001948,37,FEMALE,urban,EMPLOYED,3.3
+P002635,61,Female,Rural,Unemployed,13.6
+P000857,25,male,URBAN,Jobless,7.8
+P000531,46,MALE,RURAL,employed,6.3
+P001819,34,MALE,rural,unemployed,11.6
+P000050,37,Male,RURAL,retired,19.5
+P000859,29,Female,urban,Unemployed,1.7
+P000720,36,FEMALE,URBAN,Self-employed,1.3
+P002257,49,FEMALE,urban,employed,1.9
+P001367,37,male,URBAN,Unemployed,5.4
+P002319,29,male,RURAL,unemployed,6.2
+P002771,34,MALE,urban,employed,1.2
+P001560,33,Male,urban,unemployed,3.5
+P002195,40,F,URBAN,informal work,1.5
+P001375,58,F,URBAN,Self employed,2.9
+P002594,38,male,URBAN,Jobless,2.4
+P001322,44,female,RURAL,Self-employed,7.8
+P001069,30,MALE,rural,employed,7.2
+P001712,35,FEMALE,Rural,Jobless,11
+P002607,29,female,URBAN,retired,2.5
+P002712,58,FEMALE,RURAL,unemployed,11.2
+P001578,53,Male,urban,employed,0.7
+P000298,41,MALE,RURAL,,5.4
+P001270,54,female,urban,informal work,0.8
+P000209,44,male,urban,Informal Work,1.3
+P000959,45,F,Rural,employed,8.8
+P001264,24,Male,Urban,Employed,2.7
+P001289,22,M,Rural,Retired,6.9
+P000350,34,M,Urban,EMPLOYED,0.3
+P001327,24,male,RURAL,Jobless,6.9
+P000644,37,Female,RURAL,SelfEmployed,7.9
+P001331,58,male,Rural,employed,10
+P001156,51,,rural,SelfEmployed,19.8
+P002973,18,M,RURAL,Jobless,7.8
+P001323,36,FEMALE,Urban,,3.9
+P001107,46,Female,Urban,informal work,4.2
+P002214,31,F,Urban,SelfEmployed,3.6
+P001124,21,male,Urban,EMPLOYED,0.9
+P002448,34,male,urban,retired,3.6
+P002411,48,male,URBAN,retired,1.2
+P001638,43,female,Urban,Student,0.8
+P000787,49,F,URBAN,Daily Wage,5.1
+P002777,37,Male,urban,unemployed,2.5
+P000141,40,MALE,Rural,EMPLOYED,8.5
+P000789,36,FEMALE,URBAN,Student,9
+P001950,36,FEMALE,Urban,Informal Work,1.5
+P002098,37,Female,Rural,employed,4.7
+P000715,36,F,URBAN,Self employed,0.9
+P001870,31,MALE,Urban,employed,10.2
+P001641,37,Male,RURAL,employed,11.6
+P001919,35,Male,Urban,employed,2.4
+P002988,38,female,Urban,Jobless,2.1
+P000619,44,male,urban,employed,5.1
+P000407,22,male,urban,employed,1.2
+P001792,39,female,RURAL,employed,10.3
+P001227,37,female,urban,Informal Work,1.2
+P001147,22,FEMALE,Rural,employed,12.1
+P002276,22,female,RURAL,Jobless,13
+P002463,44,female,RURAL,Studnt,5.1
+P000498,34,female,rural,Informal Work,13.8
+P000343,40,FEMALE,RURAL,SelfEmployed,6.9
+P001958,75,Male,URBAN,Jobless,2.4
+P002339,37,MALE,URBAN,Self-employed,2.1
+P000783,42,Female,URBAN,Jobless,2.6
+P001558,26,FEMALE,urban,SelfEmployed,3.9
+P000304,46,F,URBAN,EMPLOYED,3.5
+P001766,25,FEMALE,RURAL,Unemployed,9
+P000665,27,Male,Rural,Jobless,16.7
+P002244,37,,URBAN,employed,5.3
+P001552,34,female,urban,,1.4
+P001798,26,FEMALE,Rural,Self employed,16.9
+P002859,54,Female,URBAN,EMPLOYED,1.7
+P000085,26,female,URBAN,informal work,1.7
+P002282,37,M,rural,Employed,3.5
+P000942,49,female,urban,Unemployed,0.5
+P000962,56,MALE,rural,Employed,13
+P000842,46,Male,Urban,Retired,3.7
+P001563,37,FEMALE,URBAN,employed,1
+P002848,25,female,URBAN,informal work,3.8
+P002530,21,female,Rural,Retired,3.7
+P001353,45,female,rural,informal work,3.7
+P000291,34,Male,Rural,unemployed,8.6
+P001908,21,FEMALE,RURAL,Self employed,9
+P001191,37,MALE,urban,Daily Wage,1.9
+P000605,43,female,RURAL,EMPLOYED,14.5
+P002472,70,F,urban,,3.7
+P000917,46,Male,urban,EMPLOYED,2.6
+P001570,30,Male,Urban,Employed,2.7
+P001741,36,FEMALE,rural,informal work,6.3
+P001100,42,F,Urban,Self employed,0.8
+P001089,33,,URBAN,informal work,3.8
+P002379,31,,urban,Employed,2
+P001378,52,Female,URBAN,EMPLOYED,6.2
+P000822,57,FEMALE,Rural,Informal Work,5.9
+P002544,33,Male,rural,informal work,9
+P001001,57,Female,rural,Employed,15.7
+P001428,22,Female,Urban,Unemployed,4.6
+P000019,24,MALE,Urban,Self employed,3.7
+P002576,21,F,Urban,Self employed,4.7
+P001451,41,F,urban,Informal Work,9
+P001747,51,MALE,URBAN,Unemployed,3.7
+P001361,75,M,URBAN,Daily Wage,0.8
+P001642,57,F,URBAN,unemployed,2.4
+P002786,32,M,urban,student,0.2
+P001730,63,male,urban,EMPLOYED,4.6
+P001583,23,female,URBAN,employed,3.1
+P002084,75,Female,Rural,EMPLOYED,9
+P002727,51,M,Rural,,1.6
+P002025,37,,rural,EMPLOYED,7.6
+P000361,44,FEMALE,rural,Unemployed,9
+P002637,40,Male,URBAN,employed,0.7
+P001923,22,Male,RURAL,Jobless,12.3
+P002993,38,M,Urban,unemployed,2.8
+P001335,39,female,Urban,EMPLOYED,2.8
+P001671,34,MALE,URBAN,Retired,7
+P000345,30,M,rural,student,4.8
+P000987,58,female,urban,SelfEmployed,2
+P002222,28,Male,urban,retired,0.9
+P002422,53,MALE,Urban,Unemployed,2.3
+P001411,56,MALE,URBAN,SelfEmployed,3.2
+P002020,20,Male,rural,Self employed,18.5
+P002984,41,F,RURAL,student,4.6
+P002288,33,male,rural,unemployed,9
+P002461,38,male,Rural,student,13.4
+P000086,30,F,Urban,Informal Work,1.7
+P002130,47,MALE,urban,Unemployed,0.6
+P000669,37,FEMALE,rural,Jobless,13
+P001015,61,Female,Urban,Daily Wage,3
+P000129,38,female,urban,informal work,1.9
+P001994,47,FEMALE,URBAN,Informal Work,1
+P001230,68,,RURAL,Employed,9.6
+P000892,44,F,RURAL,Employed,4
+P001938,44,male,RURAL,employed,7.6
+P000308,29,Female,urban,employed,1.1
+P000384,30,FEMALE,Rural,unemployed,7.3
+P001953,24,FEMALE,RURAL,Unemployed,9
+P001209,37,M,Rural,Jobless,3.7
+P000427,23,male,RURAL,employed,10.4
+P000495,58,Male,Urban,Daily Wage,1.2
+P001672,32,female,URBAN,unemployed,2.1
+P002507,78,female,urban,Employed,2.7
+P002630,30,FEMALE,urban,employed,0.8
+P001338,33,FEMALE,urban,retired,1.8
+P001386,41,,rural,Self employed,9.6
+P000276,43,Male,Rural,unemployed,12.4
+P000490,49,male,urban,EMPLOYED,4.5
+P001579,27,Male,URBAN,Jobless,2.1
+P000691,37,female,urban,EMPLOYED,5.2
+P001403,54,Female,rural,informal work,9
+P002631,41,FEMALE,RURAL,informal work,9.5
+P001274,33,,URBAN,unemployed,1.9
+P002274,37,M,RURAL,informal work,17.7
+P002692,34,MALE,URBAN,employed,2.4
+P001059,45,F,URBAN,Retired,0.8
+P000119,53,female,RURAL,EMPLOYED,6.9
+P001025,61,F,RURAL,employed,5.6
+P001424,25,,Urban,Unemployed,2
+P000282,46,F,Urban,unemployed,5.1
+P002682,33,male,Rural,employed,7.9
+P002408,49,MALE,rural,employed,8
+P000969,36,M,urban,Unemployed,2.4
+P001232,18,F,Urban,student,1.7
+P001661,55,male,Urban,Self-employed,2
+P001710,23,F,Rural,SelfEmployed,3.7
+P000156,27,male,Rural,student,9.5
+P000305,37,female,URBAN,Employed,2.2
+P001964,46,Female,Rural,SelfEmployed,3.7
+P001449,54,MALE,Rural,Unemployed,8.8
+P001611,33,female,Urban,Employed,1
+P002309,44,Female,RURAL,employed,8.3
+P001458,42,F,RURAL,employed,2.5
+P000576,37,,urban,unemployed,8.4
+P001992,48,Female,Rural,Employed,18.7
+P002652,58,Male,urban,Daily Wage,3.4
+P002705,40,Female,urban,Self-employed,3
+P002189,31,Male,Urban,Employed,1.2
+P001265,39,male,URBAN,employed,3.4
+P000844,42,FEMALE,rural,EMPLOYED,11.6
+P001345,50,F,urban,Jobless,0.5
+P000270,39,F,Urban,informal work,1.3
+P000630,52,F,URBAN,employed,0.9
+P001034,46,Male,urban,retired,9.5
+P000287,35,Female,urban,Student,0.9
+P002280,43,female,URBAN,SelfEmployed,2.9
+P000301,25,Female,rural,Retired,5.3
+P002249,34,F,rural,EMPLOYED,8.9
+P001930,64,male,rural,employed,9
+P001980,43,M,rural,unemployed,16
+P000066,56,F,URBAN,EMPLOYED,1.3
+P002289,29,M,URBAN,EMPLOYED,1.7
+P000891,48,MALE,urban,Retired,7.2
+P002987,35,FEMALE,Urban,Unemployed,0.1
+P001883,20,MALE,urban,Retired,4.6
+P002842,37,Female,urban,retired,2.4
+P001899,45,MALE,RURAL,Employed,4.5
+P000231,27,male,rural,Informal Work,18.5
+P000504,45,M,rural,Studnt,12.3
+P001400,28,Female,Urban,unemployed,1.6
+P001443,40,female,URBAN,employed,2.2
+P001603,28,M,URBAN,Daily Wage,2.2
+P001314,45,Female,urban,Informal Work,2
+P001005,47,M,rural,Employed,15.7
+P000837,59,Female,Urban,Studnt,1.9
+P002094,21,Male,URBAN,employed,1.2
+P000375,67,Female,Rural,student,3.7
+P001337,37,FEMALE,URBAN,Self employed,1.2
+P002178,40,FEMALE,Urban,EMPLOYED,1.4
+P001903,53,Female,Urban,EMPLOYED,0.7
+P001922,47,Male,urban,Jobless,2.5
+P002756,31,Male,URBAN,Self-employed,0.4
+P000752,18,,urban,Self-employed,2.3
+P000100,34,MALE,urban,unemployed,5.9
+P001836,42,female,urban,,1.1
+P000867,41,female,rural,SelfEmployed,9
+P000911,33,male,URBAN,retired,3.1
+P001412,37,female,Urban,EMPLOYED,0.5
+P000530,24,male,rural,Jobless,10.3
+P000637,49,F,URBAN,Unemployed,1.3
+P000186,47,M,URBAN,EMPLOYED,9.9
+P001272,46,M,rural,Employed,8
+P001499,51,female,Rural,unemployed,3.7
+P000932,63,F,RURAL,Self employed,9
+P002116,30,F,rural,retired,15.3
+P002368,37,male,URBAN,Jobless,1.2
+P001809,37,M,Urban,Daily Wage,3.7
+P002474,18,female,urban,Unemployed,1.3
+P002135,32,Female,Urban,student,9.3
+P000608,20,FEMALE,Rural,employed,16.3
+P002901,36,M,Rural,Student,6
+P000152,42,Male,URBAN,employed,4.5
+P001695,39,female,rural,EMPLOYED,9
+P002211,19,Female,Urban,Daily Wage,2.2
+P000732,23,M,urban,EMPLOYED,1.5
+P001430,33,male,URBAN,Self employed,1.5
+P002720,39,Male,Rural,informal work,2.6
+P002813,61,MALE,RURAL,Informal Work,12.7
+P000024,37,M,rural,Studnt,13.4
+P001771,38,FEMALE,URBAN,employed,1.4
+P000159,20,Female,Urban,SelfEmployed,4.4
+P000862,37,Female,urban,,7.2
+P000903,37,M,urban,EMPLOYED,6.4
+P002242,45,M,URBAN,Unemployed,0.6
+P001231,29,F,URBAN,unemployed,1.3
+P002326,46,Male,Rural,Retired,11.9
+P000445,19,MALE,RURAL,EMPLOYED,9
+P002504,28,MALE,URBAN,EMPLOYED,1.5
+P000755,24,Female,URBAN,employed,2.2
+P000924,37,Male,Urban,unemployed,0.6
+P002473,26,Female,rural,employed,18.9
+P000876,62,FEMALE,RURAL,,9
+P000312,52,M,urban,Unemployed,3.7
+P000549,42,Female,URBAN,Unemployed,0.7
+P000005,34,,RURAL,student,14.9
+P001553,25,female,URBAN,student,3.7
+P000307,55,,rural,EMPLOYED,6.6
+P000288,45,Male,URBAN,employed,1.6
+P000695,45,Female,URBAN,Jobless,1.9
+P000309,37,F,rural,employed,5.1
+P002393,37,female,RURAL,Employed,6.1
+P000750,37,MALE,urban,Jobless,4.8
+P001804,37,FEMALE,urban,student,1.9
+P001979,26,F,URBAN,Employed,3.7
+P001615,34,Male,Rural,Daily Wage,9
+P000909,37,MALE,URBAN,Unemployed,0.9
+P002403,29,MALE,RURAL,EMPLOYED,14
+P002453,36,,RURAL,Studnt,7.2
+P001371,35,male,urban,Retired,3.7
+P002571,38,female,Urban,Jobless,1.2
+P000971,39,Male,URBAN,Unemployed,1.7
+P000014,37,female,URBAN,Self employed,2
+P000874,27,FEMALE,URBAN,Studnt,1.2
+P000809,55,M,URBAN,Jobless,4.5
+P002658,49,Male,URBAN,Employed,5.1
+P000515,29,Female,Urban,unemployed,1.4
+P002487,32,F,Urban,EMPLOYED,2.6
+P000410,44,Female,URBAN,EMPLOYED,1.5
+P001456,37,Female,Rural,Jobless,3.3
+P002766,48,F,RURAL,Employed,7.9
+P001398,23,MALE,urban,Retired,4.4
+P001863,48,,URBAN,student,3.7
+P002216,41,F,rural,Informal Work,19.2
+P001806,37,female,Urban,employed,4.8
+P000383,37,male,urban,Self employed,2.6
+P001678,58,MALE,Rural,Daily Wage,6.6
+P002954,58,male,Urban,Informal Work,2
+P001507,47,FEMALE,urban,SelfEmployed,2.3
+P002270,36,M,rural,Unemployed,4.7
+P001447,30,M,RURAL,unemployed,13.9
+P000553,53,Female,Urban,Jobless,2.1
+P000223,47,F,RURAL,Studnt,2.1
+P001097,38,MALE,Urban,EMPLOYED,2
+P002678,37,Male,urban,employed,1.2
+P000009,37,FEMALE,RURAL,Employed,3.7
+P001576,37,male,urban,Unemployed,3.2
+P000317,47,MALE,RURAL,employed,7
+P000428,37,MALE,urban,Employed,3.1
+P002168,19,Female,urban,Studnt,1.2
+P000106,43,M,RURAL,EMPLOYED,10.5
+P001477,35,F,Urban,informal work,4.2
+P000143,37,male,URBAN,Employed,3.3
+P000122,24,Male,urban,SelfEmployed,1.5
+P002444,47,FEMALE,rural,Employed,8.5
+P002952,48,male,Rural,employed,15.8
+P001190,23,FEMALE,Urban,SelfEmployed,0.8
+P002024,37,MALE,Urban,EMPLOYED,2.6
+P002680,33,female,URBAN,Daily Wage,0.7
+P001460,46,F,URBAN,Employed,3.3
+P000116,41,Male,RURAL,Employed,13.5
+P002103,25,MALE,Rural,Self employed,5.4
+P001612,37,MALE,urban,EMPLOYED,4.8
+P002212,45,Female,URBAN,informal work,0.9
+P002883,29,FEMALE,Urban,Jobless,0.7
+P000179,33,FEMALE,Urban,Jobless,3.1
+P001704,53,male,Rural,Informal Work,13.5
+P001914,44,MALE,RURAL,Unemployed,12
+P000673,32,F,Urban,Self-employed,2.9
+P002787,26,male,urban,retired,2.1
+P001738,22,male,Rural,SelfEmployed,10.4
+P001617,41,female,Rural,student,9.7
+P000592,30,Male,URBAN,Jobless,1.8
+P002801,40,,Urban,unemployed,2.6
+P000889,45,M,URBAN,Student,1.9
+P001869,22,Female,RURAL,EMPLOYED,3.1
+P001780,27,MALE,rural,employed,9.1
+P001973,46,male,Rural,retired,3.2
+P000214,46,,RURAL,Employed,10.3
+P000779,36,Female,Rural,unemployed,5
+P001778,36,Male,URBAN,informal work,3.1
+P000801,50,F,RURAL,,6.2
+P002143,39,female,urban,Daily Wage,1.8
+P001733,37,male,URBAN,unemployed,5.2
+P002790,40,MALE,URBAN,Self-employed,4.9
+P002356,41,FEMALE,RURAL,employed,7
+P002745,37,FEMALE,urban,SelfEmployed,7.7
+P002795,37,M,urban,,10.2
+P001344,54,female,Urban,Self-employed,3.2
+P000274,37,female,Urban,,5.4
+P000072,59,F,Urban,employed,2.3
+P002277,47,female,RURAL,EMPLOYED,16.7
+P001088,40,FEMALE,Urban,Employed,2.1
+P000395,54,MALE,URBAN,Self-employed,1.3
+P000584,69,female,URBAN,Employed,1.7
+P002081,37,male,urban,employed,2
+P002962,28,M,RURAL,Self employed,9
+P000501,50,Female,URBAN,EMPLOYED,4.1
+P002099,37,,Urban,EMPLOYED,1.2
+P002292,51,FEMALE,Rural,Daily Wage,5.4
+P002445,30,male,urban,employed,0.7
+P002824,37,Male,Urban,Employed,4.4
+P001568,44,male,URBAN,Informal Work,3.1
+P001260,36,Female,URBAN,employed,0.2
+P001715,30,Female,rural,unemployed,15
+P002092,41,Male,urban,unemployed,5.2
+P000206,24,MALE,Urban,Self-employed,2.4
+P000734,37,FEMALE,rural,Unemployed,7.6
+P001868,53,Female,RURAL,EMPLOYED,10.8
+P000527,37,,URBAN,Jobless,5.6
+P001468,43,MALE,RURAL,employed,8.9
+P000899,54,male,RURAL,Employed,2.7
+P000378,40,MALE,URBAN,Studnt,2.8
+P002429,53,Female,URBAN,Self employed,4.8
+P002765,41,F,Rural,student,15.2
+P002871,28,MALE,URBAN,Self employed,1.7
+P000387,42,F,Urban,Employed,6.4
+P000199,38,FEMALE,urban,Jobless,4.6
+P001051,28,FEMALE,RURAL,Self employed,6.9
+P000591,38,female,Rural,SelfEmployed,2.5
+P000520,48,Female,URBAN,,1.2
+P002088,35,Male,URBAN,Unemployed,4.1
+P002108,46,Male,RURAL,employed,3.7
+P000430,37,female,Urban,EMPLOYED,3.2
+P001084,66,Female,rural,SelfEmployed,12.9
+P000208,44,MALE,Urban,Student,1.3
+P000492,58,,URBAN,Self employed,2.1
+P001426,37,F,URBAN,retired,2.5
+P002999,42,M,Rural,unemployed,10.6
+P000793,41,male,URBAN,Informal Work,3.2
+P002619,43,Female,Rural,Retired,6.8
+P001187,23,Female,rural,,5.3
+P001186,50,FEMALE,URBAN,Employed,2.5
+P002345,37,Female,Urban,EMPLOYED,1.5
+P001433,37,F,URBAN,Employed,3.2
+P002740,49,FEMALE,urban,Jobless,6.7
+P000084,30,female,rural,Self employed,13.4
+P002442,56,F,Rural,Daily Wage,6
+P002642,34,Male,URBAN,EMPLOYED,1.8
+P000021,58,Female,rural,SelfEmployed,5.4
+P002644,28,FEMALE,urban,employed,2.2
+P002822,49,FEMALE,rural,Employed,18.2
+P001406,26,M,Urban,EMPLOYED,3.5
+P002059,41,Male,Urban,informal work,1.1
+P002776,33,male,rural,unemployed,14.4
+P002058,49,FEMALE,Rural,student,10.2
+P000974,28,female,URBAN,employed,1.7
+P002875,37,F,rural,EMPLOYED,5.8
+P000884,52,MALE,RURAL,employed,13.6
+P001099,50,M,urban,unemployed,3.1
+P000157,37,Male,rural,Self employed,9.4
+P002349,47,female,URBAN,unemployed,2.2
+P000887,45,Female,Urban,Studnt,3.2
+P001350,34,Male,Rural,Self employed,9.3
+P002980,40,female,URBAN,Informal Work,2.2
+P002555,25,Female,Rural,,11.3
+P001597,46,male,RURAL,Employed,3.7
+P001314,45,Female,urban,Informal Work,2
+P001946,32,Female,URBAN,Employed,4.7
+P002340,28,M,Urban,Retired,1.8
+P002731,54,,Urban,Employed,4.8
+P000459,29,MALE,Urban,,1.3
+P002017,33,Female,URBAN,Student,8.6
+P000079,38,FEMALE,rural,Unemployed,14.1
+P002066,29,male,urban,employed,1.9
+P001057,37,Female,urban,Daily Wage,9.1
+P000907,18,Female,URBAN,SelfEmployed,3.7
+P002145,75,MALE,Rural,Employed,2.3
+P002283,37,Male,URBAN,employed,5.7
+P002779,36,Female,Urban,Informal Work,1.6
+P000381,25,F,rural,Jobless,9.8
+P000948,27,F,Rural,employed,6.9
+P002149,37,M,urban,retired,4.6
+P002769,30,F,URBAN,retired,1.5
+P000716,52,FEMALE,URBAN,unemployed,1.2
+P002038,30,female,urban,EMPLOYED,6.3
+P000687,34,FEMALE,Rural,SelfEmployed,15.2
+P002645,22,female,rural,Unemployed,9
+P001294,49,M,RURAL,EMPLOYED,5
+P000306,39,MALE,URBAN,unemployed,2.3
+P000210,75,MALE,RURAL,Studnt,8.3
+P001585,43,male,RURAL,Employed,1.3
+P002290,57,female,urban,employed,1.9
+P000547,45,F,rural,Unemployed,2.2
+P000100,34,MALE,urban,unemployed,5.9
+P000886,63,male,Urban,EMPLOYED,1.5
+P001740,61,female,rural,Employed,10.4
+P000918,40,Female,rural,Employed,9
+P001776,19,Female,urban,informal work,1.4
+P001770,45,Male,Urban,unemployed,1.5
+P000192,49,male,Urban,Daily Wage,4.7
+P001861,35,,URBAN,Self-employed,1.9
+P002104,53,Female,Rural,student,3.7
+P001266,37,Male,URBAN,Employed,1.5
+P000484,40,FEMALE,Urban,employed,1.4
+P000916,41,female,RURAL,Employed,4.3
+P002679,38,FEMALE,Urban,Daily Wage,1.1
+P000278,29,male,Rural,retired,7.5
+P000989,34,MALE,URBAN,Student,3.8
+P001698,28,Female,urban,Retired,2.3
+P002019,46,F,urban,Daily Wage,1.3
+P002951,54,Male,URBAN,employed,3.7
+P000572,60,Male,RURAL,unemployed,7.5
+P001436,41,FEMALE,Rural,informal work,9.1
+P000994,27,M,URBAN,Unemployed,1.4
+P001498,54,Male,RURAL,employed,17
+P001495,59,MALE,Rural,unemployed,14.5
+P000586,40,M,rural,retired,3.7
+P000313,49,female,Urban,EMPLOYED,2.4
+P001749,40,M,rural,Employed,6.8
+P002233,37,Female,urban,Daily Wage,1.4
+P001350,34,Male,Rural,Self employed,9.3
+P001008,46,female,urban,Self employed,7.4
+P000675,37,Male,rural,EMPLOYED,3.3
+P001833,50,male,urban,employed,1.1
+P000856,29,FEMALE,RURAL,Unemployed,3.7
+P000448,24,FEMALE,RURAL,,7
+P000180,75,FEMALE,urban,Self-employed,2.6
+P001777,28,F,urban,SelfEmployed,1
+P001724,46,male,URBAN,Studnt,1.6
+P002331,33,F,URBAN,EMPLOYED,1.4
+P002758,26,female,Rural,Self-employed,6.9
+P002458,40,male,URBAN,informal work,0.5
+P002504,28,MALE,URBAN,EMPLOYED,1.5
+P002754,35,F,rural,Jobless,11.9
+P001248,26,F,URBAN,EMPLOYED,3.8
+P000295,42,M,Rural,Self employed,12.1
+P000589,49,M,rural,Informal Work,3.7
+P001282,35,MALE,URBAN,Self employed,2.8
+P001519,23,M,URBAN,SelfEmployed,2.8
+P002184,56,MALE,rural,Self employed,6.4
+P002245,60,male,urban,Unemployed,1.8
+P002983,47,FEMALE,urban,Unemployed,4.1
+P000958,43,Female,URBAN,SelfEmployed,1
+P001418,41,MALE,RURAL,Jobless,13.3
+P000426,56,female,urban,student,1.1
+P000535,28,Female,Urban,EMPLOYED,3.2
+P001055,29,M,URBAN,Self-employed,4.7
+P002376,57,MALE,Rural,SelfEmployed,5
+P002582,42,Male,Urban,unemployed,3.1
+P001841,37,M,URBAN,Unemployed,2.6
+P000133,22,Male,Rural,employed,9
+P001957,37,male,URBAN,informal work,1.7
+P002603,28,male,URBAN,retired,2.4
+P000422,62,female,Urban,Employed,1.1
+P002741,43,F,urban,retired,2.6
+P002105,20,Male,rural,Student,9
+P002509,18,M,urban,Self-employed,1.7
+P001369,31,Male,RURAL,informal work,5.7
+P000557,30,FEMALE,URBAN,Employed,4.1
+P002109,32,MALE,rural,Informal Work,6.7
+P001131,41,FEMALE,rural,Employed,9.4
+P002762,26,FEMALE,URBAN,Daily Wage,3.7
+P000571,37,male,Urban,Unemployed,0.1
+P000353,49,M,URBAN,Studnt,0.9
+P000092,51,MALE,URBAN,Self employed,2.6
+P002190,45,F,Urban,Employed,6.7
+P002612,21,M,URBAN,retired,3.7
+P001171,48,F,URBAN,EMPLOYED,3.5
+P001589,37,M,Rural,EMPLOYED,13.6
+P001286,18,M,RURAL,Jobless,12
+P001814,50,,rural,Studnt,12.7
+P001566,33,MALE,rural,Retired,5.1
+P001544,31,F,RURAL,Retired,8.2
+P001577,37,FEMALE,URBAN,Employed,1.1
+P000698,19,male,RURAL,employed,20
+P002584,54,female,Rural,Employed,7.4
+P000349,27,MALE,Rural,Informal Work,3.7
+P002009,46,MALE,urban,retired,1.2
+P002419,42,female,Urban,EMPLOYED,2.3
+P002506,37,MALE,Rural,,17.3
+P002237,37,MALE,rural,unemployed,5.2
+P001138,20,F,Urban,EMPLOYED,2.8
+P002044,39,MALE,rural,EMPLOYED,17.8
+P002753,30,FEMALE,RURAL,Self-employed,9
+P002922,47,Male,Rural,Daily Wage,9
+P002906,37,female,Urban,student,2.2
+P001340,39,MALE,Rural,Retired,6.3
+P002567,23,F,Rural,employed,13.5
+P000454,44,F,Urban,EMPLOYED,1.6
+P000914,59,,RURAL,employed,9.4
+P001200,56,Male,RURAL,EMPLOYED,3.7
+P001275,54,FEMALE,Rural,unemployed,3.7
+P002846,22,F,URBAN,employed,1.8
+P000038,37,Female,RURAL,informal work,3.8
+P000975,31,MALE,URBAN,Employed,1.7
+P002855,54,M,RURAL,Studnt,7.4
+P000984,36,M,URBAN,employed,0.4
+P002939,37,M,urban,SelfEmployed,3.7
+P002517,38,Female,Rural,EMPLOYED,8.6
+P001419,58,Male,Rural,employed,13.2
+P001285,26,female,RURAL,Daily Wage,9
+P001753,28,F,URBAN,Self-employed,1.4
+P000040,40,,urban,Retired,2.6
+P001487,37,M,Urban,Unemployed,2.6
+P002004,33,male,RURAL,Employed,3.2
+P000170,26,FEMALE,rural,retired,7
+P001356,37,female,Urban,employed,0.9
+P000738,51,M,Urban,unemployed,9.1
+P001657,39,Female,RURAL,Informal Work,19.6
+P002783,20,F,Rural,Employed,19.5
+P001565,47,FEMALE,Urban,Jobless,0.7
+P002224,34,male,Urban,employed,1.6
+P000635,23,Male,Urban,employed,6.9
+P002926,41,Male,Urban,Daily Wage,4.2
+P002043,30,F,urban,,2.3
+P001291,42,FEMALE,RURAL,Employed,8.1
+P001381,46,male,Urban,Studnt,6.3
+P000580,53,MALE,Urban,Self-employed,0.8
+P000329,46,male,URBAN,,7.8
+P002733,45,MALE,urban,EMPLOYED,0.7
+P000893,52,MALE,rural,Daily Wage,10.7
+P002179,65,female,RURAL,employed,9
+P000781,39,Female,urban,,0.5
+P000160,46,male,URBAN,unemployed,2.6
+P001652,42,MALE,Urban,unemployed,1
+P001808,37,M,RURAL,Unemployed,4.9
+P002397,24,M,RURAL,Employed,9.9
+P000062,34,male,urban,informal work,1.1
+P000850,30,F,URBAN,informal work,5.9
+P002197,43,Female,urban,Informal Work,6
+P002979,45,MALE,URBAN,Self employed,2
+P001717,42,M,Urban,Self employed,0.8
+P001044,36,MALE,rural,Daily Wage,7.9
+P002931,49,Female,Urban,SelfEmployed,2.2
+P001545,37,M,Rural,retired,12.3
+P002817,44,Female,RURAL,Employed,8.8
+P001727,29,male,RURAL,Jobless,14.2
+P001071,36,MALE,RURAL,Self employed,-1
+P000054,37,M,Urban,Jobless,2.1
+P002518,37,Male,RURAL,retired,8.2
+P000259,43,Male,Rural,EMPLOYED,16
+P000506,30,FEMALE,URBAN,EMPLOYED,0.5
+P000753,23,,Rural,Student,12.1
+P002085,29,Female,Rural,Employed,10.5
+P000218,34,M,Rural,employed,9.9
+P000825,31,MALE,Rural,Daily Wage,5.2
+P001624,28,female,urban,Unemployed,3.7
+P001376,34,male,RURAL,retired,11.9
+P002346,52,F,URBAN,employed,2.5
+P001390,26,,URBAN,Employed,0.6
+P002580,37,FEMALE,Urban,Jobless,1.1
+P001267,35,female,urban,unemployed,2.5
+P002541,27,female,Rural,Jobless,11.3
+P001823,34,Male,URBAN,EMPLOYED,0.9
+P001599,37,Male,URBAN,EMPLOYED,1.8
+P001608,60,F,URBAN,Jobless,3.6
+P001748,44,MALE,Urban,Retired,2.4
+P000772,29,Female,Rural,unemployed,8
+P002888,56,male,RURAL,Unemployed,19.1
+P001872,37,male,Urban,Informal Work,5.1
+P002153,37,Male,URBAN,informal work,4.9
+P001086,43,Female,Urban,employed,3.7
+P001831,47,MALE,URBAN,Self-employed,2.8
+P001388,59,male,URBAN,Self employed,9
+P001326,37,M,Rural,unemployed,9.9
+P002187,37,female,rural,student,1.6
+P002876,24,male,urban,Student,1
+P001826,43,M,Rural,unemployed,3.9
+P001755,44,MALE,urban,Daily Wage,3.6
+P002002,35,FEMALE,rural,Retired,10.4
+P001790,56,female,urban,informal work,1.4
+P001988,44,Male,Rural,Self-employed,3.7
+P002663,45,female,RURAL,EMPLOYED,8
+P001164,37,Male,URBAN,Employed,2.1
+P000964,47,FEMALE,rural,SelfEmployed,8.7
+P002989,21,female,urban,EMPLOYED,7.1
+P001772,61,FEMALE,Urban,Employed,2
+P000399,35,FEMALE,URBAN,Unemployed,1.1
+P000585,40,F,Urban,EMPLOYED,2.5
+P000949,36,Male,URBAN,unemployed,4.4
+P000705,37,Female,URBAN,,1.9
+P000432,37,FEMALE,Urban,Unemployed,1.3
+P000293,29,M,Urban,Informal Work,2.6
+P000146,48,F,urban,Employed,8.7
+P000324,66,female,URBAN,informal work,3.7
+P002176,66,M,Rural,Informal Work,3.7
+P001166,37,F,Urban,unemployed,3.3
+P001453,40,female,urban,employed,1.8
+P000003,46,M,URBAN,unemployed,1.2
+P000577,40,MALE,Rural,Informal Work,11.1
+P002373,37,F,URBAN,SelfEmployed,5
+P000340,29,male,urban,,0.2
+P001898,59,M,URBAN,employed,1.8
+P002141,39,Male,RURAL,employed,16.9
+P000926,37,F,URBAN,unemployed,1.6
+P000266,20,F,URBAN,student,3.2
+P000377,49,M,URBAN,Self-employed,4.9
+P001984,49,female,URBAN,Informal Work,3.7
+P001464,25,FEMALE,URBAN,Informal Work,2.3
+P000272,37,F,URBAN,Employed,4.7
+P000697,42,M,URBAN,employed,0.7
+P002337,44,Female,URBAN,Employed,9
+P000245,20,M,rural,,9
+P002899,33,F,RURAL,Unemployed,6.3
+P000477,45,M,Rural,Unemployed,3.7
+P001805,37,FEMALE,RURAL,Jobless,6.6
+P002117,34,M,Urban,EMPLOYED,1.8
+P002315,46,FEMALE,rural,unemployed,5.1
+P001813,60,Male,urban,,1.2
+P002616,46,F,Urban,unemployed,3.3
+P002869,44,M,urban,,1.9
+P001997,37,FEMALE,urban,employed,0.2
+P002845,40,female,rural,employed,13.5
+P002070,50,MALE,Urban,Jobless,7.3
+P000251,37,female,rural,informal work,4.1
+P000414,55,Female,rural,student,9
+P000546,26,Female,urban,Informal Work,3.5
+P001194,41,FEMALE,URBAN,Unemployed,1.6
+P000739,60,MALE,URBAN,EMPLOYED,3.4
+P000311,34,Male,urban,Self employed,3.7
+P001799,52,Male,urban,Jobless,2
+P000894,53,F,RURAL,Informal Work,9.2
+P001132,37,MALE,urban,student,3.7
+P001450,37,FEMALE,Rural,Self-employed,9
+P002994,34,Male,urban,,3.5
+P000016,29,female,RURAL,Jobless,11.4
+P000036,20,Male,Rural,Employed,15.3
+P000722,37,F,Rural,Unemployed,16.2
+P001421,45,M,urban,Studnt,1.1
+P002716,37,F,rural,Retired,7.7
+P000982,43,MALE,URBAN,Self employed,3.7
+P002185,37,Female,URBAN,Employed,2.1
+P001540,37,Female,Urban,Employed,2.1
+P002609,50,Male,Urban,Self-employed,3.4
+P001551,36,male,Rural,employed,6
+P002496,48,MALE,Rural,Self employed,5.5
+P000364,43,male,urban,EMPLOYED,0.5
+P000983,23,MALE,Rural,,13.7
+P000183,22,Female,RURAL,Informal Work,16.8
+P000986,21,F,rural,employed,3.7
+P002090,57,female,RURAL,EMPLOYED,9
+P001195,37,Male,URBAN,Informal Work,2
+P002798,37,F,URBAN,Unemployed,4.2
+P001785,38,M,Rural,unemployed,10.1
+P001122,54,Female,Urban,,0.9
+P000188,36,female,Urban,informal work,1
+P000620,40,F,rural,unemployed,9.4
+P002330,49,F,rural,Employed,3.3
+P001176,33,male,RURAL,Student,8.3
+P001183,50,Female,Urban,EMPLOYED,4.6
+P002457,29,female,rural,Unemployed,2.3
+P002269,30,female,RURAL,Jobless,15.7
+P000615,71,M,URBAN,SelfEmployed,2.5
+P001514,37,Male,urban,Studnt,2.3
+P001467,60,FEMALE,RURAL,informal work,14.5
+P000402,37,F,urban,employed,1.9
+P000995,23,Male,Rural,Unemployed,9
+P000935,43,,Rural,student,6.8
+P000372,44,Female,rural,employed,8.3
+P002047,37,M,urban,employed,2
+P002234,49,male,RURAL,Unemployed,12.9
+P000594,42,FEMALE,Urban,Student,0.3
+P002035,52,female,Urban,Self-employed,2.4
+P000727,37,,rural,Informal Work,12.2
+P000827,59,female,Rural,Employed,16.7
+P001784,48,male,urban,Self-employed,0.8
+P000688,32,FEMALE,Rural,Employed,9
+P002284,23,,Urban,EMPLOYED,3.2
+P000137,26,,urban,informal work,0.8
+P002755,36,MALE,URBAN,,5.1
+P000629,38,female,urban,employed,1.6
+P000335,51,female,Rural,EMPLOYED,1.9
+P000391,24,F,Urban,EMPLOYED,1.5
+P002382,24,FEMALE,RURAL,Jobless,1.5
+P001110,64,Female,Urban,Self employed,1.4
+P001850,43,Female,Urban,Self-employed,7.8
+P002782,28,MALE,Urban,informal work,1.8
+P000711,40,Male,URBAN,Employed,1.3
+P001040,52,FEMALE,Urban,Unemployed,3.1
+P002738,42,F,rural,employed,14.2
+P002752,59,male,RURAL,Self-employed,12.3
+P002675,23,FEMALE,Rural,Employed,8.9
+P001562,37,F,urban,Jobless,4.4
+P002841,41,FEMALE,urban,Studnt,0.2
+P001595,37,male,RURAL,student,4.8
+P002934,50,F,Rural,Jobless,15.6
+P002838,60,male,urban,student,6.6
+P001113,49,MALE,URBAN,Daily Wage,0.9
+P000466,34,MALE,urban,unemployed,2.5
+P001561,37,Female,URBAN,Student,0.6
+P001224,43,female,URBAN,Unemployed,3.3
+P002068,37,F,urban,Self-employed,3.7
+P001740,61,female,rural,Employed,10.4
+P002421,52,MALE,Urban,employed,1.8
+P001509,38,male,Urban,EMPLOYED,0.9
+P001886,41,FEMALE,urban,,3.8
+P001105,53,FEMALE,urban,Jobless,2.5
+P000661,29,female,Rural,retired,9.1
+P000339,43,male,rural,EMPLOYED,3.2
+P000216,48,F,URBAN,,0.4
+P001616,75,Male,URBAN,unemployed,1.1
+P002041,27,male,URBAN,informal work,2.6
+P002593,36,Female,Urban,informal work,3
+P002890,42,M,Urban,Student,3.5
+P001593,43,,rural,student,7.8
+P002119,37,MALE,urban,Informal Work,2.7
+P001794,46,Male,URBAN,Student,1.5
+P002601,37,M,URBAN,Unemployed,4
+P000817,41,male,Rural,EMPLOYED,4.4
+P001068,53,FEMALE,urban,Jobless,4.4
+P002122,48,FEMALE,rural,retired,11.4
+P000275,23,M,urban,EMPLOYED,1.3
+P002316,43,F,Rural,Daily Wage,19.5
+P000866,37,FEMALE,rural,employed,6.7
+P000102,31,MALE,rural,Jobless,9
+P001502,29,female,Urban,employed,1
+P002834,33,Male,URBAN,EMPLOYED,2.7
+P000172,26,FEMALE,urban,EMPLOYED,4.4
+P000108,39,Male,urban,Employed,1.4
+P002698,19,,Urban,Daily Wage,0.8
+P001522,45,Female,urban,EMPLOYED,2.6
+P001957,37,male,URBAN,informal work,1.7
+P002271,42,MALE,URBAN,Employed,3.9
+P002112,35,Male,Urban,Informal Work,2.3
+P001879,37,male,URBAN,EMPLOYED,1.1
+P002107,24,M,Urban,unemployed,1.4
+P002078,54,female,URBAN,informal work,0.9
+P002323,43,Female,Urban,EMPLOYED,3.3
+P002413,21,FEMALE,urban,SelfEmployed,2
+P002655,28,Female,Urban,EMPLOYED,1.9
+P001874,48,M,Urban,employed,3.4
+P000296,27,male,URBAN,Studnt,1.9
+P000713,29,F,rural,,8.6
+P000073,36,MALE,rural,Self employed,13.6
+P001525,32,MALE,urban,Jobless,0.7
+P002342,43,F,Urban,employed,2.7
+P002982,37,MALE,Rural,EMPLOYED,12
+P002972,36,M,Urban,unemployed,4.5
+P000482,24,,RURAL,Informal Work,14.3
+P002307,45,M,URBAN,unemployed,5.4
+P001531,39,M,rural,Daily Wage,3.7
+P002633,40,female,urban,EMPLOYED,2.2
+P001515,36,male,rural,Self-employed,3.4
+P000681,47,female,Urban,Studnt,1.5
+P001763,38,female,Urban,informal work,2.3
+P001491,29,MALE,URBAN,unemployed,1.4
+P001172,41,Female,Rural,SelfEmployed,16.9
+P002527,43,male,Urban,Daily Wage,0.5
+P002439,31,Female,urban,employed,0.5
+P002620,57,Male,URBAN,unemployed,2.7
+P002071,51,female,RURAL,employed,3.7
+P002285,30,FEMALE,URBAN,SelfEmployed,3.7
+P001073,38,MALE,Urban,Daily Wage,3.7
+P000406,46,F,urban,Employed,3.6
+P000758,40,FEMALE,Rural,,5.6
+P002072,37,FEMALE,URBAN,Self employed,1.3
+P002253,37,,Urban,student,5.5
+P002000,27,MALE,urban,unemployed,2.2
+P000098,41,FEMALE,URBAN,EMPLOYED,2
+P001334,58,MALE,URBAN,Employed,3.6
+P002462,47,female,RURAL,employed,6.7
+P000744,37,F,Urban,Unemployed,1.7
+P000807,40,FEMALE,urban,student,3.1
+P002813,61,MALE,RURAL,Informal Work,12.7
+P002021,38,female,urban,Unemployed,3.9
+P002577,57,female,Rural,Jobless,9
+P001536,37,Female,URBAN,employed,0.8
+P002115,37,female,Urban,Daily Wage,4.3
+P002173,33,MALE,urban,EMPLOYED,8.4
+P002416,41,Male,RURAL,Self-employed,17
+P000149,44,Male,rural,unemployed,9
+P002155,19,male,rural,SelfEmployed,5.4
+P002118,23,,urban,informal work,3.7
+P002832,24,Female,rural,Jobless,0.5
+P001316,19,F,URBAN,unemployed,1.2
+P000693,22,F,RURAL,Self-employed,5.4
+P000819,38,Female,rural,Unemployed,6.8
+P001729,42,female,Rural,retired,19.1
+P001387,55,F,urban,employed,2
+P002354,37,MALE,Urban,EMPLOYED,4.7
+P002121,71,M,rural,Employed,8
+P001600,27,Female,Rural,Unemployed,8.8
+P000933,37,male,urban,Jobless,4
+P002532,24,Female,rural,Retired,13.1
+P000702,52,male,urban,EMPLOYED,3.7
+P002895,44,female,URBAN,employed,3.8
+P002739,37,Male,urban,Employed,1.7
+P000922,23,,Rural,Daily Wage,9
+P001425,22,Female,Urban,Self employed,1.6
+P001709,35,MALE,URBAN,EMPLOYED,2.4
+P000906,38,M,rural,Unemployed,9.4
+P000455,30,Female,URBAN,Self employed,0.1
+P002148,25,Female,Urban,Student,5.7
+P002884,43,M,Urban,informal work,5.9
+P002377,32,Male,Urban,Unemployed,2.2
+P001887,26,male,URBAN,,2.5
+P000168,64,male,URBAN,EMPLOYED,3.2
+P000731,40,MALE,urban,Retired,2.3
+P002227,57,female,rural,unemployed,9
+P001311,37,female,RURAL,Employed,10.7
+P002371,35,Male,urban,EMPLOYED,2.7
+P000027,21,female,RURAL,student,9.2
+P002055,18,male,URBAN,Unemployed,2
+P001653,40,FEMALE,Rural,Retired,9.7
+P001623,50,M,URBAN,Daily Wage,6.3
+P000588,25,M,urban,Daily Wage,4.3
+P001402,45,FEMALE,Urban,student,0.7
+P000998,37,female,urban,EMPLOYED,8
+P001177,37,male,rural,Jobless,9
+P001701,42,M,urban,SelfEmployed,2.5
+P001041,61,male,Urban,informal work,0.8
+P000034,22,M,Urban,Employed,5.7
+P001928,33,FEMALE,Urban,Employed,3.7
+P002441,61,F,RURAL,Daily Wage,8.4
+P001380,63,FEMALE,urban,Informal Work,3.1
+P000042,39,M,Urban,Self-employed,1.8
+P001877,29,F,urban,unemployed,6.4
+P002177,37,FEMALE,Rural,Jobless,12.2
+P002258,31,female,urban,,3.3
+P002687,44,Male,Urban,employed,1.9
+P002230,51,M,Rural,Employed,2.8
+P002100,48,FEMALE,Rural,Retired,14.2
+P001910,39,Female,URBAN,employed,4.9
+P000610,58,MALE,Urban,Studnt,2.3
+P001133,60,FEMALE,Urban,Jobless,0.3
+P000029,29,Male,RURAL,Jobless,10.6
+P000442,37,M,Urban,Employed,1.5
+P000666,38,MALE,Rural,unemployed,3.7
+P002229,37,F,URBAN,Jobless,1.1
+P000494,25,MALE,Rural,Retired,9.1
+P001259,27,female,RURAL,Studnt,14.9
+P001302,51,M,URBAN,Jobless,2.9
+P002957,50,female,URBAN,Employed,2.7
+P002438,49,FEMALE,Rural,retired,9
+P001383,67,FEMALE,urban,Self employed,1.5
+P001305,45,male,URBAN,student,0.4
+P000237,37,female,URBAN,Unemployed,1.7
+P000552,35,F,URBAN,Informal Work,3
+P000521,37,Female,Urban,retired,1.4
+P002286,43,male,rural,unemployed,-12.5
+P001233,36,male,Rural,Studnt,16.9
+P001139,45,Male,URBAN,Self-employed,3.2
+P001906,43,MALE,urban,retired,3.7
+P000721,37,F,URBAN,informal work,1.8
+P000736,44,Female,Urban,EMPLOYED,1.4
+P002780,37,female,Urban,Informal Work,0.3
+P001751,37,,Rural,Daily Wage,7.1
+P000059,42,F,Urban,Informal Work,4.1
+P000632,58,F,Urban,Jobless,0.7
+P001182,56,FEMALE,Urban,Jobless,2.1
+P002272,30,M,Urban,retired,6.9
+P000593,44,female,urban,employed,1.4
+P001304,26,male,rural,EMPLOYED,13.6
+P001388,59,male,URBAN,Self employed,9
+P002697,52,Male,rural,,3.7
+P002713,44,Female,RURAL,Student,14.5
+P001965,45,Male,Rural,Employed,9
+P002298,57,Female,Urban,SelfEmployed,5.6
+P000940,29,Male,Urban,Student,2.4
+P002874,29,FEMALE,Urban,Studnt,1.6
+P001250,37,Female,urban,employed,1.7
+P000905,40,FEMALE,Urban,Self employed,3.9
+P002623,38,M,Rural,Self-employed,3.2
+P001280,33,M,urban,EMPLOYED,2.6
+P002475,41,MALE,Urban,Student,0.8
+P002966,33,MALE,rural,Daily Wage,5.1
+P002420,18,FEMALE,rural,employed,13.8
+P002460,44,FEMALE,URBAN,unemployed,2.8
+P002540,38,F,Urban,employed,1.2
+P001143,35,Female,URBAN,EMPLOYED,2.7
+P002454,27,Female,urban,Self-employed,0.7
+P000707,19,female,RURAL,SelfEmployed,14.2
+P002724,58,F,URBAN,SelfEmployed,0.2
+P001023,37,female,urban,Self employed,0.1
+P000746,27,FEMALE,urban,informal work,5.1
+P001547,23,male,urban,Employed,0.9
+P002430,32,female,URBAN,retired,3.3
+P002111,29,Female,Rural,employed,9
+P002014,24,M,rural,unemployed,13.8
+P000514,24,MALE,Rural,Jobless,9
+P000082,42,male,urban,informal work,2
+P002744,45,male,URBAN,EMPLOYED,1.3
+P001309,52,female,Urban,Self employed,5.3
+P002572,37,Female,RURAL,employed,5.2
+P000915,37,F,URBAN,Employed,1.4
+P001405,51,female,URBAN,Student,5.2
+P001648,51,M,rural,Informal Work,9
+P002844,21,MALE,rural,Jobless,11
+P001109,28,F,RURAL,Employed,16.7
+P000151,41,female,URBAN,Unemployed,3.3
+P002810,29,FEMALE,urban,employed,2.6
+P000775,46,male,rural,Retired,0.6
+P000330,46,,urban,Employed,1.9
+P000007,59,Male,urban,Retired,3.1
+P000944,37,M,RURAL,unemployed,12.2
+P000823,69,FEMALE,URBAN,retired,3.7
+P000735,51,MALE,rural,EMPLOYED,16
+P000910,67,M,URBAN,Employed,3.3
+P000469,30,female,Urban,Jobless,3.5
+P000182,25,Male,Rural,informal work,8.5
+P000165,50,male,RURAL,SelfEmployed,18.1
+P001524,24,FEMALE,rural,Employed,3.8
+P000452,50,F,rural,Unemployed,4.6
+P002333,37,male,rural,EMPLOYED,9
+P000491,37,FEMALE,URBAN,employed,1.9
+P000814,40,male,urban,Unemployed,9.4
+P001144,39,Female,URBAN,Self-employed,3.8
+P001312,48,Female,rural,Jobless,10.6
+P002314,44,female,URBAN,,4.5
+P001112,40,,urban,Informal Work,1.5
+P000229,37,Female,Rural,employed,2.8
+P001827,22,F,urban,unemployed,4.8
+P001442,53,F,URBAN,Jobless,1
+P002013,26,male,RURAL,EMPLOYED,9
+P001007,50,male,urban,Studnt,3.1
+P001628,55,FEMALE,Urban,Jobless,3.7
+P001633,28,,Rural,Informal Work,9.1
+P001075,51,FEMALE,rural,Jobless,3.7
+P000579,37,Male,urban,Studnt,2.1
+P002169,34,FEMALE,urban,employed,3.5
+P002418,42,male,urban,Employed,4.8
+P002336,45,FEMALE,Urban,Self-employed,7.4
+P002375,53,female,Urban,EMPLOYED,1.6
+P000328,48,,RURAL,SelfEmployed,19.2
+P001791,37,Male,urban,employed,9
+P000443,37,male,urban,Employed,6.1
+P001859,41,male,Urban,informal work,2.7
+P002239,31,FEMALE,URBAN,Self-employed,4.6
+P000313,49,female,Urban,EMPLOYED,2.4
+P000833,23,Male,rural,Unemployed,9
+P002447,41,Female,URBAN,employed,2.6
+P002171,51,Female,urban,unemployed,3.7
+P001415,28,Male,urban,Unemployed,0.5
+P001202,31,Male,Rural,Employed,6.4
+P002515,35,F,RURAL,Jobless,9
+P001500,45,MALE,URBAN,employed,3.2
+P002011,37,female,RURAL,EMPLOYED,5.1
+P000087,50,,Urban,EMPLOYED,1.2
+P001404,47,male,URBAN,informal work,2.9
+P001115,39,M,Rural,Employed,9.6
+P002482,61,F,URBAN,Jobless,4.4
+P002003,26,male,Rural,Retired,9
+P001482,32,F,URBAN,employed,6
+P000778,34,FEMALE,Rural,informal work,14.1
+P000800,37,F,URBAN,,3.3
+P001667,23,FEMALE,Urban,employed,1.6
+P001895,36,male,RURAL,Jobless,6.3
+P000055,51,male,Rural,EMPLOYED,16.6
+P002484,26,FEMALE,Rural,Student,9
+P001288,44,male,RURAL,Self-employed,13.7
+P001921,37,F,urban,Unemployed,9.3
+P001668,30,M,URBAN,Daily Wage,1.1
+P002666,18,M,rural,Employed,18.9
+P002223,47,male,URBAN,Jobless,2.6
+P001702,44,FEMALE,RURAL,Jobless,3.1
+P001246,20,Female,URBAN,Unemployed,2.3
+P000114,71,M,URBAN,Informal Work,2.6
+P002892,37,female,RURAL,,2.3
+P000988,49,MALE,Rural,unemployed,6
+P000502,64,F,RURAL,Retired,10.7
+P002470,34,F,Urban,Employed,2
+P001010,30,female,Urban,Student,1.1
+P001199,40,M,RURAL,unemployed,18.8
+P001395,32,Female,Rural,informal work,13.7
+P000590,25,Female,Urban,,3.9
+P000769,28,F,urban,SelfEmployed,4.5
+P000018,41,male,Rural,Jobless,2.5
+P001043,52,M,rural,Employed,5
+P001448,45,M,rural,Informal Work,7.5
+P002725,64,male,Rural,Employed,10
+P000286,37,F,Rural,Unemployed,11.9
+P002721,64,F,rural,SelfEmployed,18
+P000429,52,Female,urban,unemployed,2.2
+P001329,20,F,rural,student,14.6
+P002065,41,F,Urban,EMPLOYED,2.5
+P000670,52,FEMALE,URBAN,informal work,4.1
+P000032,63,Male,rural,retired,6.3
+P001342,37,female,urban,student,3.7
+P000723,18,Female,Urban,unemployed,1.9
+P000952,37,F,urban,SelfEmployed,2.5
+P001915,37,M,urban,EMPLOYED,6.7
+P002366,58,Female,Urban,Student,1.2
+P000215,33,FEMALE,urban,EMPLOYED,1.7
+P000990,37,female,Urban,Employed,3.9
+P001165,37,female,Urban,,2.8
+P002878,28,,URBAN,EMPLOYED,2.4
+P002096,37,MALE,Urban,Daily Wage,2.6
+P000327,53,male,URBAN,Self employed,1.1
+P001384,29,Female,urban,Retired,2.2
+P001725,24,Female,URBAN,employed,6.9
+P001087,51,Male,Urban,Informal Work,1.2
+P000342,37,,URBAN,unemployed,1.5
+P000148,19,MALE,URBAN,Unemployed,1.7
+P002412,59,M,Urban,retired,1.8
+P001108,22,F,URBAN,Employed,2.1
+P000849,28,male,URBAN,Informal Work,1.6
+P000967,28,Female,Urban,,1.9
+P002539,20,MALE,RURAL,SelfEmployed,14.4
+P000662,29,M,URBAN,Informal Work,0.9
+P001003,38,Female,Urban,retired,1.3
+P002414,37,Female,URBAN,Jobless,3
+P002595,37,,URBAN,Self-employed,1.1
+P002737,32,Male,urban,employed,6.9
+P001880,26,female,Rural,employed,15.6
+P002903,29,male,urban,employed,6.8
+P001204,45,MALE,Urban,retired,3.5
+P001991,48,FEMALE,Urban,Retired,3.6
+P000025,29,M,URBAN,Jobless,3.7
+P002896,75,male,RURAL,Daily Wage,6.4
+P002093,46,male,URBAN,EMPLOYED,2.2
+P002990,71,MALE,urban,EMPLOYED,2.7
+P002372,29,female,URBAN,Retired,1.3
+P000876,62,FEMALE,RURAL,,9
+P002872,43,M,Urban,employed,1.1
+P000939,40,FEMALE,RURAL,EMPLOYED,-1
+P002585,52,Female,rural,Student,9.7
+P000360,25,M,urban,Self-employed,3.8
+P000386,39,female,URBAN,informal work,2.2
+P002586,28,FEMALE,URBAN,Unemployed,2.6
+P002564,41,,URBAN,employed,1.7
+P002409,48,F,rural,Self-employed,11
+P000937,23,M,rural,Employed,3.7
+P002660,45,FEMALE,urban,,1
+P001863,48,,URBAN,student,3.7
+P001333,34,,RURAL,Jobless,18.4
+P001935,74,FEMALE,urban,SelfEmployed,1.5
+P000936,30,M,URBAN,,0.6
+P000567,37,MALE,URBAN,Self employed,4.1
+P001855,51,female,Urban,Retired,2.3
+P002501,45,FEMALE,rural,Jobless,5.9
+P001646,43,female,RURAL,unemployed,9
+P002186,58,F,Rural,employed,11.4
+P001793,35,male,Rural,Informal Work,7.4
+P001431,41,Female,RURAL,EMPLOYED,8.8
+P002826,61,Female,RURAL,Informal Work,3.7
+P001014,27,female,URBAN,Unemployed,3.7
+P001929,52,female,Urban,SelfEmployed,1.4
+P002320,22,M,URBAN,unemployed,0.4
+P000127,23,F,Rural,informal work,6.2
+P002158,33,F,rural,Daily Wage,5.8
+P001348,50,M,Urban,informal work,2.3
+P000356,37,Female,Urban,employed,4.1
+P000828,30,F,RURAL,Unemployed,8
+P001640,22,Male,URBAN,Jobless,1.3
+P000985,37,Female,Urban,employed,1.3
+P000363,35,FEMALE,rural,Daily Wage,9
+P000346,40,Male,Urban,Unemployed,4.2
+P002125,37,female,Rural,employed,12.8
+P002621,47,Male,RURAL,EMPLOYED,7
+P000712,36,FEMALE,Urban,unemployed,2.2
+P002128,53,Female,Rural,employed,3.6
+P000011,31,Male,URBAN,Employed,1.8
+P002617,27,female,Urban,Studnt,2
+P001835,37,F,rural,SelfEmployed,10.8
+P000794,37,FEMALE,Rural,Self-employed,10.6
+P002849,28,M,URBAN,Jobless,0
+P000095,37,Male,rural,Self employed,6.6
+P000130,30,Male,Urban,,2.5
+P002310,49,Male,urban,Student,2.5
+P002992,45,Male,urban,Retired,0.8
+P001901,47,female,URBAN,EMPLOYED,2
+P002468,38,female,urban,,5.1
+P001933,37,FEMALE,urban,unemployed,4.7
+P002500,42,Male,urban,Self-employed,3.7
+P001866,37,F,urban,Daily Wage,1.9
+P001659,23,FEMALE,rural,Employed,13.2
+P000517,44,M,URBAN,SelfEmployed,8
+P001858,33,FEMALE,rural,Employed,9
+P001278,43,M,URBAN,Daily Wage,2.8
+P000951,34,F,URBAN,Unemployed,3.1
+P001121,52,F,URBAN,employed,1.8
+P000420,38,FEMALE,Urban,Student,0.3
+P000923,39,male,rural,,6.8
+P002881,37,F,URBAN,Unemployed,6.7
+P000478,41,MALE,Rural,Jobless,7.5
+P002036,76,Male,rural,,5.7
+P002246,38,FEMALE,urban,retired,1.1
+P001693,49,M,Urban,Unemployed,3.4
+P002317,49,MALE,rural,,13.3
+P001472,37,FEMALE,RURAL,employed,12.6
+P001203,39,female,Urban,employed,1.2
+P001670,45,Male,URBAN,,0.7
+P002860,40,Male,URBAN,SelfEmployed,0.6
+P001971,45,MALE,urban,Employed,1
+P000821,30,MALE,urban,Self employed,0.7
+P001998,37,male,urban,unemployed,3.6
+P002955,24,Female,Urban,Unemployed,6.2
+P001249,40,M,URBAN,employed,1.3
+P002743,38,female,URBAN,EMPLOYED,1.4
+P002695,42,male,URBAN,SelfEmployed,0.5
+P001047,46,FEMALE,Urban,informal work,2.2
+P001889,37,Male,urban,employed,3.7
+P000616,39,M,Urban,employed,2.5
+P001319,37,male,urban,student,1.6
+P002971,37,Female,Urban,EMPLOYED,5.3
+P002137,38,Male,urban,EMPLOYED,1.2
+P002535,31,Male,Rural,EMPLOYED,1.1
+P001773,28,F,rural,student,10.7
+P001175,26,MALE,RURAL,informal work,13
+P000132,38,Male,urban,employed,3.6
+P000078,33,male,Urban,Unemployed,2.2
+P002053,37,MALE,Urban,Unemployed,1.1
+P000725,39,female,Rural,,6.6
+P001315,37,Male,RURAL,Informal Work,4.2
+P001852,62,male,RURAL,EMPLOYED,9
+P002709,32,male,URBAN,Employed,0.3
+P002563,24,Male,urban,SelfEmployed,0.4
+P001373,18,M,rural,retired,9.1
+P001856,28,Female,Urban,Retired,1.1
+P001320,34,female,RURAL,,3.1
+P002961,25,M,Rural,Unemployed,12.3
+P002574,36,male,Urban,Studnt,1.2
+P000376,26,F,RURAL,Unemployed,3.7
+P001909,20,MALE,rural,Daily Wage,2.9
+P000334,28,male,rural,EMPLOYED,8.7
+P002324,60,F,RURAL,informal work,14.2
+P002374,44,F,urban,Self-employed,3.3
+P001605,30,FEMALE,Urban,EMPLOYED,3.7
+P001119,40,F,Rural,Self-employed,3.7
+P002914,48,MALE,urban,EMPLOYED,3
+P001944,32,female,URBAN,EMPLOYED,1.9
+P002334,32,MALE,urban,unemployed,0.9
+P002600,30,FEMALE,urban,Jobless,3.7
+P001343,43,male,Rural,Employed,11
+P000321,38,female,Urban,Informal Work,0.9
+P001620,53,MALE,urban,EMPLOYED,3.1
+P002629,31,FEMALE,RURAL,retired,17.9
+P002061,49,male,RURAL,informal work,15.1
+P001674,24,M,rural,Employed,5.2
+P001943,41,male,urban,Daily Wage,5.2
+P000261,24,F,rural,Self-employed,8.2
+P002427,45,female,URBAN,unemployed,2.8
+P002040,37,MALE,Rural,Self employed,9
+P000690,43,Female,URBAN,EMPLOYED,3.4
+P000902,31,F,URBAN,retired,2.4
+P002027,62,male,urban,,2.4
+P000139,48,female,RURAL,informal work,13.6
+P001918,28,Male,Urban,EMPLOYED,4.7
+P001829,36,FEMALE,Rural,Informal Work,7.4
+P001574,18,female,urban,Unemployed,4.7
+P000320,35,female,URBAN,employed,3.6
+P000654,22,Male,rural,unemployed,7.3
+P002138,59,MALE,urban,Jobless,7
+P002395,37,Male,RURAL,Informal Work,4.2
+P000559,43,MALE,rural,Informal Work,17.4
+P002188,33,Female,Rural,Retired,7.5
+P000113,38,Female,Urban,Unemployed,3.4
+P000532,37,F,urban,Self-employed,2.6
+P000225,30,Male,URBAN,Informal Work,1.4
+P000724,47,Male,RURAL,Student,7.9
+P002591,37,female,Urban,Self-employed,3.7
+P002650,50,Female,Rural,Studnt,9.5
+P001434,29,male,Urban,,3.7
+P002402,39,FEMALE,urban,student,0.2
+P001459,55,Male,Urban,employed,3.7
+P002785,30,Male,Urban,employed,0.9
+P000847,41,Female,URBAN,Retired,1.3
+P000194,20,male,URBAN,,2.4
+P001465,29,M,rural,,11.1
+P000947,37,Male,URBAN,Jobless,3.7
+P002022,41,Female,URBAN,student,1.8
+P001630,49,M,rural,SelfEmployed,9
+P000118,21,female,URBAN,unemployed,1.2
+P000646,33,FEMALE,urban,SelfEmployed,1.2
+P001871,22,F,urban,employed,1.4
+P000004,58,female,Rural,Studnt,4.4
+P000075,37,Male,urban,EMPLOYED,3.6
+P001756,56,female,Rural,Informal Work,11.8
+P000468,37,Female,Urban,Unemployed,2.8
+P000006,34,male,Urban,SelfEmployed,0.5
+P001247,37,Male,Rural,Jobless,13
+P000920,40,MALE,RURAL,EMPLOYED,9
+P000229,37,Female,Rural,employed,2.8
+P001064,37,FEMALE,RURAL,retired,9.3
+P000243,44,MALE,Rural,Student,3.7
+P002352,46,M,urban,Self employed,3.6
+P001161,37,male,Urban,unemployed,4.2
+P002592,31,F,rural,Informal Work,6.7
+P001527,63,M,Rural,informal work,16.2
+P001606,24,Male,Urban,Self-employed,7.6
+P002870,54,FEMALE,RURAL,EMPLOYED,16.9
+P002400,38,MALE,URBAN,Studnt,-1
+P002624,57,male,rural,informal work,18.8
+P001990,43,FEMALE,URBAN,Employed,3.9
+P002425,37,MALE,URBAN,EMPLOYED,0.6
+P001976,32,male,URBAN,unemployed,3.4
+P001762,47,M,Rural,Unemployed,9
+P001306,24,M,Urban,unemployed,1
+P001542,62,M,Urban,Informal Work,2.5
+P000623,63,male,Urban,Studnt,4.9
+P002837,64,Male,urban,unemployed,2.2
+P001494,40,Male,RURAL,Employed,11.1
+P000111,37,male,urban,employed,0.5
+P002978,25,MALE,RURAL,Jobless,5.7
+P001170,49,F,rural,Retired,7.6
+P002536,33,M,RURAL,unemployed,19.1
+P000233,38,Male,URBAN,Self-employed,0.6
+P000067,36,,urban,Daily Wage,1.5
+P002943,37,male,URBAN,,1.8
+P002073,38,M,RURAL,Daily Wage,15
+P002193,65,male,urban,retired,1.6
+P000537,25,M,Rural,Jobless,11.3
+P000126,68,Female,Rural,Retired,14.3
+P002134,45,Female,rural,Employed,8.6
+P001255,54,MALE,urban,SelfEmployed,1.2
+P002561,23,MALE,urban,Self-employed,3.5
+P001977,53,F,Rural,Informal Work,15.8
+P002537,51,male,URBAN,student,2
+P002399,40,FEMALE,RURAL,EMPLOYED,13
+P002076,33,FEMALE,urban,Unemployed,3.3
+P000485,26,FEMALE,URBAN,Jobless,1.6
+P001655,42,MALE,rural,Unemployed,7.1
+P002759,21,MALE,RURAL,Studnt,4.9
+P002338,38,FEMALE,rural,Informal Work,9
+P002478,57,male,URBAN,unemployed,1.3
+P001775,27,F,RURAL,Self employed,9.8
+P000919,31,M,Urban,Self-employed,3.5
+P001647,34,F,Urban,EMPLOYED,2.8
+P001027,38,M,URBAN,Informal Work,3.7
+P001031,33,Female,Urban,,3.6
+P000883,30,Female,URBAN,unemployed,0.7
+P001336,32,M,RURAL,Daily Wage,4.4
+P002291,61,MALE,Urban,Employed,5.1
+P000365,47,M,rural,Unemployed,8.1
+P002126,45,F,urban,employed,1.3
+P000028,42,M,URBAN,Self-employed,5.8
+P000474,56,FEMALE,Rural,Jobless,11.5
+P000526,37,female,rural,EMPLOYED,8
+P000726,34,Female,URBAN,employed,1.8
+P000056,50,F,Urban,Unemployed,5.2
+P000639,19,Female,rural,SelfEmployed,15
+P000303,47,Male,urban,SelfEmployed,2.7
+P002689,48,Female,URBAN,Daily Wage,2.5
+P001277,69,Female,URBAN,Employed,2.8
+P002718,49,Male,URBAN,Self employed,4.5
+P000625,59,MALE,urban,Employed,1.1
+P002056,26,M,urban,Unemployed,2.7
+P001281,39,Female,Urban,Jobless,3.7
+P001050,56,Male,rural,unemployed,10
+P000337,25,F,rural,unemployed,6.1
+P000048,52,Male,URBAN,Jobless,2.6
+P000107,63,F,Rural,Employed,6.9
+P001080,49,M,Urban,EMPLOYED,5.7
+P002287,48,F,urban,Self employed,0.5
+P002262,43,FEMALE,Urban,SelfEmployed,4.3
+P001145,35,F,Rural,employed,6.3
+P002459,44,M,URBAN,retired,3.1
+P002297,43,MALE,Rural,Student,5.8
+P001837,21,MALE,Rural,Unemployed,10.8
+P001754,37,F,Rural,unemployed,16.7
+P001102,37,Male,RURAL,Self-employed,7.9
+P001969,34,female,Urban,employed,1
+P000524,45,Female,Urban,EMPLOYED,3.7
+P002281,37,MALE,URBAN,Employed,1.1
+P001429,34,F,Urban,Studnt,-1
+P002688,37,Female,Urban,,3.6
+P000604,56,FEMALE,URBAN,employed,4.6
+P001490,55,,RURAL,,13.8
+P002424,36,FEMALE,Rural,Unemployed,3.1
+P000061,30,male,Rural,informal work,5.6
+P002833,59,F,URBAN,SelfEmployed,2.5
+P000672,37,MALE,urban,Employed,3.5
+P000093,27,Female,urban,Studnt,3.7
+P000667,33,female,rural,student,12.5
+P001888,43,female,URBAN,Self-employed,1.5
+P000281,39,female,Urban,SelfEmployed,1.8
+P001720,31,F,Urban,employed,2
+P000360,25,M,urban,Self-employed,3.8
+P000900,26,MALE,RURAL,unemployed,5.1
+P001936,37,MALE,URBAN,Self employed,0.6
+P001995,42,M,urban,Employed,1.5
+P002385,37,F,RURAL,Self-employed,10.8
+P000761,29,female,Urban,EMPLOYED,5.1
+P002159,55,male,urban,Retired,1.8
+P002704,51,F,urban,Retired,4.4
+P000043,35,male,rural,employed,7.9
+P002174,39,F,Urban,,1.5
+P000205,18,male,URBAN,,1
+P001474,37,MALE,Rural,employed,7.7
+P002101,42,Male,RURAL,SelfEmployed,5.2
+P000069,42,Male,URBAN,Employed,6.1
+P001876,57,M,Rural,Self-employed,13.9
+P002452,25,M,Urban,unemployed,4.8
+P002232,48,male,Rural,Jobless,8.7
+P000138,32,MALE,urban,student,1
+P000797,36,Male,rural,employed,9
+P002181,34,,rural,Unemployed,9.8
+P002129,47,Male,Urban,Self-employed,3.4
+P000759,25,FEMALE,rural,employed,11
+P000542,21,FEMALE,Urban,SelfEmployed,0.7
+P001020,43,,urban,Employed,2.4
+P002361,23,Male,RURAL,Unemployed,3.7
+P000166,43,M,Urban,Employed,3
+P000249,62,F,Rural,Daily Wage,7.2
+P001332,54,male,URBAN,SelfEmployed,2.7
+P002018,37,FEMALE,URBAN,employed,1.2
+P000447,42,F,urban,retired,1.2
+P001359,37,female,rural,EMPLOYED,4.4
+P002146,58,M,RURAL,EMPLOYED,9
+P001330,45,FEMALE,Rural,employed,15.4
+P002997,41,Male,urban,Self-employed,2.4
+P002151,35,female,Urban,Employed,1.5
+P000435,58,M,rural,Studnt,9.4
+P002123,37,MALE,urban,employed,3
+P000578,48,F,Urban,Student,2.1
+P002464,20,female,urban,Jobless,8.2
+P000099,37,Male,Urban,EMPLOYED,0.2
+P001849,51,FEMALE,urban,Unemployed,1
+P000763,73,MALE,URBAN,employed,1.3
+P000389,50,,Urban,Self-employed,0.9
+P000236,46,Female,URBAN,Employed,3.1
+P002686,41,male,URBAN,EMPLOYED,1
+P001985,50,MALE,urban,informal work,9
+P000268,37,female,urban,Daily Wage,-12.5
+P000771,37,,URBAN,Employed,0.6
+P002166,23,M,RURAL,Employed,4.8
+P000438,18,MALE,Urban,EMPLOYED,1.3
+P000674,32,Female,URBAN,Unemployed,2.8
+P000250,43,FEMALE,urban,unemployed,6.1
+P002202,34,,Urban,Studnt,2.7
+P001575,44,female,urban,Student,3.8
+P002143,39,female,urban,Daily Wage,1.8
+P002082,45,FEMALE,Urban,Employed,1.6
+P002699,46,male,URBAN,Daily Wage,2.3
+P002648,37,Female,Urban,Employed,3.6
+P002823,36,F,urban,employed,1.2
+P000449,30,Male,Rural,SelfEmployed,7.5
+P001470,43,M,urban,EMPLOYED,0.1
+P000717,39,MALE,RURAL,Student,9
+P002471,52,M,rural,informal work,5.6
+P002986,24,Female,urban,retired,4.7
+P002049,32,M,Rural,EMPLOYED,10.8
+P001902,32,MALE,URBAN,Unemployed,0.4
+P001169,45,M,RURAL,Jobless,17.6
+P000083,58,F,Rural,EMPLOYED,9
+P002498,33,M,URBAN,Unemployed,1.2
+P001461,35,FEMALE,Rural,Self employed,8.3
+P001894,35,Male,rural,Employed,6.2
+P001669,49,Female,urban,EMPLOYED,5.1
+P002001,28,male,URBAN,unemployed,1.6
+P000476,34,M,URBAN,Informal Work,1.4
+P000518,23,female,Rural,employed,9
+P000405,31,female,urban,Student,1.1
+P000385,26,MALE,RURAL,Daily Wage,3.7
+P002508,54,FEMALE,urban,SelfEmployed,-1
+P002153,37,Male,URBAN,informal work,4.9
+P001634,51,FEMALE,URBAN,,1.6
+P002945,42,F,Rural,Employed,12.8
+P000689,47,M,urban,employed,2.3
+P001241,32,M,urban,Informal Work,3.7
+P000063,22,male,urban,,0.9
+P000853,28,MALE,Rural,unemployed,5.8
+P002835,34,Female,Rural,Studnt,14.7
+P002553,63,Female,urban,Jobless,3.3
+P001263,45,,rural,EMPLOYED,2.2
+P000224,37,female,urban,Employed,-12.5
+P002194,18,FEMALE,URBAN,Employed,1.9
+P000374,50,F,URBAN,EMPLOYED,3.9
+P001825,39,Male,urban,student,4.4
+P002615,45,MALE,rural,Employed,5.9
+P002956,61,FEMALE,Rural,informal work,9
+P002677,42,,urban,EMPLOYED,4.2
+P002767,37,M,urban,SelfEmployed,4
+P000010,45,Male,urban,Daily Wage,1.1
+P001945,46,Female,URBAN,Employed,7.6
+P001839,37,female,Rural,retired,10
+P000709,37,M,rural,employed,13.5
+P000256,37,Male,Urban,Studnt,3.7
+P001618,26,MALE,URBAN,Unemployed,2
+P000390,29,F,urban,EMPLOYED,1.8
+P001582,53,male,Rural,Self-employed,7.2
+P000925,54,F,Urban,Jobless,1.5
+P002037,42,FEMALE,rural,EMPLOYED,11.8
+P002476,47,Male,Urban,SelfEmployed,3.4
+P001225,34,male,RURAL,employed,13.3
+P001947,42,F,urban,EMPLOYED,5.5
+P000740,51,F,URBAN,Self employed,1.2
+P000041,47,M,Urban,Employed,1.1
+P000869,46,MALE,rural,Daily Wage,4.8
+P000540,29,M,URBAN,unemployed,2.1
+P002588,34,FEMALE,urban,,3.7
+P001372,61,Male,URBAN,SelfEmployed,5
+P001146,37,FEMALE,RURAL,informal work,11
+P001032,37,,RURAL,employed,10.4
+P000373,57,F,URBAN,EMPLOYED,1.5
+P000668,58,FEMALE,URBAN,Unemployed,3.6
+P000358,33,FEMALE,Rural,Daily Wage,9
+P000968,62,Male,RURAL,Self-employed,8.1
+P001354,48,M,urban,employed,3.2
+P001036,59,MALE,RURAL,Informal Work,6.9
+P000471,33,,Rural,retired,12.4
+P001397,18,male,URBAN,Unemployed,1.9
+P002706,52,F,RURAL,Retired,5
+P001550,54,Female,Urban,Employed,2.9
+P001257,60,F,Urban,EMPLOYED,2
+P002095,52,female,urban,employed,1.8
+P001556,42,F,urban,Informal Work,1.1
+P002669,45,F,urban,Self-employed,4.1
+P001251,42,Male,rural,SelfEmployed,7.9
+P001700,40,male,urban,informal work,2.3
+P001253,37,MALE,Rural,retired,19.8
+P002866,33,female,urban,Student,1.9
+P000080,37,FEMALE,urban,Unemployed,2
+P001173,38,Male,urban,Student,2.7
+P000815,51,female,URBAN,Informal Work,1.4
+P001853,20,MALE,Urban,informal work,2.9
+P002221,32,FEMALE,urban,informal work,1.8
+P002711,26,Female,URBAN,employed,2.3
+P002106,60,F,rural,unemployed,13.9
+P000134,37,FEMALE,URBAN,Employed,1.7
+P001141,33,female,RURAL,EMPLOYED,3.3
+P000934,37,M,Rural,employed,12.8
+P000929,59,male,urban,Unemployed,1.2
+P000824,32,female,rural,Self employed,13.2
+P001532,37,MALE,urban,,4.3
+P001215,33,male,URBAN,Self employed,0.3
+P000505,28,male,rural,Daily Wage,11.5
+P002619,43,Female,Rural,Retired,6.8
+P002396,37,female,rural,Employed,12.2
+P001997,37,FEMALE,urban,employed,0.2
+P002435,40,F,urban,Student,0.7
+P001959,52,Female,URBAN,SelfEmployed,3.7
+P001385,47,Female,urban,EMPLOYED,1.3
+P000895,56,female,Urban,retired,2.1
+P000829,31,Male,URBAN,unemployed,5.2
+P000621,26,Female,Urban,SelfEmployed,2.6
+P001684,42,FEMALE,Rural,Jobless,7.4
+P002654,51,male,URBAN,employed,2.4
+P002638,50,female,rural,employed,9.3
+P002590,36,male,rural,Retired,10.2
+P000653,33,FEMALE,rural,Informal Work,8.1
+P000173,36,MALE,URBAN,Jobless,2.7
+P000039,18,FEMALE,RURAL,Informal Work,4.5
+P002947,38,female,URBAN,employed,2.7
+P000714,37,MALE,rural,unemployed,6.4
+P000091,38,female,Rural,Daily Wage,18
+P002922,47,Male,Rural,Daily Wage,9
+P001206,38,Female,urban,Daily Wage,3
+P002550,66,female,URBAN,Daily Wage,0.9
+P002665,43,female,Rural,Employed,3.7
+P001828,57,MALE,rural,Unemployed,17
+P001156,51,,rural,SelfEmployed,19.8
+P001325,38,FEMALE,URBAN,Daily Wage,7.8
+P000217,26,MALE,URBAN,EMPLOYED,1
+P000511,41,MALE,Urban,Retired,1.2
+P001681,43,M,RURAL,Jobless,9
+P000500,18,female,URBAN,Daily Wage,3.7
+P002556,44,,urban,Studnt,1.6
+P001857,56,F,urban,unemployed,3.7
+P001389,37,male,Rural,Self employed,11.3
+P001520,63,male,RURAL,unemployed,12.1
+P002387,34,male,rural,Jobless,9
+P002805,36,M,RURAL,Self employed,13.7
+P002077,46,MALE,URBAN,Self employed,2.3
+P001541,37,M,URBAN,Jobless,0.8
+P001218,41,female,rural,Retired,3.7
+P001417,38,MALE,Urban,unemployed,3.5
+P002218,36,Male,rural,EMPLOYED,9
+P002597,29,M,Urban,Unemployed,1.8
+P001677,54,Female,RURAL,employed,9
+P001198,45,FEMALE,urban,unemployed,1.4
+P001543,60,Female,rural,Unemployed,6.1
+P000954,57,F,RURAL,Self-employed,12.9
+P000751,24,Male,rural,Jobless,10.6
+P000235,67,Female,Urban,Daily Wage,1.8
+P000733,43,female,Rural,Self employed,12.8
+P001638,43,female,Urban,Student,0.8
+P001157,27,M,urban,unemployed,1.7
+P002653,44,F,RURAL,Employed,9.1
+P002446,41,FEMALE,Urban,employed,1.5
+P001210,61,female,URBAN,Self-employed,3
+P001066,21,Male,urban,student,3.7
+P002157,32,Female,RURAL,unemployed,9
+P001063,53,MALE,Urban,Employed,0.9
+P001168,45,male,rural,EMPLOYED,6.8
+P001493,29,Female,RURAL,EMPLOYED,9
+P002551,37,MALE,rural,EMPLOYED,18.1
+P000885,47,M,RURAL,Unemployed,9
+P000144,40,M,rural,,8.8
+P001787,33,female,Urban,student,1.7
+P000851,28,male,Urban,Daily Wage,1.4
+P000718,39,Male,urban,Self employed,1.3
+P002928,40,Female,urban,employed,3
+P002503,32,Male,RURAL,informal work,19.5
+P000265,33,male,urban,Self employed,2.8
+P000076,49,female,Urban,Jobless,1.8
+P002493,30,FEMALE,RURAL,employed,7.4
+P000396,30,MALE,Rural,student,6.2
+P002625,43,Female,URBAN,Unemployed,5.1
+P002225,28,FEMALE,Urban,student,7.7
+P002885,37,male,Urban,SelfEmployed,2.5
+P000397,37,MALE,RURAL,EMPLOYED,6.8
+P001366,35,M,rural,Employed,4.2
+P002578,51,female,URBAN,Daily Wage,3.1
+P001904,42,MALE,urban,,5.3
+P000596,30,male,rural,Self employed,3.3
+P002110,45,female,RURAL,,11.5
+P001297,50,male,URBAN,student,3
+P001822,38,Female,rural,employed,4.8
+P000873,18,Male,urban,employed,5.9
+P002998,20,Female,rural,Jobless,6.5
+P002327,22,Male,rural,Self employed,3.7
+P001549,48,female,rural,Unemployed,9
+P000037,40,FEMALE,urban,Studnt,3.4
+P002925,38,male,rural,Daily Wage,1.9
+P002144,40,male,rural,Informal Work,5.2
+P002636,52,M,urban,employed,3.4
+P000978,37,MALE,urban,Employed,1.9
+P001572,19,FEMALE,RURAL,Unemployed,8.5
+P001123,46,male,RURAL,Studnt,19.3
+P002240,47,Male,urban,unemployed,9
+P002505,22,male,Urban,Unemployed,0.9
+P001893,31,Female,Urban,employed,2.5
+P000676,26,male,urban,Employed,1
+P000729,29,male,Urban,student,0.8
+P000413,37,FEMALE,Urban,informal work,2.2
+P001517,58,MALE,RURAL,unemployed,3.3
+P001650,73,male,URBAN,Self employed,0.5
+P000826,57,Female,urban,unemployed,1.7
+P000617,39,male,urban,Unemployed,1.7
+P000115,37,female,URBAN,employed,0.7
+P000418,39,MALE,RURAL,Employed,14.2
+P001626,52,M,RURAL,SelfEmployed,6.8
+P002045,25,MALE,Rural,Informal Work,16.7
+P000090,44,female,Rural,Employed,3.7
+P002083,37,female,Rural,SelfEmployed,5.4
+P000754,52,F,urban,Jobless,1.4
+P002547,37,FEMALE,RURAL,Employed,16.5
+P001631,44,Female,urban,Retired,4.4
+P000012,30,Female,Rural,Student,4.1
+P002445,30,male,urban,employed,0.7
+P000285,67,MALE,RURAL,Self employed,3.7
+P001067,19,female,Urban,Unemployed,2.8
+P001192,18,F,Urban,unemployed,2.7
+P001441,46,Female,URBAN,employed,1.9
+P002887,30,Female,urban,SelfEmployed,2.9
+P002886,30,male,URBAN,employed,2.5
+P002794,24,male,Urban,employed,3.1
+P001569,37,M,urban,Daily Wage,1.1
+P002428,36,Male,RURAL,Employed,9
+P002657,22,male,Rural,unemployed,14.5
+P001688,40,female,URBAN,Unemployed,1.1
+P000852,29,,RURAL,Unemployed,10.5
+P002208,42,MALE,Urban,Retired,0.2
+P000896,46,FEMALE,RURAL,Unemployed,3.7
+P000497,22,MALE,urban,Employed,1.2
+P002306,75,MALE,RURAL,EMPLOYED,13.9
+P001783,37,male,urban,Self-employed,2
+P000336,35,MALE,rural,SelfEmployed,14.4
+P000516,48,Male,Rural,EMPLOYED,8.7
+P001349,18,Male,URBAN,Employed,2.2
+P001016,40,,RURAL,Self employed,5.5
+P002894,40,F,URBAN,Self-employed,0.5
+P001778,36,Male,URBAN,informal work,3.1
+P001782,37,FEMALE,URBAN,SelfEmployed,4.3
+P002570,34,male,Urban,Jobless,1.6
+P001786,37,M,RURAL,Employed,18.2
+P002071,51,female,RURAL,employed,3.7
+P000357,37,Female,URBAN,Daily Wage,3
+P002938,34,FEMALE,rural,Studnt,5.3
+P001313,56,M,Urban,unemployed,1.5
+P001636,31,F,urban,Daily Wage,7.2
+P000551,38,MALE,urban,employed,1.7
+P002389,49,Female,RURAL,Self-employed,17.2
+P002480,47,female,Rural,Retired,1.9
+P002522,79,male,urban,Self-employed,0.4
+P002266,54,M,URBAN,retired,3.6
+P001228,35,MALE,rural,EMPLOYED,15.5
+P002763,50,male,Urban,Unemployed,2.1
+P000958,43,Female,URBAN,SelfEmployed,1
+P001774,40,male,urban,EMPLOYED,2.9
+P002142,38,Female,Rural,informal work,13
+P001009,52,Male,URBAN,Self-employed,2.3
+P001093,47,M,Urban,Self employed,3.5
+P002757,40,Female,RURAL,Daily Wage,12
+P000997,62,M,Urban,student,1.5
+P001680,31,male,urban,unemployed,1.9
+P000154,40,Female,URBAN,Unemployed,1.6
+P002868,25,MALE,Rural,Employed,9
+P000581,42,F,RURAL,employed,8
+P001471,54,Male,URBAN,Jobless,3.7
+P000704,37,,RURAL,unemployed,9.7
+P001213,27,Male,RURAL,Informal Work,19.2
+P000897,35,MALE,URBAN,Student,3.4
+P000488,22,F,Rural,EMPLOYED,4.2
+P000560,31,F,urban,Daily Wage,2.9
+P001142,56,male,Urban,employed,1.1
+P001120,52,F,rural,SelfEmployed,15
+P000513,34,Female,urban,Self employed,4.5
+P000634,31,M,Rural,unemployed,15.9
+P002664,24,M,Rural,employed,3.3
+P001665,55,F,URBAN,employed,3
+P001013,66,F,urban,Self-employed,0
+P001932,44,F,urban,unemployed,0.4
+P001151,23,M,rural,EMPLOYED,16.1
+P002891,39,Female,URBAN,Jobless,0.9
+P000117,37,F,RURAL,employed,18.2
+P000741,37,M,rural,Student,7.7
+P002847,29,female,Rural,Self-employed,10.3
+P001975,37,Female,rural,employed,4.2
+P001082,32,male,RURAL,SelfEmployed,3.1
+P001811,30,Female,RURAL,employed,3.1
+P000831,18,Female,Urban,employed,1.2
+P000120,48,M,Urban,Daily Wage,2.6
+P000657,37,MALE,urban,EMPLOYED,1
+P002816,48,Male,RURAL,EMPLOYED,4.4
+P002775,30,female,Rural,EMPLOYED,10.4
+P000184,44,Female,URBAN,Unemployed,3.7
+P000636,37,female,URBAN,unemployed,1.5
+P000370,26,F,RURAL,EMPLOYED,3.7
+P000269,31,MALE,urban,,4.8
+P000047,31,F,rural,Self-employed,11.8
+P000992,37,Male,Rural,Employed,7.1
+P000877,30,female,URBAN,Employed,2.3
+P000774,51,male,URBAN,informal work,5.2
+P001220,67,Male,Rural,Employed,9.4
+P001127,41,female,rural,unemployed,7.5
+P000005,34,,RURAL,student,14.9
+P001596,23,male,URBAN,Self-employed,1.3
+P002312,62,F,URBAN,Informal Work,3.7
+P002959,53,Male,Rural,Employed,17.6
+P002492,37,Male,urban,unemployed,3.8
+P001078,31,FEMALE,urban,informal work,1.7
+P000838,23,FEMALE,urban,EMPLOYED,3.4
+P000682,21,female,urban,EMPLOYED,2.3
+P001716,36,F,RURAL,Employed,11.6
+P002353,47,MALE,Urban,SelfEmployed,1.1
+P002618,38,FEMALE,urban,Unemployed,1.1
+P002362,18,male,URBAN,employed,1.7
+P002198,37,Male,Rural,Employed,0.8
+P001149,59,MALE,RURAL,EMPLOYED,3.7
+P000575,49,male,Urban,Employed,1
+P000051,42,,rural,Employed,9.9
+P000854,54,Male,Rural,,9.3
+P001983,28,male,Urban,SelfEmployed,1.3
+P001824,28,F,rural,EMPLOYED,3.7
+P000834,26,female,URBAN,retired,1.7
+P001116,42,Male,Urban,unemployed,2.4
+P001167,56,female,URBAN,Self-employed,2
+P002519,34,FEMALE,urban,unemployed,1.9
+P001907,37,female,URBAN,Unemployed,1
+P000972,27,Female,urban,EMPLOYED,2.4
+P002702,52,MALE,rural,Self employed,11.1
+P000400,54,male,Urban,EMPLOYED,3.4
+P002560,50,male,Rural,Employed,3.1
+P002369,21,M,urban,Jobless,5.5
+P000020,37,M,Urban,student,2.3
+P000685,20,Male,urban,Employed,0.7
+P000036,20,Male,Rural,Employed,15.3
+P002915,47,Male,URBAN,Employed,2.2
+P000525,26,male,Urban,Jobless,5
+P002456,58,Female,Urban,Jobless,0.4
+P000921,52,Male,Urban,Jobless,5.7
+P001842,37,M,Urban,student,2.7
+P001891,45,F,Urban,Studnt,1.3
+P000538,32,Male,URBAN,Informal Work,2.2
+P001706,34,M,rural,Employed,3.5
+P001849,51,FEMALE,urban,Unemployed,1
+P000246,32,female,Urban,EMPLOYED,0.6
+P000785,45,MALE,urban,Employed,4.6
+P001410,33,male,rural,Self-employed,6.4
+P002538,50,Male,URBAN,EMPLOYED,4.4
+P000155,41,female,urban,Student,5.7
+P001687,30,Female,Urban,student,2.2
+P000626,30,M,urban,Informal Work,3.5
+P002963,37,female,RURAL,Studnt,7.2
+P001347,37,FEMALE,Urban,Informal Work,0.6
+P000570,32,M,rural,Daily Wage,4
+P000773,46,Female,URBAN,Daily Wage,3.8
+P001759,60,M,Urban,Jobless,1.2
+P001817,37,Female,Urban,Informal Work,3.7
+P002066,29,male,urban,employed,1.9
+P000128,29,M,Rural,,15.6
+P002481,29,female,RURAL,EMPLOYED,6.9
+P002007,37,FEMALE,URBAN,Employed,1.7
+P000981,48,Female,RURAL,informal work,1.4
+P001238,29,F,rural,student,7.1
+P000191,31,FEMALE,URBAN,unemployed,1.1
+P001140,47,Male,RURAL,Self employed,9
+P000993,34,M,RURAL,EMPLOYED,10.7
+P000700,34,Female,Rural,EMPLOYED,8.4
+P000607,26,M,Urban,Self-employed,2.1
+P000181,46,MALE,rural,employed,3.7
+P000302,37,male,RURAL,employed,9
+P002545,71,Male,rural,,12.9
+P002861,30,M,URBAN,,1.4
+P001061,48,MALE,URBAN,EMPLOYED,1.3
+P002674,29,Female,rural,Jobless,5.3
+P002965,54,F,rural,Self employed,9.9
+P002566,31,M,RURAL,Jobless,10.1
+P001070,42,male,URBAN,Self employed,4.5
+P002525,50,Female,RURAL,Student,8.4
+P002206,44,Male,URBAN,informal work,3
+P001244,23,FEMALE,urban,Self-employed,1.9
+P000017,23,FEMALE,rural,Jobless,18.7
+P001192,18,F,Urban,unemployed,2.7
+P000547,45,F,rural,Unemployed,2.2
+P000659,40,Male,Urban,Unemployed,1.9
+P002788,19,FEMALE,Rural,SelfEmployed,6.9
+P002819,43,male,Urban,student,3.1
+P001505,35,M,urban,retired,0.8
+P000960,43,female,urban,Jobless,0.9
+P002332,36,MALE,URBAN,,1.7
+P000798,47,M,URBAN,Jobless,2.6
+P000226,52,Male,rural,Informal Work,5
+P002075,28,,urban,informal work,3.1
+P001800,37,male,Rural,Informal Work,9
+P002486,49,male,RURAL,EMPLOYED,3.4
+P000693,22,F,RURAL,Self-employed,5.4
+P002278,21,Male,urban,Studnt,2.8
+P002086,20,Female,rural,EMPLOYED,9
+P001694,37,male,RURAL,Unemployed,11
+P001046,49,Male,urban,Informal Work,3.4
+P000470,29,FEMALE,RURAL,Jobless,4.7
+P000955,36,Male,URBAN,Employed,1.9
+P001196,43,M,urban,Self employed,3.4
+P002736,30,F,Rural,student,14.1
+P000640,19,F,urban,Studnt,3.8
+P002864,47,FEMALE,rural,,4.3
+P001219,25,female,URBAN,Self-employed,1.7
+P001159,51,F,rural,Employed,10.2
+P001416,50,Female,urban,Self employed,2.9
+P002935,49,female,Rural,Employed,10.8
+P001528,59,F,urban,Employed,0.9
+P002251,35,FEMALE,URBAN,Self-employed,1.7
+P001301,28,Female,urban,Studnt,2.5
+P002953,44,M,Urban,Self-employed,4.6
+P001604,26,female,Urban,Self-employed,3.2
+P000161,23,Male,RURAL,unemployed,4.6
+P001705,43,female,urban,Informal Work,2
+P000957,42,MALE,RURAL,Employed,3.7
+P002039,37,male,URBAN,EMPLOYED,7.6
+P000878,40,female,urban,Employed,3.3
+P001920,30,MALE,RURAL,informal work,5.6
+P001885,37,FEMALE,urban,Employed,4.4
+P002201,62,FEMALE,rural,employed,8.3
+P000099,37,Male,Urban,EMPLOYED,0.2
+P002913,27,Female,urban,EMPLOYED,1.1
+P002558,37,FEMALE,RURAL,Unemployed,9
+P000254,51,M,urban,Jobless,1.5
+P000104,26,Female,URBAN,unemployed,2.3
+P001446,28,Female,RURAL,Jobless,2.4
+P001444,19,Female,Rural,student,15.9
+P001649,54,male,Rural,Employed,6.5
+P000587,31,M,URBAN,Daily Wage,1.7
+P000628,35,Female,rural,Daily Wage,14.3
+P001697,23,Female,URBAN,EMPLOYED,0.7
+P002102,24,Male,Rural,Unemployed,6.9
+P002200,44,M,Urban,EMPLOYED,7.9
+P000404,38,,URBAN,employed,1.4
+P001155,60,,Rural,Jobless,-1
+P002256,42,F,urban,Jobless,6.7
+P001683,24,Female,rural,Employed,4.4
+P002057,30,M,urban,,-12.5
+P002930,51,MALE,RURAL,employed,-12.5
+P000453,23,M,Urban,informal work,3.6
+P002302,23,female,rural,Student,10
+P001328,35,FEMALE,Urban,Daily Wage,1.2
+P002050,39,FEMALE,Urban,Daily Wage,2.3
+P000881,72,FEMALE,rural,EMPLOYED,3.7
+P002764,28,male,urban,Student,0.7
+P000624,56,male,Urban,Daily Wage,1.8
+P002394,28,M,urban,unemployed,3.7
+P002857,27,MALE,Rural,,9
+P001788,26,Female,Rural,Self employed,1.4
+P000263,37,F,urban,employed,2.1
+P001635,32,Male,URBAN,Unemployed,9
+P001439,44,Female,RURAL,employed,3.3
+P002199,28,Female,Rural,Self employed,8.1
+P001970,53,Female,Urban,Employed,3
+P002521,39,Female,Rural,EMPLOYED,12.9
+P001803,27,MALE,urban,Unemployed,2.9
+P000641,32,male,urban,informal work,7
+P002386,26,MALE,urban,Self employed,2
+P002599,54,,RURAL,Studnt,16.9
+P002916,63,M,urban,student,1.3
+P001960,40,FEMALE,Rural,EMPLOYED,12.4
+P000489,61,FEMALE,Rural,Jobless,12.8
+P001844,38,male,URBAN,employed,3.5
+P001735,48,MALE,urban,Daily Wage,1.8
+P000147,37,MALE,rural,Unemployed,17.1
+P001535,30,male,RURAL,employed,17.5
+P001987,47,F,URBAN,Jobless,5.7
+P001370,25,F,Rural,SelfEmployed,10
+P002451,24,MALE,URBAN,Student,3.7
+P001666,37,FEMALE,Urban,SelfEmployed,1.4
+P002812,37,Male,URBAN,employed,2.5
+P000660,35,female,Urban,Unemployed,0.9
+P001795,40,Male,urban,Unemployed,5.4
+P002512,45,M,urban,employed,6.2
+P000187,37,,urban,EMPLOYED,0.7
+P001148,37,FEMALE,urban,Retired,6.3
+P000609,37,M,URBAN,Studnt,1.8
+P002192,43,FEMALE,URBAN,Employed,1.2
+P002800,41,Female,rural,Jobless,9
+P001931,20,FEMALE,Urban,,3
+P000198,39,Male,Rural,employed,3.7
+P002328,32,male,RURAL,Jobless,11.3
+P000294,49,male,rural,unemployed,9
+P000767,37,M,RURAL,Daily Wage,10.7
+P000401,37,Male,Urban,EMPLOYED,1.7
+P000123,57,F,Rural,Jobless,4.3
+P000203,52,Male,urban,Unemployed,1.9
+P000836,40,female,RURAL,Student,11
+P002295,25,MALE,Urban,Employed,1.1
+P001440,47,MALE,rural,,3.6
+P001734,33,Male,URBAN,Daily Wage,2.4
+P001696,64,FEMALE,URBAN,unemployed,3.7
+P000618,47,Male,rural,unemployed,11.4
+P001708,64,male,urban,employed,2
+P003000,35,male,Urban,Employed,0.6
+P001154,18,F,URBAN,Informal Work,0.9
+P001662,35,M,RURAL,EMPLOYED,9.2
+P002433,37,,Rural,unemployed,10.8
+P001760,55,female,RURAL,EMPLOYED,5.5
+P000855,57,Female,rural,Unemployed,2.6
+P001590,38,female,Urban,,0.5
+P002268,41,MALE,Urban,Employed,3.1
+P000642,60,MALE,RURAL,retired,9.9
+P000002,35,Female,Urban,Self employed,2.4
+P002161,21,MALE,URBAN,Employed,2.7
+P000699,50,FEMALE,URBAN,employed,2.7
+P001637,24,MALE,Rural,Informal Work,13
+P001292,72,male,RURAL,Employed,2.3
+P002942,30,female,Rural,employed,16.5
+P002490,37,MALE,URBAN,Unemployed,4.9
+P001521,54,Male,Urban,employed,2.5
+P001854,50,M,urban,SelfEmployed,3.3
+P001137,54,F,URBAN,Employed,2.2
+P002985,37,FEMALE,URBAN,EMPLOYED,3.6
+P001632,25,M,Rural,unemployed,7.7
+P001999,35,M,RURAL,EMPLOYED,8.6
+P000664,29,male,Urban,Unemployed,1.1
+P000684,44,female,Rural,Daily Wage,9
+P001258,43,MALE,URBAN,SelfEmployed,3.7
+P000318,33,female,URBAN,student,4.5
+P000649,34,M,Urban,Studnt,4.8
+P001435,35,FEMALE,Rural,Unemployed,15.7
+P001480,31,F,Rural,,5
+P000710,61,MALE,RURAL,Unemployed,5.5
+P001283,47,M,Rural,Self-employed,6.3
+P001769,39,F,URBAN,EMPLOYED,3.7
+P000973,49,male,Urban,employed,2
+P002676,37,MALE,RURAL,Jobless,10.3
+P002681,47,F,rural,EMPLOYED,7.1
+P001307,37,FEMALE,rural,Employed,18.1
+P001401,22,Female,Rural,SelfEmployed,9
+P001409,32,F,urban,employed,3.7
+P002238,24,F,URBAN,Employed,3.7
+P001497,66,male,urban,Self-employed,0.6
+P002039,37,male,URBAN,EMPLOYED,7.6
+P001530,21,male,RURAL,Employed,12.4
+P001664,28,Female,URBAN,employed,1.4
+P001355,29,MALE,rural,Retired,7.8
+P002134,45,Female,rural,Employed,8.6
+P001631,44,Female,urban,Retired,4.4
+P001644,43,MALE,RURAL,Daily Wage,2.2
+P001052,43,MALE,URBAN,student,3.5
+P000796,52,male,urban,Self-employed,0.8
+P002694,35,MALE,URBAN,Retired,1
+P001598,66,F,RURAL,unemployed,7.9
+P002605,28,MALE,Urban,,4.1
+P002730,30,female,RURAL,SelfEmployed,12.2
+P002626,25,Female,Rural,Self-employed,5.5
+P001820,23,,Urban,employed,1.4
+P001723,47,F,urban,unemployed,3.7
+P001184,37,MALE,Rural,Employed,6.8
+P002573,37,Male,urban,informal work,0.4
+P001060,32,F,URBAN,EMPLOYED,5.1
+P000541,49,FEMALE,Rural,,10.9
+P001679,51,Female,urban,SelfEmployed,3.2
+P002797,45,female,urban,Jobless,3.8
+P002975,50,Female,URBAN,employed,2.2
+P002533,45,M,URBAN,Unemployed,2.4
+P001758,50,F,Rural,informal work,12.6
+P001924,40,Female,RURAL,unemployed,4
+P000096,37,female,URBAN,Self employed,1.2
+P001021,37,Male,URBAN,retired,5.8
+P000564,32,female,URBAN,Unemployed,0.8
+P002791,45,,Rural,unemployed,3.8
+P000864,62,F,URBAN,employed,4.6
+P001485,40,female,Urban,Retired,0.4
+P002940,32,male,urban,Self-employed,5.2
+P001882,60,male,RURAL,EMPLOYED,6.3
+P001039,40,Female,urban,informal work,1
+P000207,44,FEMALE,Urban,,0.9
+P000393,19,FEMALE,rural,Employed,3.7
+P002843,58,MALE,Urban,Jobless,0.2
+P000871,35,female,Rural,Employed,3.3
+P000398,56,female,rural,,6.6
+P002815,37,male,RURAL,EMPLOYED,13.6
+P002969,37,male,Rural,Self employed,9.2
+P001029,37,female,Urban,employed,1.8
+P002691,23,Male,URBAN,EMPLOYED,0.8
+P001486,50,MALE,URBAN,unemployed,1.7
+P002661,21,F,rural,retired,12.3
+P000961,46,Female,urban,SelfEmployed,2.8
+P001571,48,MALE,urban,Studnt,2.7
+P002774,37,Female,urban,Unemployed,0.8
+P001896,32,male,RURAL,informal work,14.1
+P002732,61,Male,Rural,Employed,14.8
+P002147,37,Female,Urban,Jobless,3.7
+P000805,31,FEMALE,Urban,SelfEmployed,3.1
+P001752,46,F,Urban,Self-employed,0.5
+P002455,47,FEMALE,urban,employed,1.3
+P000503,37,,URBAN,EMPLOYED,6
+P000780,46,male,urban,retired,1.4
+P001864,37,Female,urban,Unemployed,4
+P000201,42,Female,rural,employed,3.6
+P002183,34,male,Urban,unemployed,2.1
+P002089,31,FEMALE,urban,SelfEmployed,2.8
+P002279,46,MALE,Urban,SelfEmployed,1.7
+P001797,33,F,URBAN,EMPLOYED,3.2
+P000379,68,M,urban,Self employed,2.3
+P002337,44,Female,URBAN,Employed,9
+P000419,54,MALE,RURAL,SelfEmployed,9
+P001699,44,Female,URBAN,employed,3.7
+P000392,44,female,URBAN,informal work,1.4
+P002641,62,FEMALE,URBAN,Daily Wage,2.2
+P001523,34,male,Urban,retired,2.4
+P001163,18,Female,Rural,Daily Wage,3.6
+P001496,65,F,Rural,Employed,10.9
+P002696,57,male,Urban,Unemployed,1
+P002028,54,female,urban,EMPLOYED,0.4
+P001153,28,Male,rural,Daily Wage,9
+P001368,24,FEMALE,URBAN,EMPLOYED,5.6
+P002569,37,FEMALE,Rural,EMPLOYED,3.7
+P000065,48,MALE,urban,unemployed,2
+P002063,42,F,urban,Student,1
+P001181,40,,Rural,Daily Wage,2
+P000493,38,Male,urban,Jobless,2.1
+P000380,26,FEMALE,URBAN,unemployed,1.4
+P002236,47,F,RURAL,Informal Work,2
+P000764,36,FEMALE,Rural,Self employed,13.8
+P002265,47,FEMALE,urban,EMPLOYED,2
+P000792,40,,Rural,EMPLOYED,12.8
+P001077,37,M,RURAL,Employed,12.2
+P000879,37,MALE,RURAL,unemployed,2.7
+P000338,33,,URBAN,Unemployed,1.6
+P002768,43,MALE,Rural,employed,5.5
+P002344,30,Male,Urban,Self-employed,1.4
+P001017,28,female,RURAL,Employed,18.2
+P001276,39,M,Rural,employed,2.8
+P000456,26,male,Urban,Jobless,3.7
+P000816,37,FEMALE,Rural,Informal Work,9.1
+P002318,28,FEMALE,Rural,student,11.8
+P000996,33,FEMALE,urban,Unemployed,2.8
+P001982,18,M,Rural,student,6.2
+P000202,45,Male,rural,SelfEmployed,14.2
+P000162,48,Female,RURAL,Unemployed,6.9
+P001580,26,female,urban,Student,3.9
+P002778,34,female,urban,Employed,3.2
+P002450,27,Male,Rural,Studnt,11.5
+P000703,27,F,URBAN,student,3.1
+P001501,48,Female,RURAL,Jobless,4.5
+P001130,42,male,rural,,14.6
+P002614,37,MALE,Urban,employed,0.4
+P001022,29,Male,RURAL,EMPLOYED,12.5
+P001586,47,F,Urban,Informal Work,2.1
+P001956,56,M,urban,informal work,4
+P002254,37,F,RURAL,Unemployed,16.9
+P000035,49,F,Urban,Daily Wage,4.6
+P000776,37,M,rural,Daily Wage,5.6
+P002557,37,female,rural,Employed,11.5
+P001479,25,,Urban,,1.7
+P001651,45,MALE,Rural,employed,13.2
+P001391,43,Female,Urban,employed,7.1
+P002140,37,M,Urban,EMPLOYED,0.9
+P001364,23,Female,urban,unemployed,5.5
+P002946,37,M,Urban,student,1.8
+P002613,34,male,URBAN,employed,1.3
+P002825,36,F,Rural,unemployed,19.6
+P002042,31,M,rural,Self-employed,9
+P000242,37,Female,Urban,unemployed,1.8
+P002062,35,Male,RURAL,Daily Wage,11.8
+P002364,53,FEMALE,rural,Self-employed,9
+P000601,48,Male,URBAN,employed,4.3
+P002436,32,,urban,Informal Work,1
+P001298,33,Male,Rural,retired,9
+P002215,30,Male,Urban,employed,2.6
+P002889,32,female,rural,Self-employed,19
+P002069,37,male,RURAL,retired,15.5
+P000647,37,MALE,rural,Jobless,5.7
+P001529,30,MALE,RURAL,Informal Work,11
+P002880,34,Male,Urban,Student,4.2
+P001268,24,MALE,urban,Unemployed,5.1
+P001900,33,Male,RURAL,unemployed,10.5
+P000563,49,MALE,URBAN,EMPLOYED,0.8
+P002138,59,MALE,urban,Jobless,7
+P002735,65,female,RURAL,Self employed,3.1
+P000470,29,FEMALE,RURAL,Jobless,4.7
+P000190,37,male,urban,EMPLOYED,1.3
+P001807,41,M,Rural,employed,4.6
+P000976,37,MALE,RURAL,Student,9
+P002748,21,male,Rural,Daily Wage,13
+P002048,37,F,URBAN,retired,3.1
+P002559,42,Male,URBAN,student,2.3
+P001083,32,MALE,Urban,Unemployed,2.2
+P000475,60,Male,urban,Self employed,3.7
+P002905,37,F,URBAN,EMPLOYED,2.3
+P000748,26,FEMALE,rural,employed,7.2
+P002301,52,Male,Urban,retired,1.8
+P000022,34,male,Rural,employed,10.4
+P000460,20,female,URBAN,Self-employed,3.7
+P001185,23,,RURAL,EMPLOYED,3.1
+P002325,37,FEMALE,urban,employed,2.3
+P000956,53,female,rural,Studnt,17.8
+P001216,54,M,RURAL,Informal Work,7.5
+P002434,35,,Urban,Retired,1.5
+P002854,37,male,Urban,employed,0.3
+P001516,35,F,rural,Jobless,13.6
+P002392,24,Female,rural,SelfEmployed,13.3
+P000770,62,FEMALE,URBAN,Informal Work,1.3
+P001686,54,F,URBAN,unemployed,4
+P000131,37,female,URBAN,Employed,0.6
+P002920,55,,Urban,,2.4
+P002136,29,male,Rural,unemployed,7.1
+P001483,61,MALE,RURAL,Daily Wage,4.8
+P000331,37,FEMALE,rural,SelfEmployed,3.1
+P001239,45,F,rural,Jobless,15.4
+P000467,46,FEMALE,urban,EMPLOYED,1.2
+P002170,44,male,RURAL,employed,5
+P001639,66,male,URBAN,,5.9
+P001096,36,M,URBAN,employed,2.5
+P001131,41,FEMALE,rural,Employed,9.4
+P001295,38,FEMALE,URBAN,Self-employed,2
+P000861,40,M,rural,Informal Work,5
